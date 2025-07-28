@@ -1,0 +1,4 @@
+ro.odm.config.face_recognition=true
+ro.odm.config.support_face_mode=2
+
+ro.confg.hw_odmversion=Chipset-MT8768 10.1.0.(16SK)_ODM_KOB2

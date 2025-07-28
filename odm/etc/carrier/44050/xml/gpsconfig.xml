@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glgps>
+  <hal
+      SuplEcidCapable="true"
+      SuplSslMethod="TLSv1_1"
+      SuplGlonassCapable="true"
+      SuplLppCapable="true"
+      SuplOtdoaCapable="true"
+      SuplNiAllowedWhenGpsDisabled="true"
+      TcpConnectionTimeout="10"
+      SuplGuardTimeSeconds="2"
+      CpLppGuardTimeSec="1"
+    />
+</glgps>

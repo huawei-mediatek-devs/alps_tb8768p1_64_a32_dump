@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gnss_config>
+  <supl>
+    <!-- SUPL version 1.0 or 2.0 -->
+    <suplver>2</suplver>
+    <!-- Capabilities of the SET pertaining to position technology, position protocol etc. -->
+    <setcapability>
+      <!-- Specifies the position technologies supported by SET -->
+      <postech>
+        <!-- represented by set of bool -->
+        <ecid>1</ecid>
+        <otdoa>0</otdoa>
+      </postech>
+    </setcapability>
+    <!--SUPL protocol engine parameters -->
+    <supl_protocol_engine>
+      <!--Specifies the values to be used for timers UT1,UT2,UT3 UT4 as in protocol. Units = Milliseconds -->
+      <protocoltimer>
+        <ut2>13000</ut2>
+      </protocoltimer>
+    </supl_protocol_engine>
+    <!--H-SLP server Configuration -->
+    <hslp>
+      <!--Set 1.0 for TLSv1 and 1.1 for TLSv1.1. This will be considered only when secure is set to 1 -->
+      <tlsversion>1.1</tlsversion>
+    </hslp>
+    <network>
+      <server_certificates_path>/data/vendor/gnss</server_certificates_path>
+      <!-- APN mode configuration
+           0: local dns and default apn, default mode for most products
+           1: local dns and request supl apn, for product in Latin America
+           2: framework dns and apn, for product in Japan -->
+      <apn_mode>2</apn_mode>
+    </network>
+  </supl>
+</gnss_config>

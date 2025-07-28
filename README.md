@@ -1,0 +1,14 @@
+# a53_a53_32-user 10 QP1A.190711.020 eng.root.20220420.160318 dev-keys
+- manufacturer: alps
+- platform: mt6765
+- codename: tb8768p1_64_a32
+- flavor: user
+- release: 10
+- id: QP1A.190711.020
+- incremental: 152eff5eea8acad5
+- tags: release-keys
+- fingerprint: alps/full_tb8768p1_64_a32/tb8768p1_64_a32:10/QP1A.190711.020/152eff5eea8acad5:user/dev-keys
+- is_ab: false
+- brand: alps
+- branch: a53_a53_32-user-10-QP1A.190711.020-eng.root.20220420.160318-dev-keys
+- repo: alps_tb8768p1_64_a32_dump

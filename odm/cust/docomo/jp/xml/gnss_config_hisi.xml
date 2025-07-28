@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gnss_config>
+  <config_hignss>
+    <!-- pgps onoff mode 0:turn off; 1:turn on -->
+    <pgps_mode value="1" />
+    <agnss_supl_report_qop>
+        <!-- MSA -->
+        <!-- mearsurements count -->
+        <msr_count>14</msr_count>
+    </agnss_supl_report_qop>
+  </config_hignss>
+  <supl>
+    <!-- Version of SUPL 2.0 protocol -->
+    <supl2_version>
+      <srvind>0</srvind>
+    </supl2_version>
+    <!-- mobile operator customization: default,docomo .... -->
+    <mobileoperator>docomo</mobileoperator>
+    <!-- if set to 1, will report position from server to android framework rather than the position of PE fix in MSA mode -->
+    <msa_report_server_position>1</msa_report_server_position>
+    <!-- Capabilities of the SET pertaining to position technology, position protocol etc. -->
+    <setcapability>
+      <!-- Specifies the position technologies supported by SET -->
+      <postech>
+        <!-- represented by set of bool -->
+        <ecid>0</ecid>
+        <otdoa>0</otdoa>
+      </postech>
+      <!-- Specifies the position protocols supported by SET -->
+      <posprotocol>
+        <lpp>0</lpp>
+      </posprotocol>
+      <!--Describes the preferred position technology.
+        agps_msa,agps_msb,autogps,aFLT,ecid,eotd,otdoa,
+        agnss_msa,agnss_msb,autognss are the tags that can be used.-->
+      <pref_postech>autogps</pref_postech>
+    </setcapability>
+    <!--SUPL protocol engine parameters -->
+    <supl_protocol_engine>
+      <!--Specifies the values to be used for timers UT1,UT2,UT3 UT4 as in protocol. Units = Milliseconds -->
+      <protocoltimer>
+        <defaultto>60000</defaultto>
+      </protocoltimer>
+    </supl_protocol_engine>
+    <!--H-SLP server Configuration -->
+    <hslp>
+      <!--Set 1.0 for TLSv1 and 1.1 for TLSv1.1. This will be considered only when secure is set to 1 -->
+      <tlsversion>1.1</tlsversion>
+      <!--Following timeout values are applicable for all SLPs (E-SLP,H-SLP,W-SLP)-->
+      <!--Time out(in ms) for TLS handshake-->
+      <handshake_to>30000</handshake_to>
+    </hslp>
+    <ganss>
+        <!-- "supported" tag specifies whether the SUPL Engine supports this Positioning system or not. 0-NotSupported. 1-Supported -->
+        <galileo supported="0">
+                <pos_cap>
+                      <capbitmap>7</capbitmap>
+                      <signalbitmap>3</signalbitmap>
+                      <SBASbitmap>0</SBASbitmap>
+                </pos_cap>
+                <asst_cap>
+                      <capbitmap>131071</capbitmap>
+                      <orbmodel>1</orbmodel>
+                      <clkmodel>1</clkmodel>
+                      <almmodel>1</almmodel>
+                      <utcmodel>1</utcmodel>
+                </asst_cap>
+        </galileo>
+        <!-- "supported" tag specifies whether the SUPL Engine supports this Positioning system or not. 0-NotSupported. 1-Supported -->
+        <glonass supported="1">
+                <pos_cap>
+                <!--Capability bitmap-->
+                <!-- Usage: Hex values for each flag . check header files for hex values -->
+                <!-- Flag : 0x01 for MSA -->
+                <!-- Flag : 0x02 for MSB -->
+                <!-- Flag : 0x04 for AUTO -->
+                <!-- Example : <capbitmap>7</capbitmap> : 7 specifies the available 3 flags (0x01 + 0x02 + 0x04) -->
+                <!-- Example : <capbitmap>2</capbitmap> : 2 specifies the single flag SUPL_GANSS_POS_MSB -->
+                    <capbitmap>7</capbitmap>
+                <!--Signal bitmap-->
+                <!-- Usage: Hex values for each flag  -->
+                <!-- Signal flags are mutually exclusive -->
+                <!--Bitmap (length 8 bits) defining the supported signals for GNSS indicated by GANSS ID.
+                Refer SUPL-2 Spec "OMA-TS-ULP-V2_0_3-20160524-A"
+                For Galileo, the bits are interpreted as :
+                    Bit 0: E1
+                    Bit 1: E5a
+                    Bit 2: E5b
+                    Bit 3: E5a+E5b
+                    Bit 4: E6
+                    Bits 5-7: Spare
+                For Modernized GPS, the bits are interpreted as:
+                    Bit 0: L1 C
+                    Bit 1: L2 C
+                    Bit 2: L5
+                    Bits 3-7: Spare
+                For QZSS, the bits are interpreted as:
+                    Bit 0: L1 C/A
+                    Bit 1: L1 C
+                    Bit 2: L2 C
+                    Bit 3: L5
+                    Bits 4-7: Spare
+                For GLONASS, the bits are interpreted as:
+                    Bit 0: G1
+                    Bit 1: G2
+                    Bit 2: G3
+                    Bits 3-7: Spare
+                For BDS, the bits are interpreted as:
+                    Bit 0: B1I
+                    Bits 1-7: Spare
+                For SBAS, the bits are interpreted as:
+                    Bit 0: L1
+                    Bits 1-7: Spare -->
+                    <signalbitmap>1</signalbitmap>
+                <!-- This is valid for "sbas" positioning system only -->
+                    <SBASbitmap>0</SBASbitmap>
+                </pos_cap>
+                <asst_cap>
+                <!-- This bitmap specifies the assitance types to be requested -->
+                <!-- Refer "SUPL_Inteface.h for each bit values"-->
+                    <capbitmap>131071</capbitmap>
+                <!-- Model range 1 - 5 , 0 to 4 bits for each model respectively -->
+                <!-- For details in each model type refer the below specs
+                Reference - section 10.3.7.88c of 3GPP spec 25.331 (RRC),
+                 Table A.8.2.2 table A.61 of 3GPP spec 44.031 (RRLP) and section - 6.5.2.10
+                 'GNSS-NavigationModelSupport','GNSS-AlmanacSupport' and
+                 'GNSS-UTC-ModelSupport' of 3GPP spec 26.255 (LPP) -->
+                <!-- Example : <orbmodel>4</ordmodel> : 4 specifies that 3rd bit is set hence it is Model-3 -->
+                    <orbmodel>4</orbmodel>
+                <!-- Model range 1 - 5 , 0 to 4 bits for each model respectively -->
+                    <clkmodel>4</clkmodel>
+                <!-- Model range 1 - 5 , 0 to 4 bits for each model respectively -->
+                    <almmodel>5</almmodel>
+                <!-- Model range 1 - 4 , 0 to 3 bits for each model respectively -->
+                    <utcmodel>3</utcmodel>
+                </asst_cap>
+        </glonass>
+        <asstcontrol_msa>
+            <ionospheremodel>0</ionospheremodel>
+            <auxinfo>0</auxinfo>
+        </asstcontrol_msa>
+        <asstcontrol_msb>
+            <timemodellst>0</timemodellst>
+        </asstcontrol_msb>
+    </ganss>
+    <network>
+      <server_certificates_path>/data/vendor/gnss</server_certificates_path>
+      <!-- APN mode configuration
+           0: local dns and default apn, default mode for most products
+           1: local dns and request supl apn, for product in Latin America
+           2: framework dns and apn, for product in Japan -->
+      <apn_mode>2</apn_mode>
+    </network>
+  </supl>
+</gnss_config>

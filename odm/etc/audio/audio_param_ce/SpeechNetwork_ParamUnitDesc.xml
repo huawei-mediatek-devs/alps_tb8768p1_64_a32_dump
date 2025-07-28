@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamUnitDesc version="1.0">
+    <CategoryTypeList>
+        <CategoryType name="Network" wording="Network">
+            <Category name="GSM" wording="GSM" />
+            <Category name="WCDMA" wording="WCDMA" />
+            <Category name="VoLTE" wording="VoLTE" />
+            <Category name="CDMA" wording="CDMA" />
+        </CategoryType>
+    </CategoryTypeList>
+		<ParamUnit>
+        <Param name="speech_network_support" type="ushort_array"/>
+		</ParamUnit>
+
+</ParamUnitDesc>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glgps>
+  <hal
+    SuplServer="dcm-supl.com"
+    SuplSslMethod="TLSv1_1"
+    HttpSyncLto="false"
+	
+    SuplGlonassCapable="true"
+    SuplForNTTDocomo="true"
+    SuplLppCapable="false"
+    TcpConnectionTimeout="10"
+  />
+</glgps>

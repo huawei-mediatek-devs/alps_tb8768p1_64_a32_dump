@@ -1,0 +1,20 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+on post-fs-data
+
+on early-boot
+
+on boot
+    setprop persist.radio.multisim.config ss
+    setprop persist.vendor.radio.msimmode ss
+    setprop persist.vendor.radio.multisimslot 1
+ # add for fingerprint
+    setprop ro.odm.config.disable_fp true

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gnss_config>
+  <supl>
+    <network>
+      <server_certificates_path>/data/vendor/gnss</server_certificates_path>
+    </network>
+    <hslp>
+      <ipaddress>supl.bd-caict.com</ipaddress>
+    </hslp>
+  </supl>
+</gnss_config>
