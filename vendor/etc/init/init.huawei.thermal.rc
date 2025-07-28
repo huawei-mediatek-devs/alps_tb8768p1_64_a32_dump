@@ -1,0 +1,3 @@
+on boot
+    chown system system /sys/class/hw_thermal/temp/ambient
+    chgrp system system /sys/class/hw_thermal/temp/ambient

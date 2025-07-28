@@ -1,0 +1,116 @@
+vendor.mediatek.hardware.bluetooth::IMtkBluetoothHci 			u:object_r:mtk_hal_bluetooth_hwservice:s0
+
+vendor.huawei.hardware.mtkradio::IMtkRadioEx u:object_r:mtk_hal_rild_hwservice:s0
+vendor.mediatek.hardware.radio::ISap u:object_r:mtk_hal_rild_hwservice:s0
+vendor.mediatek.hardware.interfaces_tc1.mtkradioex_tc1::IMtkRadioEx u:object_r:mtk_hal_rild_hwservice:s0
+vendor.mediatek.hardware.radio_op::IRadioOp u:object_r:mtk_hal_rild_hwservice:s0
+vendor.huawei.hardware.radio::IRadio u:object_r:mtk_hal_rild_hwservice:s0
+vendor.mediatek.hardware.radio.deprecated::IOemHook u:object_r:mtk_hal_rild_hwservice:s0
+vendor.huawei.hardware.mtkradio::IMtkRadioEx u:object_r:mtk_hal_rild_hwservice:s0
+
+vendor.mediatek.hardware.radio_radar::IRadioRadar u:object_r:mtk_hal_rild_hwservice:s0
+
+vendor.mediatek.hardware.mtkpower::IMtkPerf u:object_r:mtk_hal_power_hwservice:s0
+vendor.mediatek.hardware.mtkpower::IMtkPower u:object_r:mtk_hal_power_hwservice:s0
+vendor.mediatek.hardware.power::IPerf u:object_r:mtk_hal_power_hwservice:s0
+vendor.mediatek.hardware.power::IPower u:object_r:mtk_hal_power_hwservice:s0
+
+
+
+vendor.mediatek.hardware.lbs::ILbs u:object_r:mtk_hal_lbs_hwservice:s0
+
+vendor.mediatek.hardware.imsa::IImsa u:object_r:mtk_hal_imsa_hwservice:s0
+
+vendor.mediatek.hardware.nvram::INvram u:object_r:nvram_agent_binder_hwservice:s0
+
+vendor.mediatek.hardware.pq::IPictureQuality u:object_r:mtk_hal_pq_hwservice:s0
+
+vendor.mediatek.hardware.keymaster_attestation::IKeymasterDevice u:object_r:mtk_hal_keyattestation_hwservice:s0
+
+vendor.mediatek.hardware.fm::IFmRadio u:object_r:mtk_hal_fm_hwservice:s0
+
+vendor.mediatek.hardware.log::ILog u:object_r:mtk_hal_log_hwservice:s0
+
+vendor.mediatek.hardware.engineermode::IEmd u:object_r:mtk_hal_em_hwservice:s0
+
+vendor.mediatek.hardware.mms::IMms u:object_r:mtk_hal_mms_hwservice:s0
+
+vendor.mediatek.hardware.gpu::IGraphicExt u:object_r:mtk_hal_gpu_hwservice:s0
+
+vendor.mediatek.hardware.modemdbfilter::ICopyDBFilter u:object_r:mtk_hal_md_dbfilter_hwservice:s0
+
+vendor.mediatek.hardware.camera.lomoeffect::ILomoEffect u:object_r:hal_camera_hwservice:s0
+vendor.mediatek.hardware.camera.ccap::ICCAPControl u:object_r:hal_camera_hwservice:s0
+vendor.mediatek.hardware.camera.bgservice::IBGService u:object_r:hal_camera_hwservice:s0
+
+vendor.mediatek.hardware.hdmi::IMtkHdmiService u:object_r:mtk_hal_hdmi_hwservice:s0
+vendor.mediatek.hardware.camera.advcam::IAdvCamControl u:object_r:hal_camera_hwservice:s0
+vendor.mediatek.hardware.wfo::IWifiOffload u:object_r:mtk_hal_wfo_hwservice:s0
+vendor.mediatek.hardware.camera.lomoeffect::ILomoEffect u:object_r:hal_camera_hwservice:s0
+vendor.mediatek.hardware.keyinstall::IKeyinstall u:object_r:mtk_hal_keyinstall_hwservice:s0
+vendor.mediatek.hardware.videotelephony::IVideoTelephony u:object_r:mtk_hal_videotelephony_hwservice:s0
+vendor.mediatek.hardware.presence::IPresence u:object_r:volte_uce_ua_hwservice:s0
+vendor.mediatek.hardware.mtkcodecservice::IMtkCodecService u:object_r:hal_mtkcodecservice_hwservice:s0
+vendor.mediatek.hardware.netdagent::INetdagent u:object_r:mtk_hal_netdagent_hwservice:s0
+vendor.mediatek.hardware.rcs::IRcs u:object_r:volte_rcs_ua_hwservice:s0
+vendor.mediatek.hardware.camera.callbackclient::IMtkCallbackClient u:object_r:hal_camera_hwservice:s0
+vendor.mediatek.hardware.camera.ccap::ICCAPControl u:object_r:hal_camera_hwservice:s0
+vendor.mediatek.hardware.dfps::IFpsPolicyService u:object_r:mtk_hal_dfps_hwservice:s0
+vendor.mediatek.hardware.dplanner::IDPlanner u:object_r:mtk_hal_dplanner_hwservice:s0
+vendor.mediatek.hardware.keymanage::IKeymanage u:object_r:mtk_hal_keymanage_hwservice:s0
+vendor.mediatek.hardware.pplagent::IPplAgent u:object_r:mtk_hal_pplagent_hwservice:s0
+vendor.mediatek.hardware.atci::IAtcid u:object_r:hal_atci_hwservice:s0
+vendor.mediatek.hardware.camera.bgservice::IBGService u:object_r:hal_camera_hwservice:s0
+vendor.mediatek.hardware.dmc::IDmcService u:object_r:mtk_hal_dmc_hwservice:s0
+vendor.mediatek.hardware.apmonitor::IApmService u:object_r:mtk_hal_apm_hwservice:s0
+vendor.microtrust.hardware.thh::IThhDevice u:object_r:hal_thh_hwservice:s0
+vendor.microtrust.hardware.tui::ITuiDevice u:object_r:hal_tui_hwservice:s0
+vendor.microtrust.hardware.capi::IClientApiDevice u:object_r:hal_capi_hwservice:s0
+vendor.mediatek.hardware.wifi.supplicant::ISupplicant u:object_r:hal_wifi_supplicant_hwservice:s0
+vendor.mediatek.hardware.camera.security::ISecureCamera u:object_r:hal_camera_hwservice:s0
+vendor.mediatek.hardware.camera.frhandler::IFRHandler u:object_r:hal_camera_hwservice:s0
+vendor.mediatek.hardware.mdmonitor::IMDMonitorService u:object_r:mtk_mdm_hidl_server:s0
+vendor.mediatek.hardware.omadm::IOmadm u:object_r:mtk_hal_omadm_hwservice:s0
+vendor.mediatek.hardware.nwk_opt::INwkOpt u:object_r:mtk_hal_nwk_opt_hwservice:s0
+vendor.trustonic.tee::ITee                        u:object_r:hal_tee_hwservice:s0
+vendor.trustonic.tee.tui::ITui                    u:object_r:hal_tee_hwservice:s0
+vendor.trustonic.teeregistry::ITeeRegistry        u:object_r:hal_teeregistry_hwservice:s0
+vendor.huawei.hardware.biometrics.fingerprint::IExtBiometricsFingerprint u:object_r:hal_ext_fingerprint_hwservice:s0
+vendor.huawei.hardware.biometrics.hwfacerecognize::IBiometricsFaceRecognize u:object_r:hal_hwfacerecognize_hwservice:s0
+vendor.huawei.hardware.biometrics.hwsecurefacerecognize::ISecureBiometricsFaceRecognize u:object_r:hal_hwsecurefacerecognize_hwservice:s0
+vendor.huawei.hardware.hwdisplay.displayengine::IDisplayEngineWrapper u:object_r:displayengine_hwservice:s0
+vendor.huawei.hardware.libteec::ILibteecGlobal u:object_r:hal_ext_libteec_hwservice:s0
+vendor.huawei.hardware.kds::IKds u:object_r:kds_common_hwservice:s0
+vendor.huawei.hardware.dolby.dms::IDms          u:object_r:hal_dms_hwservice:s0
+vendor.huawei.hardware.dubai::IDubaiManager         u:object_r:hidl_dubai_hwservice:s0
+vendor.huawei.hardware.radioenhance::IRadioenhance u:object_r:hal_radioenhance_hwservice:s0
+vendor.huawei.hardware.wifi.supplicant::ISupplicant u:object_r:default_supplicant_hwservice:s0
+vendor.huawei.hardware.hwupdate::IHwUpdate                                       u:object_r:default_hwupdate_hwservice:s0
+vendor.huawei.hardware.biometrics.hwvoiceid::IBiometricsVoiceId u:object_r:hal_hwvoiceid_hwservice:s0
+vendor.huawei.hardware.hwsecapi::IHwSecApi u:object_r:hal_secapi_hwservice:s0
+vendor.huawei.hardware.otasimlock::IHwotasimlock u:object_r:hal_huawei_otasimlock_hwservice:s0
+vendor.huawei.hardware.audioremote::IAudioRemoteConnect u:object_r:hal_audioremote_hwservice:s0
+vendor.huawei.hardware.camera.vircamera::IVirCameraChannel       u:object_r:hal_huawei_virtualcamera_hwservice:s0
+vendor.huawei.hardware.modempatch::IHwmodempatch u:object_r:hal_huawei_modempatch_hwservice:s0
+vendor.huawei.hardware.weaver::IWeaver u:object_r:hal_hwweaver_hwservice:s0
+vendor.huawei.hardware.camera.factory::ICameraFactory u:object_r:hal_ext_camerafactory_mtk_hwservice:s0
+vendor.huawei.hardware.camera.camResource::IHwCameraResourceService u:object_r:hw_camera_resource_service:s0
+vendor.huawei.hardware.hwfactoryinterface::IHwFactoryInterface                   u:object_r:default_factory_hwservice:s0
+vendor.huawei.hardware.power::IHWPower     u:object_r:default_charger_hwservice:s0
+vendor.huawei.hardware.tp::ITouchscreen         u:object_r:default_tp_hwservice:s0 
+vendor.huawei.hardware.hwdisplay::IDisplay        u:object_r:mtk_hal_display_hwservice:s0
+vendor.huawei.hardware.hwdisplay.displayfactory::IDisplayFactory                 u:object_r:mtk_hal_display_factory_hwservice:s0
+vendor.huawei.hardware.sensors::ISensors u:object_r:mtk_hal_sensor_hwservice:s0
+vendor.huawei.hardware.light::ILight u:object_r:mtk_hal_light_hwservice:s0
+vendor.huawei.hardware.hwvibrator::IHWVibrator u:object_r:mtk_hal_vibrator_hwservice:s0
+vendor.huawei.hardware.hwhiview::IHwHiviewInterface   u:object_r:default_hiview_hwservice:s0
+vendor.huawei.hardware.huaweiantitheft::IHuaweiAntiTheft                         u:object_r:hal_hwsecurity_hwservice:s0
+vendor.huawei.hardware.huaweisigntool::ISignTool                                 u:object_r:hal_hwsecurity_hwservice:s0
+vendor.huawei.hardware.hwstp::IHwStp                                             u:object_r:hal_hwsecurity_hwservice:s0
+vendor.huawei.hardware.nfc::IHWNfc                                               u:object_r:default_nfc_hwservice_mtk:s0
+vendor.huawei.hardware.nfc.nxpnfc::INxpNfc                                       u:object_r:default_nfc_hwservice:s0
+vendor.huawei.hardware.iawareperf::IUniPerf       u:object_r:hal_iawareperf_hwservice:s0
+vendor.huawei.hardware.iawareperfpolicy::IPerfPolicy      u:object_r:hal_iawareperf_hwservice:s0
+vendor.huawei.hardware.hwfs::IHwfs                 u:object_r:hal_hwfs_hwservice:s0
+vendor.huawei.hardware.wifi::IHwWifiExt u:object_r:default_wifi_hwservice:s0
+vendor.huawei.hardware.camera.cfgsvr::IHwCamCfgSvr u:object_r:hal_cfgsvr_hwservice:s0

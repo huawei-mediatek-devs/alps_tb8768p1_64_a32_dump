@@ -1,0 +1,1 @@
+Chipset-MT8768 10.1.0(Q.22042002.global_wifi)

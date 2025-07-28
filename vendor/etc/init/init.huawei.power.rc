@@ -1,0 +1,71 @@
+on boot
+    chown system system /sys/class/hw_power/charger/charge_data/enable_charger
+    chmod 0664 /sys/class/hw_power/charger/charge_data/enable_charger
+    chown system system /sys/class/hw_power/charger/charge_data/iin_runningtest
+    chmod 0664 /sys/class/hw_power/charger/charge_data/iin_runningtest
+    chown system system /sys/class/hw_power/charger/charge_data/factory_diag
+    chmod 0664 /sys/class/hw_power/charger/charge_data/factory_diag
+    chown system system /sys/class/hw_power/charger/charge_data/iin_thermal
+    chmod 0664 /sys/class/hw_power/charger/charge_data/iin_thermal
+    chown system system /sys/class/hw_power/charger/charge_data/update_volt_now
+    chmod 0660 /sys/class/hw_power/charger/charge_data/update_volt_now
+    chown system system /sys/class/hw_power/charger/charge_data/enable_hiz
+    chmod 0664 /sys/class/hw_power/charger/charge_data/enable_hiz
+    chown system system /sys/class/hw_power/charger/charge_data/iin_rt_current
+    chmod 0664 /sys/class/hw_power/charger/charge_data/iin_rt_current
+
+    #add for chargemonitor
+    chmod 0660 /sys/class/power_supply/battery/cycle_count
+    chown system system /sys/class/power_supply/battery/cycle_count
+    chmod 0660 sys/class/power_supply/hwbatt/reset_learned_cc
+    chown system system sys/class/power_supply/hwbatt/reset_learned_cc
+    chmod 0660 /sys/class/power_supply/hwbatt/voltage_max
+    chown system system /sys/class/power_supply/hwbatt/voltage_max
+    chmod 0660 /sys/class/power_supply/hwbatt/voltage_max_design
+    chown system system /sys/class/power_supply/hwbatt/voltage_max_design
+    chmod 0660 /sys/class/power_supply/hwbatt/constant_charge_current_max
+    chown system system /sys/class/power_supply/hwbatt/constant_charge_current_max
+
+    #mkdir /persist/charger
+    #chmod 0775 /persist/charger
+    #chown system system /persist/charger
+
+# charge-monitor
+service chargemonitor /system/bin/chargemonitor
+    class late_start
+    user system
+    group system
+    seclabel u:r:chargemonitor:s0
+    #writepid /dev/cpuset/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks /dev/blkio/system-background/tasks
+
+#on property:persist.sys.hlcharging=1
+#    write /sys/module/qpnp_smbcharger/parameters/chg_no_temp_limit 1
+#on property:persist.sys.hlcharging=0
+#    write /sys/module/qpnp_smbcharger/parameters/chg_no_temp_limit 0
+
+#on property:persist.sys.huawei.usb.900ma=1
+#    write /sys/module/qpnp_smbcharger/parameters/chg_usb_current 900
+#on property:persist.sys.huawei.usb.900ma=0
+#    write /sys/module/qpnp_smbcharger/parameters/chg_usb_current 0
+
+#on property:persist.sys.ntcharging=1
+#    write /sys/module/qpnp_smbcharger/parameters/chg_no_timer 1
+#on property:persist.sys.ntcharging=0
+#    write /sys/module/qpnp_smbcharger/parameters/chg_no_timer 0
+
+#on property:persist.sys.smb1360_ntcharging=1
+#    write /sys/module/smb1360_charger_fg/parameters/chg_no_timer 1
+#on property:persist.sys.smb1360_ntcharging=0
+#    write /sys/module/smb1360_charger_fg/parameters/chg_no_timer 0
+
+on charger
+    #setprop sys.usb.configfs 0
+    #write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor interactive
+    #write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 652800
+    #write /sys/devices/system/cpu/cpu1/online 0
+    #write /sys/devices/system/cpu/cpu2/online 0
+    #write /sys/devices/system/cpu/cpu3/online 0
+    #write /sys/devices/system/cpu/cpu4/online 0
+    #write /sys/devices/system/cpu/cpu5/online 0
+    #write /sys/devices/system/cpu/cpu6/online 0
+    #write /sys/devices/system/cpu/cpu7/online 0

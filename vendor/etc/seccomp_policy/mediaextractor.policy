@@ -1,0 +1,11 @@
+# MediaTek used system call
+gettimeofday: 1
+# for audio TableOfContent thread
+ioprio_set: 1
+unlinkat: 1
+setsockopt: 1
+clock_gettime: 1
+setrlimit: 1
+timer_create: 1
+timer_settime: 1
+timer_delete: 1

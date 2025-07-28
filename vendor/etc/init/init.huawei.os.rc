@@ -1,0 +1,324 @@
+service hwpged /system/bin/hwpged
+    class main
+    socket iawared seqpacket 0660 system system
+    user root
+    group system readproc
+    writepid /dev/cpuset/foreground/tasks
+
+service powerlogd /system/bin/powerlogd
+    class core
+    socket powerlogd stream 0600 system system
+    socket powerlogdr seqpacket 0600 system system
+    socket powerlogdw dgram 0220 system system
+    writepid /dev/cpuset/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks /dev/blkio/system-background/tasks
+
+service mapper /vendor/bin/sh /vendor/bin/mappersh
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:shell:s0
+
+service ddrtest /vendor/bin/do_ddrtest
+    user root
+    disabled
+    oneshot
+
+service stop_ddrtest /vendor/bin/do_ddrtest
+    user root
+    disabled
+    oneshot
+
+service storage_info /vendor/bin/storage_info
+    restart_period 600
+    user root
+    group system wakelock
+
+service mtk-post-boot /vendor/bin/init_mtk_post_boot.sh
+    class late_start
+    user root
+    disabled
+    oneshot
+
+on property:vendor.debug.rt.ddr.test=1
+    stop ddrtest
+    start ddrtest
+on property:vendor.debug.rt.ddr.test=2
+    start ddrtest
+on property:vendor.debug.rt.ddr.test=3
+    start ddrtest
+on property:vendor.debug.rt.ddr.test=4
+    start stop_ddrtest
+on property:vendor.debug.rt.ddr.test=5
+    stop ddrtest
+    start ddrtest
+on property:vendor.debug.rt.ddr.test=6
+    start ddrtest
+
+on property:sys.boot_completed=1
+    start mtk-post-boot
+
+on init
+
+    #Create cgroup mount point for freezer
+    mkdir /dev/frz
+    mount cgroup none /dev/frz freezer
+    chmod 0775 /dev/frz
+
+    #add for zrhung huawei_hung_task
+    write /proc/sys/kernel/hung_task_panic 1
+    write /proc/sys/kernel/hung_task_timeout_secs 120
+    write /sys/kernel/hungtask/monitorlist "whitelist,system_server,surfaceflinger,init"
+    write /sys/kernel/hungtask/enable "on"
+    chown system system /sys/kernel/hungtask/vm_heart
+    symlink /dev/block/platform/bootdevice/by-name/recovery_vendor  /dev/block/platform/bootdevice/by-name/recovery
+    #for cpuset cgroup
+    mkdir /dev/cpuset/key-background
+    copy /dev/cpuset/cpus /dev/cpuset/key-background/cpus
+    copy /dev/cpuset/mems /dev/cpuset/key-background/mems
+    mkdir /dev/cpuset/boost
+    copy /dev/cpuset/cpus /dev/cpuset/boost/cpus
+    copy /dev/cpuset/mems /dev/cpuset/boost/mems
+    mkdir /dev/cpuset/vip
+    copy /dev/cpuset/cpus /dev/cpuset/vip/cpus
+    copy /dev/cpuset/mems /dev/cpuset/vip/mems
+
+    chown system system /dev/cpuset/key-background
+    chown system system /dev/cpuset/key-background/tasks
+    chown system system /dev/cpuset/boost
+    chown system system /dev/cpuset/boost/tasks
+    chown system system /dev/cpuset/vip
+    chown system system /dev/cpuset/vip/tasks
+
+    chmod 0664 /dev/cpuset/key-background/tasks
+    chmod 0664 /dev/cpuset/boost/tasks
+    chmod 0664 /dev/cpuset/vip/tasks
+
+    #for eas cgroup
+    mkdir /dev/stune/boost
+    chown system system /dev/stune/boost
+    chmod 0664 /dev/stune/boost/tasks
+    write /dev/stune/boost/schedtune.boost 100
+
+    #for cpu control cgroup
+    mkdir /dev/cpuctl/limit
+    chown system system /dev/cpuctl/limit/tasks
+    chmod 0644 /dev/cpuctl/limit/tasks
+    write /dev/cpuctl/limit/cpu.shares 1024
+    write /dev/cpuctl/limit/cpu.rt_runtime_us 800000
+    write /dev/cpuctl/limit/cpu.rt_period_us 1000000
+    # sets up initial workingset cgroup
+    mkdir /dev/workingset
+    mount cgroup none /dev/workingset nodev noexec nosuid workingset
+    mkdir /dev/workingset/monitor0
+    mkdir /dev/workingset/monitor1
+
+    chmod 0600 /dev/workingset/tasks
+    chmod 0600 /dev/workingset/monitor0/tasks
+    chmod 0600 /dev/workingset/monitor1/tasks
+    chmod 0600 /dev/workingset/cgroup.procs
+    chmod 0600 /dev/workingset/monitor0/cgroup.procs
+    chmod 0600 /dev/workingset/monitor1/cgroup.procs
+    chmod 0600 /dev/workingset/monitor0/workingset.state
+    chmod 0600 /dev/workingset/monitor1/workingset.state
+    chmod 0600 /dev/workingset/monitor0/workingset.data
+    chmod 0600 /dev/workingset/monitor1/workingset.data
+
+# Added for qosctrl begin
+    chown system system /dev/iaware_qos_ctrl
+    chmod 660 /dev/iaware_qos_ctrl
+
+# rcc module
+    chown system system /sys/kernel/rcc/enable
+    chown system system /sys/kernel/rcc/event
+    chown system system /sys/kernel/rcc/idle_threshold
+    chown system system /sys/kernel/rcc/swap_percent_low
+    chown system system /sys/kernel/rcc/free_size_min
+    chown system system /sys/kernel/rcc/full_clean_size
+    chown system system /sys/kernel/rcc/stat
+    chown system system /sys/kernel/rcc/can_compress
+    chown system system /sys/kernel/rcc/avail_target
+    chown system system /sys/kernel/rcc/anon_target
+    chown system system /sys/kernel/rcc/force_once
+    chown system system /sys/kernel/rcc/max_anon_clean_size
+
+    write /sys/kernel/rcc/event PASSIVE_MODE
+    write /sys/kernel/rcc/max_anon_clean_size 512M
+    write /sys/kernel/rcc/enable 1
+
+on property:sys.boot_completed=1
+    write /sys/kernel/rcc/event BOOT_COMPLETE
+
+on boot
+    chmod 0755 /sys/kernel/debug/tracing
+#Touchscreen sysfs
+    chown system system /sys/touchscreen/ic_ver
+    chown system system /sys/touchscreen/hw_reset
+    chown system system /sys/touchscreen/hw_irq_stat
+    chown system system /sys/touchscreen/drv_debug
+    chown system system /sys/touchscreen/sleep_status
+    chown system system /sys/touchscreen/wakeup_gesture_enable
+    chown system system /sys/touchscreen/easy_wakeup_gesture
+    chown system system /sys/touchscreen/easy_wakeup_control
+    chown system system /sys/touchscreen/easy_wakeup_position
+    chown system system /sys/touchscreen/easy_wakeup_supported_gestures
+    chown system system /sys/touchscreen/touch_glove
+    chown system system /sys/touchscreen/touch_window
+    chown system system /dev/rmi0
+    chown system system /sys/touchscreen/touch_sensitivity
+    chown system system /sys/touchscreen/fw_update_sd
+    chown system system /sys/touchscreen/reset
+    chown system system /sys/touchscreen/touch_chip_info
+    chown system system /sys/touchscreen/touch_oem_info
+    chown system system /sys/touchscreen/roi_enable
+    chown system system /sys/touchscreen/roi_data
+    chown system system /sys/touchscreen/roi_data_debug
+    chown system system /sys/touchscreen/hw_mmi_index
+    chown system system /sys/touchscreen/cyttsp5_device_access.main_ttsp_core/rawdata_check
+    chown system system /sys/touchscreen/cyttsp5_device_access.main_ttsp_core/command
+    chown system system /sys/touchscreen/cyttsp5_device_access.main_ttsp_core/response
+    chown system system /proc/touchscreen/data
+    chown system system /proc/touchscreen/dumpdata
+    chown system system /proc/touchscreen/rawdata
+    chown system system /proc/touchscreen/tp_capacitance_data
+    chown system system /sys/devices/platform/huawei_tp_color/tp_color_info
+    chown system system /sys/touchscreen/tp_capacitance_test_type
+    chown system system /sys/touchscreen/supported_func_indicater
+    chown system system /sys/touchscreen/tp_capacitance_test_config
+    chown system system /sys/touchscreen/calibrate
+    chown system system /sys/touchscreen/calibrate_wakeup_gesture
+    chown system system /sys/touchscreen/touch_rawdata_debug
+    chown system system /sys/touchscreen/touch_special_hardware_test
+    chown system system /sys/touchscreen/touch_register_operation
+    chown system system /sys/touchscreen/touch_wideth
+    chown system system /sys/touchscreen/touch_switch
+    chown system system /sys/touchscreen/udfp_enable
+    chown system system /sys/touchscreen/stylus_wakeup_ctrl
+
+#fingerprint
+    chmod 0664 /dev/fingerprint
+    chown system system /dev/fingerprint
+    chmod 0664 /sys/devices/platform/fingerprint/irq
+    chown system system /sys/devices/platform/fingerprint/irq
+    chmod 0664 /sys/devices/platform/fingerprint/result
+    chown system system /sys/devices/platform/fingerprint/result
+    chown system system /sys/devices/platform/fingerprint/fingerprint_chip_info
+    chmod 0664 /sys/devices/platform/fingerprint/read_image_flag
+    chown system system /sys/devices/platform/fingerprint/read_image_flag
+    chmod 0664 /sys/devices/platform/fingerprint/nav
+    chown system system /sys/devices/platform/fingerprint/nav
+    chmod 0664 /sys/devices/platform/fingerprint/snr
+    chown system system /sys/devices/platform/fingerprint/snr
+    chmod 0664 /sys/devices/platform/fingerprint/module_id
+    chown system system /sys/devices/platform/fingerprint/module_id
+    mkdir /data/vendor/log/fingerprint
+    chown system system /data/vendor/log/fingerprint
+
+#hwbfm
+    chown system system /dev/hw_bfm
+    chmod 0660 /dev/hw_bfm
+#cpu idle
+    chown system system /proc/mcdi/state
+    chmod 0664 /proc/mcdi/state
+# top n memory process
+    chown system system /proc/driver/process_mem
+#zram
+    chown system system /sys/block/zram0/idle
+    chown system system /sys/block/zram0/writeback
+    chown system system /sys/block/zram0/writeback_disable
+    chown system system /sys/block/zram0/writeback_limit
+    chown system system /sys/block/zram0/writeback_limit_enable
+    chown system system /sys/block/zram0/writeback_limit_cycle
+    chown system system /sys/block/zram0/writeback_limit_max
+    chown system system /sys/block/zram0/dedup_enable
+    chown system system /sys/block/zram0/noncompress_enable
+#add for antenna cable detect
+    chmod 0660 /sys/class/antenna_cable/detect/state
+    chown system radio /sys/class/antenna_cable/detect/state
+
+on fs
+    restorecon /log
+    chmod 775 /log
+    chown root system /log
+
+on post-fs-data
+#charger
+    chmod 0664 /sys/class/hw_power/charger/charge_data/iin_thermal
+    chown system system /sys/class/hw_power/charger/charge_data/iin_thermal
+    chmod 0664 /sys/class/hw_power/charger/charge_data/iin_runningtest
+    chown system system /sys/class/hw_power/charger/charge_data/iin_runningtest
+    chmod 0664 /sys/class/hw_power/charger/charge_data/iin_rt_current
+    chown system system /sys/class/hw_power/charger/charge_data/iin_rt_current
+    chmod 0664 /sys/class/hw_power/charger/charge_data/enable_hiz
+    chown system system /sys/class/hw_power/charger/charge_data/enable_hiz
+    chmod 0664 /sys/class/hw_power/charger/charge_data/enable_charger
+    chown system system /sys/class/hw_power/charger/charge_data/enable_charger
+    chmod 0664 /sys/class/hw_power/charger/charge_data/factory_diag
+    chown system system /sys/class/hw_power/charger/charge_data/factory_diag
+    chmod 0660 /sys/class/hw_power/charger/charge_data/update_volt_now
+    chown system system /sys/class/hw_power/charger/charge_data/update_volt_now
+
+#Camera
+    chown system system /sys/class/flashlight_core/flashlight/flash_lightness
+    chmod 0660 /sys/class/flashlight_core/flashlight/flash_lightness
+    mkdir /data/vendor/camera
+    chown system camera /data/vendor/camera
+    chmod 770 /data/vendor/camera
+    chmod 664 /data/vendor/camera/mtk_sensor0
+    chmod 664 /data/vendor/camera/mtk_sensor1
+    chmod 664 /data/vendor/camera/mtk_sensor2
+    chmod 664 /data/vendor/camera/backcamerasn
+    chmod 664 /data/vendor/camera/frontcamerasn
+    chmod 660 /sys/class/leds/torch/flash_thermal_protect
+    chown system system /sys/class/leds/torch/flash_thermal_protect
+#usb
+    chown system system /sys/class/android_usb/android0/switch_request
+    chmod 0664 /sys/class/android_usb/android0/switch_request
+#log
+    mkdir /log/reliability
+    chmod 0775 /log/reliability
+    chown root system /log/reliability
+
+    mkdir /log/reliability/boot_fail
+    chmod 0775 /log/reliability/boot_fail
+    chown root system /log/reliability/boot_fail
+    restorecon_recursive /log/reliability
+#tp_data
+    mkdir /data/vendor/log/tp_data
+    chmod 0775 /data/vendor/log/tp_data
+    chown root system /data/vendor/log/tp_data
+#xcollie
+    mkdir /data/vendor/log/reliability
+    chmod 0775 /data/vendor/log/reliability
+    chown root system /data/vendor/log/reliability
+
+    mkdir /data/vendor/log/reliability/xcollie
+    chown system log /data/vendor/log/reliability/xcollie
+    chmod 2775 /data/vendor/log/reliability/xcollie
+    restorecon_recursive /data/vendor/log/reliability/xcollie
+#storage_info
+    mkdir /log/storage
+    chmod 0770 /log/storage
+    chown root system /log/storage
+    restorecon_recursive /log/storage
+    start storage_info
+
+on property:sys.boot_completed=1
+    chown system  system /sys/devices/system/cpu/cpu0/cpufreq/sched/up_throttle_nsec
+    chown system  system /sys/devices/system/cpu/cpu0/cpufreq/sched/down_throttle_nsec
+    chown system  system /sys/devices/system/cpu/cpu4/cpufreq/sched/up_throttle_nsec
+    chown system  system /sys/devices/system/cpu/cpu4/cpufreq/sched/down_throttle_nsec
+    chmod 660 /sys/devices/system/cpu/cpu0/cpufreq/sched/up_throttle_nsec
+    chmod 660 /sys/devices/system/cpu/cpu0/cpufreq/sched/down_throttle_nsec
+    chmod 660 /sys/devices/system/cpu/cpu4/cpufreq/sched/up_throttle_nsec
+    chmod 660 /sys/devices/system/cpu/cpu4/cpufreq/sched/down_throttle_nsec
+    write /proc/self/reclaim file
+
+on nonencrypted
+    trigger data_ready
+
+on data_ready
+    exec u:r:blkcginit:s0 root root -- /vendor/bin/sh /vendor/etc/blkcg_init.sh 0 0
+
+on property:persist.sys.huawei.debug.on=*
+    write /proc/sys/kernel/sysrq ${persist.sys.huawei.debug.on}

@@ -1,0 +1,1 @@
+/dev/block/zram0 none swap defaults zramsize=70%,zram_loopback_path=/data/per_boot/image,zram_loopback_size=536870912

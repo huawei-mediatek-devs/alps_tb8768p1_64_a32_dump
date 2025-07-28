@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DSM_CLIENT NAME="PARAM_VALUE" MODE="DSM">
+    <CLIENT NAME = "dsm_tp"  CLIENT_ACTION_COUNT = "3" BUFFER_SIZE = "4096"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FORCE_DUMP_FUNC_1   = "tp_force_dump_error"
+            FORCE_DUMP_FUNC_2   = "tp_debug_disable"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_pmu_ocp"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_pmu_irq"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_charger"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "4096"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dw_mmc"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_battery"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "dsm_factory_dump_error"
+    />
+    <CLIENT NAME = "dsm_key"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_power_key"  CLIENT_ACTION_COUNT = "2" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            DUMP_FUNC_1         = "power_key_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_camera_user"  CLIENT_ACTION_COUNT = "2" BUFFER_SIZE = "4096"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            DUMP_FUNC_1         = "hisp_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_wifi"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_ext4"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_flash"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "256"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_cam_pmic"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "256"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_csi"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "256"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_sdcard"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "sdcard_vold"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_ufs"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "2048"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_emmc"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "4096"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_battery_detect"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_sensorhub"  CLIENT_ACTION_COUNT = "2" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "sensorhub_dump_error"
+            DUMP_FUNC_1         = "sensorhub_dump_error_no_image"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "dsm_factory_dump_error"
+    />
+    <CLIENT NAME = "dsm_hall"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_nfc"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_modem_spi"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_audio_info"  CLIENT_ACTION_COUNT = "7" BUFFER_SIZE = "4096"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            DUMP_FUNC_1         = "dsm_dump_error"
+            DUMP_FUNC_2         = "dsm_dump_error"
+            DUMP_FUNC_3         = "dsm_dump_error"
+            DUMP_FUNC_4         = "dsm_dump_error"
+            DUMP_FUNC_5         = "dsm_dump_error"
+            DUMP_FUNC_6         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_smartpa"  CLIENT_ACTION_COUNT = "2" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            DUMP_FUNC_1         = "smartpa_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_smpl"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_pmu_coul"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_leds"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_lcd"  CLIENT_ACTION_COUNT = "2" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FORCE_DUMP_FUNC_1   = "lcd_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_hisp"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_isp"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "256"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_e4defrag"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_ivp"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_usb_short_circuit_protect"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_fingerprint"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_charge_monitor"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "4096"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_f2fs"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_dm_verity"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_stat_mm"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "128"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_gpu"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_bms"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "4096"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_camera"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "4096"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_hifi"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_pmu"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_f2fsck"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_tphostprocessing"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "4096"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_touch_key"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_hisee"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_ai"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_pd"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "256"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_vibrator"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "dsm_factory_dump_error"
+    />
+    <CLIENT NAME = "dsm_kirin_chipsets"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "dsm_factory_dump_error"
+    />
+    <CLIENT NAME = "superswitch"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "dsm_factory_dump_error"
+    />
+    <CLIENT NAME = "dsm_kirin_rtc"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "256"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "dsm_factory_dump_error"
+    />
+    <CLIENT NAME = "dsm_wpa"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_usb"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "256"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_direct_charge_sc"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+    <CLIENT NAME = "dsm_bt"  CLIENT_ACTION_COUNT = "1" BUFFER_SIZE = "1024"
+            DUMP_FUNC_0         = "dsm_dump_error"
+            FORCE_DUMP_FUNC_0   = "dsm_force_dump_error"
+            FACTORY_DUMP_FUNC_0 = "NULL"
+    />
+</DSM_CLIENT>
