@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package_list>
+  <package name="com.facebook.katana" pkgVersion="171725811" appName="Facebook"/>
+  <package name="com.facebook.orca" pkgVersion="170889122" appName="Messenger"/>
+  <package name="com.instagram.android" pkgVersion="171727795" appName="Instagram"/>
+  <package name="com.ebay.mobile" pkgVersion="176" appName="ebay"/>
+  <package name="com.amazon.mShop.android.shopping" pkgVersion="1241169012" appName="Amazon Shopping EU"/>
+  <package name="com.netflix.partner.activation" pkgVersion="34479" appName="Netflix"/>
+  <package name="com.toast.comico.th" pkgVersion="116" appName="Comico"/>
+  <package name="com.kwai.video" pkgVersion="506604" appName="KWAI"/>
+  <package name="com.ss.android.article.topbuzzvideo" pkgVersion="832" appName="Topbuzzvideo"/>
+  <package name="com.cnn.mobile.android.phone" pkgVersion="21167" appName="CNN"/>
+  <package name="com.daoke.ar" pkgVersion="49" appName="Thatsbooks"/>
+  <package name="com.truecaller" pkgVersion="1047009" appName="Truecaller"/>
+  <package name="com.jb.zcamera" pkgVersion="224" appName="Z camera"/>
+  <package name="gr.ote.otetvgo.androidphone" pkgVersion="1002" appName="COSMOTE TV GO"/>
+  <package name="at.tmobile.android.myt" pkgVersion="107" appName="Mein T-Mobile"/>
+  <package name="com.aspiro.tidal" pkgVersion="952" appName="TIDAL"/>
+  <package name="ro.vodafone.mcare.android" pkgVersion="34180" appName="My Vodafone"/>
+  <package name="it.vodafone.my190" pkgVersion="191106111" appName="My Vodafone"/>
+  <package name="com.myvodafone.android" pkgVersion="90" appName="My Vodafone"/>
+  <package name="com.instagram.android" pkgVersion="173238731" appName="Instagram"/>
+  <package name="au.com.vodafone.mobile.gss" pkgVersion="339026" appName="MyVodafone"/>
+  <package name="com.otecel.mimovistar" pkgVersion="412110424" appName="mi movistar"/>
+</package_list>

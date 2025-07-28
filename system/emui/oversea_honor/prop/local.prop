@@ -1,0 +1,18 @@
+# 2019-03-15 08:35:09.0
+ro.cofig.onlinemusic.enabled=false
+# 2019-03-15 08:35:09.0
+ro.config.alarm_alert=Aegean_Sea.ogg
+# 2019-03-15 08:35:09.0
+ro.config.cota_live_update=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_globalEcc=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_vassistant_honor=true
+# 2019-03-15 08:35:09.0
+ro.config.ringtone=Huawei_Tune_Living.ogg
+# 2019-03-15 08:35:09.0
+ro.config.ringtone2=Huawei_Tune_Clean.ogg
+# 2020-05-19 09:31:17.0
+ro.config.support_doubletap_pay=true
+# 2019-03-15 08:35:09.0
+ro.setupwizard.wifi_on_exit=false

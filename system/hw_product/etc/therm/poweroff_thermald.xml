@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2014 Huawei Inc.
+ * Cpu Freq Config
+ *
+                TYPE                                            AVALIABLE_VALUE
+        cpu_maxprofile                    509000 1018000 1210000 1402000 1556000 1690000 1844000
+        cpu_minprofile                    509000 1018000 1210000 1402000 1556000 1690000 1844000
+        cpu_a15_maxprofile                682000 1018000 1210000 1364000 1498000 1652000 1863000 2093000 2362000
+        cpu_a15_minprofile                682000 1018000 1210000 1364000 1498000 1652000 1863000 2093000 2362000
+        gpu_maxprofile                    103750000 150909000 237143000 332000000 415000000 550000000 667000000 767000000
+        gpu_minprofile                    103750000 150909000 237143000 332000000 415000000 550000000 667000000 767000000
+        ddr_maxprofile
+        ddr_minprofile
+        cpu_number_max                    1,2,3,4
+        cpu_number_min                    1,2,3,4
+        cpu_a15_number_max                0,1,2,3,4
+        cpu_a15_number_min                0,1,2,3,4
+        note:
+        1. if policy item has not configured, it means close cpupolicy of previous scene.
+        2. policy type default value is 0, policy value default value is -1
+        3. Don't set ddr_maxprofile for K3V3+ platform
+        4. Don't set <threshold_up>0</threshold_up> and <threshold_down>0</threshold_down> for K3V3+ platform
+        last modify time:2014-10-18
+-->
+<!-- scene id
+only support these scene
+10000    default, must config
+10001    popular browser app
+10002    popular 3D game
+10003    popular ebook
+10007    popular camera(fullscreen)
+10009    popular video
+10011    popular 2D Game
+10018    little camera(not fullscreen)
+20004    screen off
+id >= 100000  cust config, white list
+-->
+<thermal version="0.01" product="KOB">
+<scene name="power_off_charging_ctrl" id="110000">
+<sensor_temp name="ucurrent" type="54" enable="true" min_temp="0" step="5" to_celsius="1000">
+    <item>
+        <thresholds>44</thresholds>
+        <thresholds_clr>37</thresholds_clr>
+        <action>
+            <ucurrent>1800</ucurrent>
+        </action>
+    </item>
+    <item>
+        <thresholds>47</thresholds>
+        <thresholds_clr>39</thresholds_clr>
+        <action>
+            <ucurrent>1500</ucurrent>
+        </action>
+    </item>
+    <item>
+        <thresholds>50</thresholds>
+        <thresholds_clr>41</thresholds_clr>
+        <action>
+            <ucurrent>1300</ucurrent>
+        </action>
+    </item>
+    <item>
+        <thresholds>54</thresholds>
+        <thresholds_clr>50</thresholds_clr>
+        <action>
+            <ucurrent>1000</ucurrent>
+        </action>
+    </item>
+    <item>
+        <thresholds>59</thresholds>
+        <thresholds_clr>50</thresholds_clr>
+        <action>
+            <ucurrent>500</ucurrent>
+        </action>
+    </item>
+</sensor_temp>
+</scene>
+</thermal>

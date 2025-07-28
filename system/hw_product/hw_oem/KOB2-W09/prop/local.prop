@@ -1,0 +1,52 @@
+# 2020-01-13 19:09:50.0
+persist.radio.modem.cap=00000008
+# 2019-06-21 16:54:32.0
+ro.boot.product.hardware.sku=KOB2-W09
+# 2019-06-21 16:54:31.0
+ro.build.id=HUAWEIKOB2-W09
+# 2019-06-21 16:54:32.0
+ro.carrier=wifi-only
+# 2019-12-06 11:21:21.0
+ro.check.modem_network=false
+# 2019-12-05 19:42:54.0
+ro.config.StkDisplayTexNoRes=false
+# 2019-12-06 11:21:21.0
+ro.config.attach_apn_enabled=false
+# 2019-12-06 11:21:21.0
+ro.config.cl_volte_autoswitch=false
+# 2019-06-21 16:55:24.0
+ro.config.gameassist.nodisturb=0
+# 2019-12-06 11:21:21.0
+ro.config.hw_lte_support=false
+# 2019-06-21 16:55:46.0
+ro.config.hw_srlte=false
+# 2019-06-21 16:56:14.0
+ro.config.hw_volte_on=false
+# 2020-04-09 14:37:34.0
+ro.config.hw_vowifi_mmsut=false
+# 2019-12-02 15:22:43.0
+ro.config.hw_vtlte_on=false
+# 2019-12-05 19:42:54.0
+ro.config.linkplus.liveupdate=false
+# 2019-06-21 16:56:14.0
+ro.config.quick_call_enabled=false
+# 2019-12-05 19:42:54.0
+ro.feature.incallui.trimglmem=false
+# 2019-11-29 19:58:20.0
+ro.feature.mobile_network_sharing_integration=false
+# 2019-12-05 19:42:54.0
+ro.hwpps.network.type.comma=false
+# 2019-12-05 19:42:54.0
+ro.odm.multi.rild=false
+# 2019-12-05 19:42:54.0
+ro.odm.radio.nvcfg_normalization=false
+# 2019-06-21 16:57:02.0
+ro.product.model=KOB2-W09
+# 2019-11-29 18:01:47.0
+ro.product.name=KOB2-W09
+# 2019-06-21 16:57:25.0
+ro.qq.camera.sensor=3
+# 2020-04-09 14:37:34.0
+ro.vendor.config.hw_vowifi=false
+
+ro.build.description=KOB2-W09-user 10.1.0 HUAWEIKOB2-W09 212-OVS-LGRP4 release-keys

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wifi_policy version="1">
+    <version_number>0.2</version_number>
+    <sleep_policy>
+        <app_name>com.cam.volvo</app_name>
+        <!-- 单位ms. 0 表示不休眠  -->
+        <sleep_time>200</sleep_time>
+    </sleep_policy>
+
+    <!--begin 单位1000，标示游戏后台不限速.  -->
+    <sleep_policy>
+        <app_name>com.immomo.liveaid</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.duowan.live</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.tencent.liveassistant</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.yxixy.assistant</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.melon.mkshowzbo</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>cn.wsds.gamemaster</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.hpplay.happycast</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.apowersoft.mirror</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.sigma_rt.projector_source</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.sigma_rt.tcg</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.tencent.mm</app_name>
+        <sleep_time>1000</sleep_time>
+    </sleep_policy>
+    <!--end 单位1000，标示游戏后台不限速.  -->
+
+    <sleep_policy>
+        <app_name>com.huawei.hidisk</app_name>
+        <sleep_time>2000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.android.providers.downloads</app_name>
+        <sleep_time>2000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.xunlei.downloadprovider</app_name>
+        <sleep_time>2000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.qiyi.video</app_name>
+        <sleep_time>2000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.tencent.qqlive</app_name>
+        <sleep_time>2000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.tencent.android.qqdownloader</app_name>
+        <sleep_time>2000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.huawei.appmarket</app_name>
+        <sleep_time>2000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.youku.phone</app_name>
+        <sleep_time>2000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.baidu.netdisk</app_name>
+        <sleep_time>2000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>com.huawei.himovie</app_name>
+        <sleep_time>2000</sleep_time>
+    </sleep_policy>
+
+    <sleep_policy>
+        <app_name>app_name2</app_name>
+        <!-- 单位ms. 0 表示不休眠  -->
+        <sleep_time>0</sleep_time>
+    </sleep_policy>
+
+</wifi_policy>

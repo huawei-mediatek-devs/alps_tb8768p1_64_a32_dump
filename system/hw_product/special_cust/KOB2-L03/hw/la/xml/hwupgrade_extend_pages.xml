@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="26e6502e82aef5bb14e57c8e7c07f32a">
+  <dict>
+    <array key="extend_pages">
+      <dict>
+        <string key="packageName"></string>
+        <string key="className"></string>
+        <string key="contentproviderUri"></string>
+        <string key="extraInfo"></string>
+      </dict>
+    </array>
+  </dict>
+</config>

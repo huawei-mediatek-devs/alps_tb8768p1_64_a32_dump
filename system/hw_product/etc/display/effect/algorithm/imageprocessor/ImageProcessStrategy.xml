@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- Emui6.0 -->
+<Config>
+    <Enable>true</Enable>
+    <Custom>
+        <AlgoWideColorSpace>false</AlgoWideColorSpace>
+        <AlgoSkinBeauty>false</AlgoSkinBeauty>
+    </Custom>
+    <Thumbnail type="MICRO">
+    </Thumbnail>
+    <Thumbnail type="FAST">
+    </Thumbnail>
+    <Thumbnail type="ANIMATION">
+    </Thumbnail>
+    <Thumbnail type="FULLSCREEN">
+        <Algo>SR</Algo>
+        <SaveCommonInfo>true</SaveCommonInfo>
+    </Thumbnail>
+    <Thumbnail type="HALFSCREEN">
+        <SaveCommonInfo>true</SaveCommonInfo>
+    </Thumbnail>
+    <Thumbnail type="DEFAULT">
+    </Thumbnail>
+
+    <Tile type="NON_SR">
+    </Tile>
+    <Tile type="SR">
+        <Algo>SR</Algo>
+    </Tile>
+</Config>

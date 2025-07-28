@@ -1,0 +1,12 @@
+/system/app/EasterEgg/EasterEgg.apk
+/system/priv-app/Email/Email.apk
+/system/priv-app/ExactCalculator/ExactCalculator.apk
+/system/app/GameKit/GameKit.apk
+/system/priv-app/HwContactsSync/HwContactsSync.apk
+/system/priv-app/HwScreenRecorder/HwScreenRecorder.apk
+/system/app/HwSoundRecorder/HwSoundRecorder.apk
+/system/priv-app/HwWeatherClock/HwWeatherClock.apk
+/system/priv-app/LocalTransport/LocalTransport.apk
+/system/priv-app/NumberIdentity/NumberIdentity.apk
+/system/app/SimAppDialog/SimAppDialog.apk
+/system/priv-app/StorageManager/StorageManager.apk

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<packages>
+<package name="com.huawei.email" path="hw_product/app/Email" ss="996405077573BFF8A28D881B76A2614BFBDF6A9B509E1834C2B0E5885BCA82B9" version="1001010131"/>
+<package name="com.android.gallery3d" path="hw_product/app/Gallery2" ss="0C872997D85FCB7CBE94FFB700007C2A9179E699925FF74040D9F2C4B185CE64" version="1100203640"/>
+<package name="com.huawei.camera" path="hw_product/app/HwCamera2" ss="E4AAEABE56C66A8CEFE6AE610FDE8EFBF3A20BC9408D7966770B9E0A30AB73B0" version="100010015"/>
+<package name="com.huawei.camera" path="hw_product/app/HwCamera2" ss="E4AAEABE56C66A8CEFE6AE610FDE8EFBF3A20BC9408D7966770B9E0A30AB73B0" version="100010015"/>
+<package name="com.huawei.camera" path="hw_product/app/HwCamera2" ss="E4AAEABE56C66A8CEFE6AE610FDE8EFBF3A20BC9408D7966770B9E0A30AB73B0" version="100010015"/>
+<package name="com.huawei.camera" path="hw_product/app/HwCamera2" ss="E4AAEABE56C66A8CEFE6AE610FDE8EFBF3A20BC9408D7966770B9E0A30AB73B0" version="100010015"/>
+<package name="com.huawei.camera" path="hw_product/app/HwCamera2" ss="E4AAEABE56C66A8CEFE6AE610FDE8EFBF3A20BC9408D7966770B9E0A30AB73B0" version="100010015"/>
+<package name="com.huawei.camera" path="hw_product/app/HwCamera2" ss="E4AAEABE56C66A8CEFE6AE610FDE8EFBF3A20BC9408D7966770B9E0A30AB73B0" version="100010015"/>
+<package name="com.huawei.camera" path="hw_product/app/HwCamera2" ss="E4AAEABE56C66A8CEFE6AE610FDE8EFBF3A20BC9408D7966770B9E0A30AB73B0" version="100010015"/>
+<package name="com.huawei.camera" path="hw_product/app/HwCamera2" ss="E4AAEABE56C66A8CEFE6AE610FDE8EFBF3A20BC9408D7966770B9E0A30AB73B0" version="100010015"/>
+<package name="com.huawei.camera" path="hw_product/app/HwCamera2" ss="E4AAEABE56C66A8CEFE6AE610FDE8EFBF3A20BC9408D7966770B9E0A30AB73B0" version="100010015"/>
+<package name="com.huawei.camera" path="hw_product/app/HwCamera2" ss="E4AAEABE56C66A8CEFE6AE610FDE8EFBF3A20BC9408D7966770B9E0A30AB73B0" version="100010015"/>
+<package name="com.huawei.android.FMRadio" path="hw_product/app/HwFMRadio" ss="2C4FDB5F942C28147856595697F82D42F965B08AB67002517551733929D2F6A8" version="100100300"/>
+<package name="com.huawei.gameassistant" path="hw_product/app/HwGameAssistant" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="1006000301"/>
+<package name="com.huawei.kidsmode" path="hw_product/app/HwKidsMode" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="1100000117"/>
+<package name="com.huawei.notepad" path="hw_product/app/HwNotePad" ss="AB138A86C225288A906BDB104CFC601A396C0FED0BBA6BAA860EB31E5971F334" version="100101342"/>
+<package name="com.huawei.imedia.sws" path="hw_product/app/SWSHeadphone" ss="2C4FDB5F942C28147856595697F82D42F965B08AB67002517551733929D2F6A8" version="0"/>
+<package name="com.android.frameworkres.overlay" path="hw_product/hw_oem/KOB2-AL00/overlay" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="1"/>
+<package name="com.android.frameworkres.overlay" path="hw_product/hw_oem/KOB2-L03/overlay" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="1"/>
+<package name="com.android.frameworkres.overlay" path="hw_product/hw_oem/KOB2-L09B/overlay" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="1"/>
+<package name="com.android.frameworkres.overlay" path="hw_product/hw_oem/KOB2-L09/overlay" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="1"/>
+<package name="com.android.frameworkres.overlay" path="hw_product/hw_oem/KOB2-W09B/overlay" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="1"/>
+<package name="com.android.frameworkres.overlay" path="hw_product/hw_oem/KOB2-W09/overlay" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="1"/>
+<package name="com.android.systemui.overlay" path="hw_product/overlay" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="1"/>
+<package name="com.huawei.gamebox" path="hw_product/region_comm/oversea/app/GameBox_stub" ss="DCF7CCCE5B7E93C9208A1213DEF9C483BD2F93CF614B7D88EFBD1C4820549061" version="10000300"/>
+<package name="com.huawei.browser" path="hw_product/region_comm/oversea/app/HwBrowser" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="110002301"/>
+<package name="com.huawei.hiai" path="hw_product/region_comm/oversea/app/HwHiAiEngine" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="2000009305"/>
+<package name="com.huawei.hiai" path="hw_product/region_comm/oversea/app/HwHiAiEngine" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="2000009302"/>
+<package name="com.huawei.hiai" path="hw_product/region_comm/oversea/app/HwHiAiEngine" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="2000003304"/>
+<package name="com.huawei.hiai" path="hw_product/region_comm/oversea/app/HwHiAiEngine" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="2000109300"/>
+<package name="com.huawei.maps.app" path="hw_product/region_comm/oversea/app/HwMaps_stub" ss="E7490DB197797DC183FBD06B04719D96853E3972274796CD0C47F2D5E3A022BB" version="10000000"/>
+<package name="com.huawei.hwread.dz" path="hw_product/region_comm/oversea/app/HwRead_stub" ss="9D3234448E147020F77A0CB5272DBF2796A159B5D9FF2D91B485696285F6D1A3" version="90009313"/>
+<package name="com.huawei.hwsearch" path="hw_product/region_comm/oversea/app/HwSearch" ss="C377FE45AC3D58A4DE2761876DDB9254517FA3F2751C2F286C057DF8F4BD8781" version="110001306"/>
+<package name="com.huawei.android.hwupgradeguide" path="hw_product/region_comm/oversea/app/HwUpgradeGuide" ss="2C4FDB5F942C28147856595697F82D42F965B08AB67002517551733929D2F6A8" version="101000027"/>
+<package name="com.huawei.userguide" path="hw_product/region_comm/oversea/app/HwUserGuide" ss="2C4FDB5F942C28147856595697F82D42F965B08AB67002517551733929D2F6A8" version="1000000"/>
+<package name="com.huawei.welinknow" path="hw_product/region_comm/oversea/app/LinkNow_stub" ss="DCF7CCCE5B7E93C9208A1213DEF9C483BD2F93CF614B7D88EFBD1C4820549061" version="10000302"/>
+<package name="com.huawei.mycenter" path="hw_product/region_comm/oversea/app/MyCenter" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="90905305"/>
+<package name="com.swiftkey.swiftkeyconfigurator" path="hw_product/region_comm/oversea/app/SwiftKeyFactorySettings" ss="4F7ABA723EE734B6731F7D59900B415FA2FBEAF0C4850C8F034E2C872A82A59D" version="8651066"/>
+<package name="com.touchtype.swiftkey" path="hw_product/region_comm/oversea/app/SwiftKey" ss="4F7ABA723EE734B6731F7D59900B415FA2FBEAF0C4850C8F034E2C872A82A59D" version="944112080"/>
+<package name="jp.co.omronsoft.wnnext.cloudwnn.ja_hw" path="hw_product/region_comm/oversea/app/Wnn_Japanese_Ext_Pack-HW" ss="FF7A4A18B2AF7F498B54AC7B68ED6A38130F0F01BFA07548DDD6B0A9066D4A2B" version="90000"/>
+<package name="cn.wps.moffice_i18n" path="hw_product/region_comm/oversea/app/WPS" ss="BC7B9B00BFB0EE09AB03F06908860481C53D0A3D0A6B01A1D5F9271BF62AE8D3" version="361"/>
+</packages>

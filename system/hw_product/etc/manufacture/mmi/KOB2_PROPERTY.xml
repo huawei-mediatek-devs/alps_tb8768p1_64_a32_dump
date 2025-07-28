@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TEST_PROPERTY>
+    <Property support="ALL" value="MM2S" key="ro.mmi.start_mode" description="MMI2自启动测试"/>
+    <Property support="ALL" value="false" key="ro.mmi.support_double_flash" description="支持双闪光灯测试"/>
+    <Property support="ALL" value="true" key="ro.mmi.support_camera_otp" description="后置单Camera是否支持OTP检测" />
+    <Property support="ALL" value="false" key="ro.mmi.support_flash" description="是否支持单闪光灯" />
+    <Property support="ALL" value="false" key="ro.mmi.support_wifi_5g" description="是否支持5GWIFI"/>
+    <Property support="ALL" value="false" key="ro.mmi.support_slave_camera_otp" description="前置单Camera是否支持OTP检测"/>
+    <Property support="ALL" value="1" key="ro.mmi.hall_sensor_poles" description="Hall测试的极值"/>
+    <Property support="ALL" value="red,green" key="ro.mmi.indicator_light_list" description="指示灯测试：red 红,green 绿,blue 蓝"/>
+    <Property support="ALL" value="snr" key="ro.mmi.fingerprint_test_type" description="默认指纹测试类型"/>
+    <Property support="ALL" value="0" key="ro.mmi.fingerprint_start_type" description="默认指纹测试类型"/>
+    <Property support="ALL" value="false" key="ro.mmi.enable_gesture_detector" description="滑屏切换测试项功能"/>
+    <Property support="ALL" value="true" key="ro.mmi.enable_datacollection" description="大数据收集开关" />
+    <Property support="ALL" value="true" key="ro.mmi.upload_datacollectfile" description="大数据上传"/>
+    <Property support="ALL" value="true" key="ro.mmi.show_pointer_location" description="触摸屏测试显示点坐标"/>
+    <Property support="ALL" value="5.0f" key="ro.mmi.approach_threshold" description="接近光测试门限"/>
+    <Property support="ALL" value="36" key="ro.mmi.touch_screen_rows" description="触屏画圈行数"/>
+    <Property support="ALL" value="22" key="ro.mmi.touch_screen_columns" description="触屏画圈列数"/>
+    <Property support="ALL" value="79" key="ro.mmi.ncwire_control_key_list" description="降噪耳机按键值"/>
+    <Property support="ALL" value="50hz" key="ro.mmi.camera_antibanding" description="灯光频率，影响相机曝光"/>
+    <Property support="ALL" value="24,25,26" key="ro.mmi.keypad_test_list" description="按键键值：24 音量上键,25 音量下键,26 Power键"/>
+    <Property support="ALL" value="port" key="ro.mmi.sreeen_rotation" description="屏幕的方位"/>
+    <Property support="ALL" value="false" key="ro.mmi.check_speaker_consistency" description="是否支持检查多喇叭的一致性（多喇叭产品使用）"/>
+    <Property support="ALL" value="true" key="ro.mmi.support_auto_focus" description="是否支持自动对焦"/>
+    <Property support="ALL" value="0" key="ro.mmi.sar_sensor_start_type" description="SAR Sensor测试方式:0表示通过侧键执行操作,1表示通过屏幕按钮执行操作"/>
+    <Property support="ALL" value="1" key="ro.mmi.sar_sensor_channel_num" description="SAR的通道数"/>
+    <Property support="ALL" value="/data/log/mmi" key="ro.mmi.log_path" description="log路径"/>
+    <Property support="ALL" value="220" key="ro.mmi.ptt_keycode" description="ptt的键盘编码器"/>
+    <Property support="ALL" value="6000" key="ro.mmi.max_scan_delay_time" description="最大扫描延迟时间"/>
+    <Property support="ALL" value="3000" key="ro.mmi.min_scan_delay_time" description="最小扫描延迟时间"/>
+    <Property support="ALL" value="true" key="ro.mmi.enable_start_button" description="后置Camera特性测试中开始按钮是否可用"/>
+    <Property support="ALL" value="true" key="ro.mmi.battery_charge_enable" description="MMI2测试pass后是否自动跳转补电菜单"/>
+    <Property support="ALL" value="false" key="ro.mmi.water_ripple_check" description="是否支持水波纹"/>
+    <Property support="ALL" value="false" key="ro.mmi.check_otg_orientation_enable" description="是否进行USB正反插测试"/>
+    <Property support="ALL" value="1.1,0.9,0.9,1.1,0.929,1.071" key="ro.mmi.gravity_threshold_after_calibration" description="校准后重力感应测试通过的门限范围比例"/>
+    <Property support="ALL" value="1" key="ro.mmi.test_sim_number" description="需要判定的sim卡数量"/>
+    <Property support="ALL" value="10" key="ro.mmi.headset_music_volume" description="耳机MIC测试音量"/>
+    <Property support="ALL" value="1" key="ro.mmi.support_pogopin_type" description="pogopin支持测试的种类：1表示充电测试，2表示OTG测试"/>
+    <Property support="MMI2" value="interrupt" key="ro.mmi.fingerprint_test_type" description="MMI2测试中指纹测试类型"/>
+    <Property support="MM2S" value="interrupt" key="ro.mmi.fingerprint_test_type" description="MM2S测试中指纹测试类型"/>
+    <Property support="MMAS" value="true" key="ro.mmi.mic_speaker_custom" description="单板mic测试，是否支持播放录音第一个喇叭出声" />
+</TEST_PROPERTY>

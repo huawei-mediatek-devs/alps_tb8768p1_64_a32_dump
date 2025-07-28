@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ptm_config version="1.0">
+        <period_check check_time_base="120000"> <!--2 mins-->
+        <!--record_type value 1:temperature 0:other pls do not change the default config in this tag-->
+        <!--use_data_src value true:use data_src false: use name (for hisi to detect temperature,qualcomm use true pls)-->
+                <check_item name="powergenie_mode" check_type="property" value_type="string" record_type="0" use_data_src="true">
+                        <data_src>persist.sys.smart_power</data_src>
+                </check_item>
+                <check_item name="backlight" check_type="device_node" value_type="integer" record_type="0" use_data_src="true">
+                        <data_src>/sys/class/leds/lcd_backlight0/brightness</data_src>
+                </check_item>
+                <check_item name="discharging" check_type="device_node" value_type="integer" record_type="0" use_data_src="true">
+                        <data_src>/sys/class/power_supply/Battery/current_now</data_src>
+                </check_item>
+                <check_item name="system_h" check_type="device_node" value_type="integer" record_type="1" use_data_src="false"><!-- APtemp -->
+                        <data_src>/sys/class/thermal/thermal_zone7/temp</data_src>
+                </check_item>
+                <check_item name="pa_0" check_type="device_node" value_type="integer" record_type="1" use_data_src="false"><!-- PAtemp -->
+                        <data_src>/sys/class/thermal/thermal_zone10/temp</data_src>
+                </check_item>
+                <check_item name="soc_thermal" check_type="device_node" value_type="integer" record_type="1" use_data_src="false"><!-- CPUTemp -->
+                        <data_src>/sys/class/thermal/thermal_zone0/temp</data_src>
+                </check_item>
+                <check_item name="gpu" check_type="device_node" value_type="integer" record_type="1" use_data_src="false"><!-- GPUTemp -->
+                        <data_src>/sys/class/thermal/thermal_zone4/temp</data_src>
+                </check_item>
+                <check_item name="CpuFreqBig" check_type="device_node" value_type="integer" record_type="0" use_data_src="true">
+                        <data_src>/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq</data_src>
+                </check_item>
+                <check_item name="CpuFreqlittle" check_type="device_node" value_type="integer" record_type="0" use_data_src="true">
+                        <data_src>/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq</data_src>
+                </check_item>
+                <check_item name="DDRFreq" check_type="device_node" value_type="integer" record_type="0" use_data_src="true">
+                        <data_src>/sys/class/devfreq/ddrfreq/cur_freq</data_src>
+                </check_item>
+                <check_item name="GpuFreq" check_type="device_node" value_type="integer" record_type="0" use_data_src="true">
+                        <data_src>/sys/class/devfreq/gpufreq/min_freq</data_src>
+                </check_item>
+        </period_check>
+        <thermal>
+                <const>
+                        <item name="ShellTempA" value="-0.65475"/>
+                        <item name="ShellTempB" value="0.4602"/>
+                        <item name="ShellTempC" value="5.71836"/>
+                </const>
+                <path>
+                        <item name="cpu_freq" path="/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq" />
+                        <item name="littlecpu_freq" path="/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq" />        
+                        <item name="gpu_freq" path="/sys/class/devfreq/gpufreq/cur_freq" />
+                        <item name="ddr_freq" path="/sys/class/devfreq/ddrfreq/cur_freq" />
+                        <item name="lcd_brightness" path="/sys/class/leds/lcd_backlight0/brightness" />
+                        <item name="current_now" path="/sys/class/power_supply/Battery/current_now" />
+                        <item name="voltage_now" path="/sys/class/power_supply/Battery/voltage_now" />
+                        <item name="usb_charge" path="/sys/class/power_supply/USB/online" />
+                        <item name="main_charge" path="/sys/class/power_supply/Mains/online" />
+                        <item name="external_sdcard" path="/storage/sdcard1" />
+                </path> 
+                
+                <infocollect>
+                        <!-- samplingrate unit: minute, thresholdtemp unit: centigrade, topappcount unit: number-->
+                        <item name="temp" samplingrate="1"/> 
+                        <item name="tempalarm" samplingrate="1" thresholdtemp="35"/>
+                        <item name="batsipper" samplingrate="1"  topappcount="10"/>
+                        <item name="charge" samplingrate="1"  topappcount="10"/>
+                </infocollect>
+        
+                <device>
+                        <item name="AP" nodetype="system_h" enablecompute="true"/>
+                        <item name="Charger" nodetype="charger" enablecompute="true"/>
+                        <item name="Flash" nodetype="flash_led" enablecompute="true"/>
+                        <item name="PA" nodetype="pa_0" enablecompute="true"/>
+                        <item name="Battery" nodetype="Battery" enablecompute="false"/>
+                        <item name="CPU" nodetype="cluster1" enablecompute="false"/>
+                        <item name="GPU" nodetype="gpu"  enablecompute="false"/>
+                </device>
+        </thermal>
+</ptm_config>

@@ -1,0 +1,226 @@
+{
+    "imports" : [
+        "/system/lib/libhwfilter_mtk.so"
+    ],
+
+    "filters" :
+    [
+        {
+            "id" : "ppsource",
+            "type" : "ppsource"
+        },
+
+        {
+            "id" : "encoder",
+            "type" : "mtk_filter_jpeg"
+        },
+
+        {
+            "id" : "ColorEffectCap",
+            "type" : "ColorEffectCap",
+            "platform" : "mtk"
+        },
+
+        {
+            "id" : "Davinci",
+            "type" : "Davinci"
+        },
+
+        {
+            "id" : "writer",
+            "type" : "filewriter"
+        },
+
+        {
+            "id" : "thumbnail",
+            "type" : "quickthumbnail"
+        },
+
+        {
+            "id" : "notifier",
+            "type" : "thumbnail-notifier"
+        },
+
+        {
+            "id" : "forkCapture",
+            "type" : "fork"
+        },
+
+        {
+            "id" : "peekMeta",
+            "type" : "peek"
+        }
+    ],
+
+    "connections" :
+    [
+        {
+            "from" :
+            {
+                "filter" : "ppsource",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "forkCapture",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "forkCapture",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "ColorEffectCap",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "ColorEffectCap",
+                "port" : "OutDestyuv"
+            },
+
+            "to" :
+            {
+                "filter" : "Davinci",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "Davinci",
+                "port" : "OutDestyuv"
+            },
+
+            "to" :
+            {
+                "filter" : "encoder",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "encoder",
+                "port" : "jpeg"
+            },
+
+            "to" :
+            {
+                "filter" : "writer",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "forkCapture",
+                "port" : "out1"
+            },
+
+            "to" :
+            {
+                "filter" : "thumbnail",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "thumbnail",
+                "port" : "outThumbnail"
+            },
+
+            "to" :
+            {
+                "filter" : "notifier",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "ppsource",
+                "port" : "out_meta"
+            },
+
+            "to" :
+            {
+                "filter" : "peekMeta",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekMeta",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "ColorEffectCap",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "ColorEffectCap",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "Davinci",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "Davinci",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "encoder",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekMeta",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "thumbnail",
+                "port" : "inMeta"
+            }
+        }
+    ]
+}
+

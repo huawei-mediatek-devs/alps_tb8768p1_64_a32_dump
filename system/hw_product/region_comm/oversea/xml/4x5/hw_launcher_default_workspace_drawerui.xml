@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <appwidget
+        launcher:packageName="com.huawei.hwsearch"
+        launcher:className="com.huawei.hwsearch.base.view.widget.SparkleWidgetProvider"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="2"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+</favorites>

@@ -1,0 +1,74 @@
+{
+    "business": "CameraHighLightRec",
+    "version": "1.0",
+    "rules":{
+        "LDOF_mode":{
+            "info":{
+                "name": "LDOF_mode",
+                "version": "0.1",
+                "sysVer": "EMUI6.0",
+                "delayTimes": "2",
+                "delayIncType": "QUERY",
+                "silenceDaysAfterRegist": "14"
+            },
+            "matchCondGroups":{
+                "group":{
+                    "group_0": {
+                        "condition":{
+                            "condition_0":{
+                                "eventOperator": "ScreenOn",
+                                "eventActiveValueType": OPERATOR_VALUE,
+                                "eventActiveCompareType": EQ
+                            }
+                        }
+                    }
+                }
+            },
+            "lifeCycleCondGroups":{
+                "group": {
+                    "group_0": {
+                        "condition": {
+                            "condition_0":{
+                                "eventOperator": "Used",
+                                "eventItem": "LDOF_mode",
+                                "lifeCycleOpType": "DISABLE"
+                            },
+                            "condition_1":{
+                                "eventOperator": "Remind",
+                                "eventItem": "LDOF_mode",
+                                "lifeCycleOpType": "SLEEP"
+                            },
+                            "condition_2":{
+                                "eventOperator": "Reject",
+                                "eventItem": "LDOF_mode",
+                                "lifeCycleOpType": "DISABLE"
+                            },
+                            "condition_3":{
+                                "eventOperator": "Recommended",
+                                "eventItem": "LDOF_mode",
+                                "eventActiveValueType": "DURATION",
+                                "eventActiveCompareType": "GE",
+                                "eventActiveValue": "00:00:07.0",
+                                "eventActiveValueCvtMode": "DATE",
+                                "lifeCycleOpType": "SLEEP"
+                            },
+                            "condition_4":{
+                                "priority": "HIGH",
+                                "eventOperator": "Recommended",
+                                "eventItem": "LDOF_mode",
+                                "eventActiveValueType": "EVENT_COUNTING",
+                                "eventActiveCompareType": "GE",
+                                "eventActiveValue": "2",
+                                "lifeCycleOpType": "DISABLE"
+                            }
+                        }
+                    }
+                }
+            },
+            "matchedAction": {
+                "outputType": "PRESERVE",
+                "extInfo": "Define something for recommendation"
+            }
+        }
+    }
+}

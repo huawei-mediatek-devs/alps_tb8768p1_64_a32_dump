@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emcom version="001.001">
+        <region_config name="CN">                      <!--1级标签，地域配置，需要配置地域名称属性（国内或海外）-->
+            <product_config name="XXXX">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+                <emcom_features_config>                        <!--3级标签，产品配置-->
+                    <feature name="XEngine">false</feature>         <!--4级标签，具体的配置数据-->
+                    <feature name="SmartCare">false</feature>
+                    <feature name="ParaManage">true</feature>
+                    <feature name="NwEval">false</feature>
+                </emcom_features_config>
+            </product_config>
+
+            <product_config name="default">                 <!--2级标签，产品配置-->
+                <emcom_features_config>                        <!--3级标签，产品配置-->
+                    <feature name="XEngine">true</feature>        <!--4级标签，具体的配置数据-->
+                    <feature name="SmartCare">true</feature>
+                    <feature name="ParaManage">true</feature>
+                    <feature name="NwEval">false</feature>
+                    <feature name="NstackFi">true</feature>
+                </emcom_features_config>
+            </product_config>
+        </region_config>
+
+        <region_config name="default">                  <!--1级标签，地域配置，需要配置地域名称属性（国内或海外）-->
+            <product_config name="default">                 <!--2级标签，产品配置，需要配置产品名称属性-->
+                <emcom_features_config>                         <!--3级标签，产品配置-->
+                    <feature name="XEngine">false</feature>         <!--4级标签，具体的配置数据-->
+                    <feature name="SmartCare">false</feature>
+                    <feature name="ParaManage">true</feature>
+                    <feature name="NwEval">false</feature>
+                </emcom_features_config>
+            </product_config>
+        </region_config>
+</emcom>

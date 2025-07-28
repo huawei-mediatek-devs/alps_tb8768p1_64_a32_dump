@@ -1,0 +1,23 @@
+{
+    "header": {
+        "emui": "10",
+        "version": "3"
+    },
+    "address": "supl.platform.hicloud.com",
+    "port": "7275",
+    "requirement" : [
+        {
+            "country" : "***",
+            "product" : [
+                {
+                    "productname" : "ANA-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "ELS-***",
+                    "version" : "***-***"
+                }
+            ]
+        }
+    ]
+}

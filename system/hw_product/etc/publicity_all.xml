@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo package="com.android.gallery3d" label="图库" feature="展示用户图片、视频等，包括本地图片相册、云端相册及共享相册。可支持图片的查看、删除、分享、复制、重命名等操作。是用户查看、管理图片的主要途径。" author="华为终端有限公司" use-permission="位置,存储内容,网络通信,蓝牙">
+	</packageInfo>
+	<packageInfo package="com.android.systemui.overlay" feature="管理设备用户界面 SystemUI 相关的资源，如：图标大小，边距等。" author="华为终端有限公司" label="com.android.systemui.overlay">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.FMRadio" feature="提供收音机功能。" author="华为终端有限公司" label="com.huawei.android.FMRadio">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.hwupgradeguide" feature="升级向导可以为您展示新版本的一些有价值的特性。" author="华为软件技术有限公司" label="com.huawei.android.hwupgradeguide">
+	</packageInfo>
+	<packageInfo package="com.huawei.browser" feature="华为浏览器是一款高速、安全、稳定的浏览器，同时具备恶意网址拦截，网页广告过滤，书签云同步等特色功能，欢迎体验。" author="华为软件技术有限公司" label="com.huawei.browser">
+	</packageInfo>
+	<packageInfo package="com.huawei.camera" feature="华为原生相机，提供拍照、录像等功能。" author="华为终端有限公司" use-permission="华为原生相机，提供拍照、录像等功能。" label="com.huawei.camera">
+	</packageInfo>
+	<packageInfo package="com.huawei.email" feature="协助实现手机上简洁高效地管理各类邮箱，支持收发邮件，同步联系人、日历。" author="华为终端有限公司" label="com.huawei.email">
+	</packageInfo>
+	<packageInfo package="com.huawei.gameassistant" feature="应用助手是华为官方的安卓游戏应用使用助手。" author="华为软件技术有限公司" label="com.huawei.gameassistant">
+	</packageInfo>
+	<packageInfo package="com.huawei.gamebox" feature="华为游戏中心是华为为游戏开发者和用户提供的服务平台，旨在为您推荐安全、高质量的游戏及丰富便捷的游戏服务。" author="华为软件技术有限公司" label="com.huawei.gamebox">
+	</packageInfo>
+	<packageInfo package="com.huawei.hiai" feature="Huawei HiAI Engine" author="华为终端有限公司" label="com.huawei.hiai">
+	</packageInfo>
+	<packageInfo package="com.huawei.imedia.sws" feature="Huawei Histen音效设置，用户可以根据喜好设置和配置音效均衡器等信息。" author="华为终端有限公司" label="com.huawei.imedia.sws">
+	</packageInfo>
+	<packageInfo package="com.huawei.kidsmode" feature="儿童乐园，专为学龄前儿童打造，为孩子提供丰富的教学和娱乐内容。" author="华为终端有限公司" label="com.huawei.kidsmode">
+	</packageInfo>
+	<packageInfo package="com.huawei.mycenter" feature="Member Center is the membership App for Huawei and Honor smartphone users. Divided into three main sections – Info, Activities and Rewards, this App allows users to browse Huawei’s latest updates and rewards in a single platform at once without missing any good deals." author="Huawei Software Technology Co., Ltd." label="com.huawei.mycenter">
+	</packageInfo>
+	<packageInfo package="com.huawei.notepad" feature="协助进行事物分类和管理" author="华为终端有限公司" label="com.huawei.notepad">
+	</packageInfo>
+	<packageInfo package="com.huawei.welinknow" feature="Link Now 是为终端消费者用户提供的多场景在线协同与在线教育服务平台，融合消息、会议、直播、在线教学等功能与服务。" author="华为软件技术有限公司" label="com.huawei.welinknow">
+	</packageInfo>
+</packageList>

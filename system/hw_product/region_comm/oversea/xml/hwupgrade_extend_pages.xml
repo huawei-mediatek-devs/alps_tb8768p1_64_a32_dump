@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="d1c48266741a36486e649b93ba07df48">
+  <dict>
+    <array key="extend_pages">
+      <dict>
+        <string key="packageName">com.huawei.hwsearch</string>
+        <string key="className">com.huawei.hwsearch.upgradewizard.activity.UpgradeWizardSearchActivity</string>
+        <string key="contentproviderUri">content://com.huawei.launcher.provider.gridoptionsprovider.GridOptionsProvider/isWidgetExist/com.huawei.hwsearch/com.huawei.hwsearch.base.view.widget.SparkleWidgetProvider</string>
+        <string key="extraInfo">query</string>
+      </dict>
+    </array>
+  </dict>
+</config>

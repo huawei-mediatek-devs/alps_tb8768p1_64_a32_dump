@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CONFIG_PARA>
+        <NOT_DETECT_FREQUENCY value="2"/>
+        <DO_DETECT_FREQUENCY value="3"/>
+        <INIT_DETECT_EACHFRAME_NUM value="20"/>
+        <INIT_DETECT_MOTION2_NUM value="5"/>
+        <LOWFPS_DETECT_EACHFRAME_ENABLE value="0"/>
+        <LOWFPS_DETECT_THREASHOLD value="16"/>
+        <FRONT_DETECT_EACHFRAME_ENABLE value="0"/>
+        <KEEP_LCD_FLASH_FRM_NUM value="5"/>
+        <MIN_FRONT_FACESIZE value="70"/>
+        <MAX_FRONT_FACESIZE value="700"/>
+        <MIN_BACK_FACESIZE value="50"/>
+        <MAX_BACK_FACESIZE value="600"/>
+        <TRACK_FRONT_THREASHOLD value="500"/>
+        <NO_TRACK_FRONT_THREASHOLD value="500"/>
+        <TRACK_BACK_THREASHOLD value="650"/>
+        <NO_TRACK_BACK_THREASHOLD value="650"/>
+        <USE_ISP_FACE value="0"/>
+        <FRONT_HALF_PROFILE_ENABLE value="0"/>
+        <FRONT_HALF_PROFILE_DETECT_THRESHOLD value="600"/>
+        <FRONT_HALF_PROFILE_TRACK_THRESHOLD value="500"/>
+        <FRONT_PROFILE_ENABLE value="0"/>
+        <FRONT_PROFILE_DETECT_THRESHOLD value="600"/>
+        <FRONT_PROFILE_TRACK_THRESHOLD value="500"/>
+        <BACK_HALF_PROFILE_ENABLE value="0"/>
+        <BACK_HALF_PROFILE_DETECT_THRESHOLD value="650"/>
+        <BACK_HALF_PROFILE_TRACK_THRESHOLD value="500"/>
+</CONFIG_PARA>

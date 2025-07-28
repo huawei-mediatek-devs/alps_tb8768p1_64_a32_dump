@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2020-07-06 17:48:54.0-->
+  <string authenticate_by_product="Hide_all_cust_Authen"/>
+  <!--2020-07-06 17:48:54.0-->
+  <string custom_certify_picture="/hw_product/special_cust/KOB2-W09/hw/in/media/KOB2-W09.png"/>
+  <!--2020-03-24 17:45:05.0-->
+  <string settings.global.wifi_country_code="IN"/>
+</resources>

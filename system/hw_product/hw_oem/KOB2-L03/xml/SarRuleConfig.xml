@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SarRuleConfig>
+    <!--  restore sar value when condition not match, for wifi and cell sar value -->
+    <restore>
+	    <sar_cell_restore value="0" />
+		<sar_wifi_restore value="17" />
+    </restore>
+
+    <!-- is_use_precondition is used to control power dissipation, recommend is 1 -->
+    <configs is_use_precondition="1" >
+		<config>
+		    <is_sub0_voice value="1" />
+		    <is_cell_sar_sensor value="1" />			
+			<sar_cell_reduce value="2" />
+        </config>
+        <config>
+		    <is_sub0_big_power value="1" />
+		    <is_cell_sar_sensor value="1" />		
+			<sar_cell_reduce value="2" />
+        </config>
+        <config>
+		    <is_sub0_data_connected value="1" />
+		    <is_cell_sar_sensor value="1" />			
+			<sar_cell_reduce value="2" />
+        </config>	
+		<config>
+		    <is_wifi_sar_sensor value="1" />
+			<is_wifi_connected value="1" />
+			<is_wifi_p2p_connected value="0" />
+			<is_wifi_ap_opened value="0" />
+			<sar_wifi_reduce value="10" />
+		</config>
+		<config>
+		    <is_wifi_sar_sensor value="1" />
+			<is_wifi_connected value="0" />
+			<is_wifi_p2p_connected value="1" />
+			<is_wifi_ap_opened value="0" />
+			<sar_wifi_reduce value="10" />
+		</config>	
+		<config>
+		    <is_wifi_sar_sensor value="1" />
+			<is_wifi_connected value="1" />
+			<is_wifi_p2p_connected value="1" />
+			<is_wifi_ap_opened value="0" />
+			<sar_wifi_reduce value="10" />
+		</config>
+		<config>
+		    <is_wifi_sar_sensor value="1" />
+			<is_wifi_connected value="0" />
+			<is_wifi_p2p_connected value="0" />
+			<is_wifi_ap_opened value="1" />
+			<sar_wifi_reduce value="10" />
+		</config>
+	</configs>
+</SarRuleConfig>

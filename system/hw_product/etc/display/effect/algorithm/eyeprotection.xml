@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EyeProtectionConfig>
+    <feature name="EYEPROTECTION_ALGORITHM">
+        <mode name="PARAMETERS">
+            <param name="AmbientLuxThreshold">-1300</param>
+            <param name="AmbientLuxThreshold">-1000</param>
+            <param name="AmbientLuxThreshold">-800</param>
+            <param name="AmbientLuxThreshold">-500</param>
+            <param name="AmbientLuxThreshold">-300</param>
+            <param name="AmbientLuxThreshold">-200</param>
+            <param name="AmbientLuxThreshold">-100</param>
+            <param name="AmbientLuxThreshold">0</param>
+            <param name="AmbientLuxThreshold">100</param>
+            <param name="AmbientLuxThreshold">300</param>
+            <param name="AmbientLuxThreshold">500</param>
+            <param name="AmbientLuxThreshold">1000</param>
+            <param name="AmbientLuxThreshold">5000</param>
+            <param name="AmbientLuxThreshold">10000</param>
+            <param name="AmbientLuxThreshold">30000</param>
+
+            <param name="RgbGammaLut">1.0,0.89,0.667</param>
+            <param name="RgbGammaLut">1.0,0.91,0.712</param>
+            <param name="RgbGammaLut">1.0,0.922,0.738</param>
+            <param name="RgbGammaLut">1.0,0.933,0.764</param>
+            <param name="RgbGammaLut">1.0,0.933,0.771</param>
+            <param name="RgbGammaLut">1.0,0.941,0.782</param>
+            <param name="RgbGammaLut">1.0,0.941,0.79</param>
+            <param name="RgbGammaLut">1.0,0.949,0.801</param>
+            <param name="RgbGammaLut">1.0,0.953,0.812</param>
+            <param name="RgbGammaLut">1.0,0.961,0.842</param>
+            <param name="RgbGammaLut">1.0,0.973,0.868</param>
+            <param name="RgbGammaLut">1.0,0.98,0.904</param>
+            <param name="RgbGammaLut">1.0,0.992,0.949</param>
+            <param name="RgbGammaLut">1.0,0.992,0.949</param>
+            <param name="RgbGammaLut">1.0,0.992,0.949</param>
+        </mode>
+    </feature>
+</EyeProtectionConfig>

@@ -1,0 +1,38 @@
+{
+    "version": "1.0.0",
+    "uid_name": "subsys",
+    "subsys": {
+        "ModemCrash": [
+            {
+            "rule_prio":0,
+            "featureid":"690100200",
+            "EventInfoParam":{
+                    "PNAME": "BasicParam.s_process",
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2",
+                    "F3NAME": "BasicParam.s_f3"
+                }
+            }
+        ],
+        "TeeOsCrash": [
+            {
+                "rule_prio":0,
+                "featureid":"690100203",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_process",
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2",
+                    "F3NAME": "BasicParam.s_f3"
+                }
+            }
+        ],
+        "HifiCrash": {},
+        "SensorhubCrash": {},
+        "HiseeCrash": {},
+        "WcnssCrash": {},
+        "IvpCrash": {},
+        "IspCrash": {},
+        "NpuCrash": {},
+        "DssCrash": {}
+    }
+}

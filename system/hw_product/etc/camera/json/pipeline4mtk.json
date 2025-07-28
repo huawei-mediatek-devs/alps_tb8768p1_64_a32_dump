@@ -1,0 +1,83 @@
+{
+    "imports" : [
+        "/system/lib/libhwfilter_mtk.so"
+    ],
+
+    "filters" :
+    [
+        {
+            "id" : "src",
+            "type" : "camerasource"
+        },
+
+        {
+            "id" : "sync",
+            "type" : "sync"
+        },
+
+        {
+            "id" : "preview",
+            "type" : "preview"
+        }
+    ],
+
+    "connections" :
+    [
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "sync",
+                "port" : "in0"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out1"
+            },
+
+            "to" :
+            {
+                "filter" : "sync",
+                "port" : "in1"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_meta"
+            },
+
+            "to" :
+            {
+                "filter" : "sync",
+                "port" : "in2"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "sync",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "preview",
+                "port" : "in"
+            }
+        }
+
+    ]
+}

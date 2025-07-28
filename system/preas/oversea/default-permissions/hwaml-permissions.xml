@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.huawei.aml">
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="true"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="true"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="true"/>
+        <permission name="android.permission.SEND_SMS" fixed="true"/>
+        <permission name="android.permission.READ_PHONE_STATE" fixed="true"/>
+    </exception>
+</exceptions>

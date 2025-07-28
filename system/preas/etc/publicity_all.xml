@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo package="com.android.packageinstaller" feature="打包安装程序是管理应用权限与动态授权，并且提供给用户安装、卸载能力的软件。" author="华为软件技术有限公司" label="com.android.packageinstaller">
+	</packageInfo>
+	<packageInfo package="com.huawei.webview" feature="系统WebView，展示HTML页面的系统控件。" author="华为终端有限公司" label="com.huawei.webview">
+	</packageInfo>
+</packageList>

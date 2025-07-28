@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "uid_name": "bootfail",
+    "bootfail": {
+        "BootFail": [
+            {
+                "rule_prio":0,
+                "featureid":"690100500,690100501",
+                "EventInfoParam":{
+                    "BOOTERRORNO": "BasicParam.s_bootfailErrno",
+                    "BOOTSTAGE": "BasicParam.s_bootErrStage",
+                    "RECSELECT": "BasicParam.s_rcvMethod",
+                    "RECRESULT": "BasicParam.s_rcvResult",
+                    "ROOTORNOT": "BasicParam.s_rootOrNot",
+                    "ISUSERPERCEPTIBLE": "BasicParam.s_isUserPerceptible"
+                }
+            }
+        ]
+    }
+}

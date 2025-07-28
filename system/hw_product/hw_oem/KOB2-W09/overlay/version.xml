@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application name="frameworkResOverlay"> 
+  <manifest>custFwk/AndroidManifest.xml</manifest>  
+  <publicity>vendor/huawei/custFwk/publicity.xml</publicity>  
+  <subproduct_path>vendor/huawei/custFwk/frameworks/base/core/res/overlay</subproduct_path>  
+  <projects> 
+    <project name="custFwk" type="Main"> 
+      <repository>http://mgit-tm.rnd.huawei.com/huawei/platform/vendor/huawei/custFwk</repository>  
+      <branch>hw/cbg/android/hione/release_EMUI10.1.0</branch>  
+      <local_path>vendor/huawei/custFwk</local_path>  
+      <revision>08caf54bfaa2eec3bb28104c7c5ee5b28f9f2754</revision>
+    </project> 
+  </projects>  
+  <prepare> 
+    <source_codes> 
+      <repository>http://mgit-tm.rnd.huawei.com/platform/manifest.git</repository>  
+      <branch>hw/cbg/android/hione/release_EMUI10.1.0</branch>  
+      <manifest>system_kirin.xml</manifest> 
+    </source_codes> 
+  </prepare>  
+  <build> 
+    <build_mode>build_system.sh</build_mode>  
+    <generic>generic_a15</generic>  
+    <buildtype>release</buildtype>  
+    <variant>user</variant>  
+    <update_api>yes</update_api> 
+  </build>  
+  <apk> 
+    <apktype>overlay</apktype> 
+  </apk>  
+  <repository_type>smb</repository_type>  
+  <internal_repository>//10.187.78.129/FrameworkResOverlay_10.1.0_release</internal_repository>  
+  <product_repository>http://peksvn06-rd:6801/svn/TC_SMARTPHONE_apkstorm_SVN/apks_storm/platform/huawei/EMUI10.1.0/binary_product_comm/FrameworkResOverlay</product_repository>  
+  <version_archive type="overlay"> 
+    <archive_P4PORT>lfghelix03-ap:1666</archive_P4PORT>  
+    <archive_P4PORT_branch>EMUI10.1.0-Release-ALL-Global-Full-keystone</archive_P4PORT_branch> 
+  </version_archive> 
+</application>

@@ -1,0 +1,9 @@
+{
+    "features": [
+        {
+            "package": "com.huawei.featurelayer.featureframework",
+            "file": "/system/app/FeatureFramework/FeatureFramework.apk",
+            "version": "1.0.304"
+        }
+    ]
+}

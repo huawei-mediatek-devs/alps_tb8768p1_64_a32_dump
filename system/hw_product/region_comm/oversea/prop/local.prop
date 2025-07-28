@@ -1,0 +1,40 @@
+# 2021-04-28 09:47:32.0
+hw_mc.launcher.force_uninstallable_hwread=true
+# 2020-05-16 17:40:53.0
+ro.channel.cn.wps.moffice_eng=mul00172
+# 2019-06-21 16:54:55.0
+ro.config.cdma_quiet=true
+# 2019-06-21 16:54:55.0
+ro.config.ce_authenticate=1
+# 2019-12-06 11:21:21.0
+ro.config.cl_volte_autoswitch=false
+# 2019-12-06 16:04:17.0
+ro.config.enable_show_google_feed=false
+# 2019-06-21 16:55:24.0
+ro.config.face_rs_delay=0
+# 2019-12-06 11:21:21.0
+ro.config.full_network_support=false
+# 2019-06-21 16:55:24.0
+ro.config.gameassist.nodisturb=0
+# 2019-12-30 21:16:54.0
+ro.config.hw_globalSearch=false
+# 2019-06-21 16:55:46.0
+ro.config.hw_lock_res_whitelist=true
+# 2020-04-09 14:37:34.0
+ro.config.hw_volte_on=true
+# 2020-04-09 14:37:34.0
+ro.config.hw_vowifi_mmsut=true
+# 2019-12-02 15:22:43.0
+ro.config.hw_vtlte_on=false
+# 2020-01-17 17:14:57.0
+ro.config.launch_gesture_navi_page=true
+# 2020-02-21 16:36:07.0
+ro.config.safety_certification=ce
+# 2019-06-21 17:20:01.0
+ro.cust.cdrom=/hw_product/region_comm/oversea/cdrom/autorun.iso
+# 2019-06-21 16:57:02.0
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+# 2019-12-06 11:21:21.0
+ro.telephony.default_network=9
+# 2020-04-09 14:37:34.0
+ro.vendor.config.hw_vowifi=true

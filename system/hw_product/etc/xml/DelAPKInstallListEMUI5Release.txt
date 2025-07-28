@@ -1,0 +1,3 @@
+/hw_product/app/Email/Email.apk,priv
+/hw_product/app/HwKidsMode/HwKidsMode.apk
+/hw_product/app/HwNotePad/HwNotePad.apk,priv

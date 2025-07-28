@@ -1,0 +1,4 @@
+<permissions>
+    <library name="com.huawei.opcollect.separated"
+    file="/system/framework/com.huawei.opcollect.separated.jar" />
+</permissions>

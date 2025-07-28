@@ -1,0 +1,23 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+on early-boot
+    service HwServiceHost /system/bin/HwServiceHost mtk6761 MRD
+    class main
+    user cameraserver
+    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system dsm sdcard_rw
+
+on boot
+
+
+#voltage
+	chown system system /sys/class/voltage/voltage/vol_enable
+	chown system system /sys/class/voltage/voltage/vol_value
+	chown system system /sys/class/voltage/voltage/vol_values

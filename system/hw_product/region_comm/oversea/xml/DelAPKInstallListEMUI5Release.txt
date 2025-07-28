@@ -1,0 +1,9 @@
+/hw_product/region_comm/oversea/app/GameBox_stub/GameBox_stub.apk
+/hw_product/region_comm/oversea/app/HwMaps_stub/HwMaps_stub.apk
+/hw_product/region_comm/oversea/app/HwRead_stub/HwRead_stub.apk
+/hw_product/region_comm/oversea/app/HwSearch/HwSearch.apk
+/hw_product/region_comm/oversea/app/HwUserGuide/HwUserGuide.apk,nosys
+/hw_product/region_comm/oversea/app/LinkNow_stub/LinkNow_stub.apk
+/hw_product/region_comm/oversea/app/MyCenter/MyCenter.apk
+/hw_product/region_comm/oversea/app/WPS/WPS.apk,nosys
+/hw_product/region_comm/oversea/app/Wnn_Japanese_Ext_Pack-HW/Wnn_Japanese_Ext_Pack-HW.apk

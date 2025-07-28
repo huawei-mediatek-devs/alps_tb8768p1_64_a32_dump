@@ -1,0 +1,156 @@
+# 2019-03-15 08:35:09.0
+bt.dpbap.enable=1
+# 2019-03-15 08:35:09.0
+bt.max.hfpclient.connections=2
+# 2019-03-15 08:35:09.0
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+# 2019-03-15 08:35:09.0
+fw.max_users=4
+# 2019-03-15 08:35:09.0
+fw.show_multiuserui=1
+# 2020-10-09 16:18:38.0
+hw.media.multidrm_certificate=false
+# 2020-02-14 11:20:26.0
+hw_mc.hicall.screensharing=true
+# 2020-07-07 11:38:57.0
+hw_mc.launcher.enable_preload_layout_vc=hw_*;porsche_*;channel_*;all_cn
+# 2020-06-20 10:08:14.0
+hw_mc.launcher.quick_switch_force_enable=true
+# 2019-12-24 11:07:32.0
+hw_mc.multidevice.fams_enable=true
+# 2019-12-23 17:02:09.0
+hw_sc.foreground_data_opt_enable=true
+# 2019-03-15 08:35:09.0
+persist.bt.max.a2dp.connections=2
+# 2019-03-15 08:35:09.0
+persist.jank.gameskip=true
+# 2019-03-15 08:35:09.0
+persist.radio.apm_sim_not_pwdn=1
+# 2019-12-20 16:20:14.0
+persist.sys.hw.forcedark_policy=1
+# 2019-10-17 14:18:56.0
+ro.build.hw_emui_api_level=23
+# 2019-03-15 08:35:09.0
+ro.build.tags=release-keys
+# 2019-03-15 08:35:09.0
+ro.build.user=test
+# 2019-11-27 20:10:20.0
+ro.build.version.emui=EmotionUI_10.1.0
+# 2019-03-15 08:35:09.0
+ro.com.google.clientidbase=android-huawei
+# 2019-03-15 08:35:09.0
+ro.config.alarm_alert=Forest_Melody.ogg
+# 2019-03-15 08:35:09.0
+ro.config.app_big_icon_size=192
+# 2019-03-15 08:35:09.0
+ro.config.attach_ip_type=IPV4V6
+# 2019-03-15 08:35:09.0
+ro.config.auto_display_mode=true
+# 2019-03-15 08:35:09.0
+ro.config.demo_allow_pwd=false
+# 2019-03-15 08:35:09.0
+ro.config.disable_reset_by_mdm=true
+# 2019-08-15 17:06:46.0
+ro.config.disable_triple=true
+# 2019-10-17 22:00:51.0
+ro.config.distributed_app_fwk=true
+# 2019-04-26 10:40:20.0
+ro.config.dns.two_threads=true
+# 2019-03-15 08:35:09.0
+ro.config.enable_iaware=true
+# 2019-03-15 08:35:09.0
+ro.config.enable_perfhub_fling=true
+# 2019-06-26 21:15:30.0
+ro.config.enterprise_support=true
+# 2019-03-15 08:35:09.0
+ro.config.fp_navigation=true
+# 2019-07-19 17:50:11.0
+ro.config.gameassist.full-finger=1
+# 2019-10-29 09:41:46.0
+ro.config.hiaibase_push_mode=1
+# 2019-03-15 08:35:09.0
+ro.config.huawei_smallwindow=0,0,1080,1346
+# 2019-03-15 08:35:09.0
+ro.config.hw.security_volume=10
+# 2019-03-15 08:35:09.0
+ro.config.hw_OptiDBConfig=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_allow_rs_mms=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_eapsim=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_easywakeup=false
+# 2019-03-15 08:35:09.0
+ro.config.hw_eccNumUseRplmn=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_emcom=true
+# 2019-07-01 11:08:08.0
+ro.config.hw_freeform_enable=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_lte_release=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_multiscreen=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_power_saving=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_power_voice_key=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_singlehand=1
+# 2019-03-15 08:35:09.0
+ro.config.hw_support_clone_app=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_tint=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_useCtrlSocket=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_vcardBase64=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_voicemail_sim=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_volte_dyn=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_watermark=false
+# 2019-03-15 08:35:09.0
+ro.config.hwsync_enabled=true
+# 2019-03-15 08:35:09.0
+ro.config.hwtheme=1
+# 2019-03-15 08:35:09.0
+ro.config.ipv4.mtu=1400
+# 2019-03-15 08:35:09.0
+ro.config.notification_sound=Bongo.ogg
+# 2019-04-23 13:53:50.0
+ro.config.para_updateCapacityVersion=1.0
+# 2019-03-15 08:35:09.0
+ro.config.ringtone=Huawei_Tune_Living.ogg
+# 2019-03-15 08:35:09.0
+ro.config.ringtone2=Huawei_Tune_Clean.ogg
+# 2019-03-15 08:35:09.0
+ro.config.support_sdcard_crypt=true
+# 2019-03-15 08:35:09.0
+ro.config.switchPrimaryVolume=true
+# 2019-03-15 08:35:09.0
+ro.config.updatelocation=true
+# 2020-10-26 10:59:34.0
+ro.config.use_hw_security_patch=true
+# 2019-03-15 08:35:09.0
+ro.config.widevine_level3=true
+# 2019-03-15 08:35:09.0
+ro.control.sleeplog=true
+# 2019-03-15 08:35:09.0
+ro.huawei.cust.oma_drm=false
+# 2019-08-22 09:28:54.0
+ro.hw.ipv6timeout=1900
+# 2019-03-15 08:35:09.0
+ro.patch.baseline.version=2.0
+# 2019-03-15 08:35:09.0
+ro.prop.hwkeychain_switch=true
+# 2019-03-15 08:35:09.0
+ro.ril.ecclist=112,911,#911,*911
+# 2019-03-15 08:35:09.0
+ro.syssvccallrecord.enable=true
+
+ro.config.hw_em_solution_ver=B067
+
+ro.comp.system_version=System 10.1.0.68(3H0P)
+
+ro.confg.hw_systemversion=System 10.1.0.68(3H0P)

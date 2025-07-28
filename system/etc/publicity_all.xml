@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo author="华为终端有限公司" feature="提供蓝牙智能解锁功能。" package="com.huawei.trustagent" label="com.huawei.trustagent">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="游戏性能优化" package="com.huawei.game.kitserver" label="com.huawei.game.kitserver">
+	</packageInfo>
+	<packageInfo package="com.android.deskclock" feature="提供闹钟功能。" author="华为终端有限公司" label="com.android.deskclock">
+	</packageInfo>
+	<packageInfo package="com.android.email" feature="协助实现手机上简洁高效地管理各类邮箱，支持收发邮件，同步联系人、日历。" author="华为终端有限公司" label="com.android.email">
+	</packageInfo>
+	<packageInfo package="com.android.mediacenter" feature="华为音乐是提供音乐播放的应用，提供音乐播放功能，可浏览、播放、下载在线音乐内容，并支持低功耗播放、自定义歌单、MV播放、全局搜索、听歌识曲、水母动效。" author="华为软件技术有限公司" label="com.android.mediacenter">
+	</packageInfo>
+	<packageInfo package="com.android.soundrecorder" author="华为终端有限公司" feature="提供录音功能。" label="com.android.soundrecorder">
+	</packageInfo>
+	<packageInfo package="com.example.android.notepad" feature="协助进行事物分类和管理" author="华为终端有限公司" label="com.example.android.notepad">
+	</packageInfo>
+	<packageInfo package="com.hicloud.android.clone" feature="一键将旧手机中的联系人、照片、视频、应用等数据迁移至华为新手机，轻松换机。" author="华为软件技术有限公司" label="com.hicloud.android.clone">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.hsf" feature="华为扩展的Framework基础框架能力，用于对接部分华为自研应用。" author="华为软件技术有限公司" label="com.huawei.android.hsf">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.hwouc" feature="提供系统升级服务。" author="华为终端有限公司" label="com.huawei.android.hwouc">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.tips" feature="玩机技巧为您提供手机亮点功能介绍以及用户手册，让您快速了解手机精彩功能，并获取操作技巧和使用指导。" author="华为终端有限公司" label="com.huawei.android.tips">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.wfdft" feature="WLAN 直连可支持华为设备之间数据传输。" author="华为终端有限公司" label="com.huawei.android.wfdft">
+	</packageInfo>
+	<packageInfo package="com.huawei.appmarket" feature="应用市场是华为官方的安卓应用查询和下载平台。" author="华为软件技术有限公司" label="com.huawei.appmarket">
+	</packageInfo>
+	<packageInfo package="com.huawei.assetsync" feature="负责同账号下在完全可信设备间安全同步高敏感加密数据。" author="华为终端有限公司" label="com.huawei.assetsync">
+	</packageInfo>
+	<packageInfo package="com.huawei.assetsyncservice" feature="负责监控高敏感加密数据的变化，通知关键资产同步应用监控数据变化，触发对应的数据同步。" author="华为终端有限公司" label="com.huawei.assetsyncservice">
+	</packageInfo>
+	<packageInfo package="com.huawei.behaviorauth" feature="由bot虚假用户检测数据采集服务调用，传入触屏等数据后对数据进行融合、比对，计算分支从而判断当前用户是否为bot虚假用户。" author="华为终端有限公司" label="com.huawei.behaviorauth">
+	</packageInfo>
+	<packageInfo package="com.huawei.calendar" feature="查看日期，日程信息，显示地理位置、天气信息。" author="华为终端有限公司" label="com.huawei.calendar">
+	</packageInfo>
+	<packageInfo package="com.huawei.camerakit.impl" feature="华为相机能力开放，将人像、hdr、录像等开放给三方使用。" author="华为终端有限公司" use-permission="开放华为相机的软硬件能力给三方使用，包含AI、美肤等功能。" label="com.huawei.camerakit.impl">
+	</packageInfo>
+	<packageInfo package="com.huawei.coauthservice" feature="将分布式系统内的认证资源整合后进行协同调度，提供对用户的分布式协同认证框架功能。" author="华为终端有限公司" label="com.huawei.coauthservice">
+	</packageInfo>
+	<packageInfo package="com.huawei.contacts" feature="联系人信息查看与编辑入口，在联系人界面向右滑动可以拨号、查看通话记录。" author="华为终端有限公司" label="com.huawei.contacts">
+	</packageInfo>
+	<packageInfo package="com.huawei.contacts.sync" feature="联系人云同步。此应用用于支持设备与华为云服务之间的联系人同步业务。" author="华为终端有限公司" label="com.huawei.contacts.sync">
+	</packageInfo>
+	<packageInfo package="com.huawei.hff" feature="提供HMS组件Libraries给华为自有应用集成，通过共享降低华为预置应用大小，当前提供的组件有：WisePlay、Ffmpeg等。" author="华为软件技术有限公司" label="com.huawei.hff">
+	</packageInfo>
+	<packageInfo package="com.huawei.hicloud" feature="云空间业务核心应用，支持用户数据的同步、备份和恢复。" author="华为软件技术有限公司" label="com.huawei.hicloud">
+	</packageInfo>
+	<packageInfo package="com.huawei.hicloud" feature="云空间业务核心应用，支持用户数据的同步、备份和恢复。" author="华为软件技术有限公司" label="com.huawei.hicloud">
+	</packageInfo>
+	<packageInfo package="com.huawei.hidisk" feature="您可以通过文件管理器管理手机上的文件，如：图片、视频、音频、文档、APP等。" author="华为软件技术有限公司" label="com.huawei.hidisk">
+	</packageInfo>
+	<packageInfo package="com.huawei.hidisk" feature="您可以通过文件管理器管理手机上的文件，如：图片、视频、音频、文档、APP等。" author="华为软件技术有限公司" label="com.huawei.hidisk">
+	</packageInfo>
+	<packageInfo package="com.huawei.hifolder" feature="云文件夹，在您使用“精品推荐”文件夹的应用时，给您提供 TOP 级精品应用的推荐服务，让您轻松发现实用、好用的手机应用。" author="华为软件技术有限公司" label="com.huawei.hifolder">
+	</packageInfo>
+	<packageInfo package="com.huawei.hwid" feature="华为移动服务（Huawei Mobile Services）为华为帐号、华为支付、华为推送等华为自有应用和第三方应用提供基础服务，包括登录帐号、支付、接收消息等。" author="华为软件技术有限公司" label="com.huawei.hwid">
+	</packageInfo>
+	<packageInfo package="com.huawei.hwpanpayservice" feature="华为泛支付服务是一个系统基础服务，主要功能是提供支付相关功能（如支持指纹、人脸服务）的互联网金融身份认证等。" author="华为终端有限公司" label="com.huawei.hwpanpayservice">
+	</packageInfo>
+	<packageInfo package="com.huawei.KoBackup" feature="您可以通过备份应用备份设备上的个人数据 (如联系人、信息、通话记录)、应用数据或多媒体数据，避免系统升级、刷机后数据丢失。" author="华为软件技术有限公司" label="com.huawei.KoBackup">
+	</packageInfo>
+	<packageInfo package="com.huawei.lbs" feature="提供智能定位服务。" author="华为" label="com.huawei.lbs">
+	</packageInfo>
+	<packageInfo package="com.huawei.phoneservice" feature="“服务”是华为为消费者提供的售后服务的软件，包括产品使用指导、智能检测、寄修服务、预约服务、服务网点查询、热线电话查询等多项服务，旨在为亿万华为终端用户提供优质、省心、快捷的服务。" author="华为软件技术有限公司" label="com.huawei.phoneservice">
+	</packageInfo>
+	<packageInfo package="com.huawei.remotepassword" feature="提供跨设备认证用户设置的锁屏密码的功能。" author="华为终端有限公司" label="com.huawei.remotepassword">
+	</packageInfo>
+	<packageInfo package="com.huawei.securityserver" feature="安全特性的公共进程服务" author="华为终端有限公司" label="com.huawei.securityserver">
+	</packageInfo>
+</packageList>

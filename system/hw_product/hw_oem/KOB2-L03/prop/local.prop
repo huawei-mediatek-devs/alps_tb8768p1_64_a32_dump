@@ -1,0 +1,48 @@
+# 2020-06-03 16:48:25.0
+persist.radio.modem.cap=58101418
+# 2019-10-28 20:42:43.0
+persist.radio.multisim.config=ss
+# 2020-01-16 12:53:19.0
+ro.boot.opt_md1_support=11
+# 2020-01-16 12:53:19.0
+ro.boot.opt_ps1_rat=C/Lf/Lt/W/G
+# 2019-10-31 15:05:44.0
+ro.boot.product.hardware.sku=KOB2-L03
+# 2019-11-08 10:46:32.0
+ro.build.id=HUAWEIKOB2-L03
+# 2019-06-21 16:56:14.0
+ro.config.Is_Sup_2Gonly=false
+# 2019-06-21 16:54:55.0
+ro.config.amr_wb_show_hd=true
+# 2019-06-21 16:54:55.0
+ro.config.cdma.ecclist=+110,+112,+911,+999,+119,+120,+122
+# 2019-12-02 15:57:20.0
+ro.config.dsds_mode=umts_gsm
+# 2019-06-21 16:55:46.0
+ro.config.hw_showSimName=true
+# 2019-06-21 16:55:46.0
+ro.config.hw_show_4G_Plus_icon=true
+# 2019-06-21 16:56:14.0
+ro.config.phoneland=true
+# 2019-11-28 17:35:51.0
+ro.config.support_ca=false
+# 2019-11-27 19:38:49.0
+ro.feature.mobile_network_sharing_lite=true
+# 2019-06-21 16:57:02.0
+ro.hwpp_ds_fail=111,32,33,35
+# 2019-10-31 15:05:44.0
+ro.product.model=KOB2-L03
+# 2019-11-29 18:01:47.0
+ro.product.name=KOB2-L03
+# 2019-11-30 18:42:48.0
+ro.telephony.ril_class=HwMtkRIL
+# 2019-12-12 11:53:12.0
+ro.vendor.mtk_cta_support=0
+# 2020-01-16 12:53:19.0
+ro.vendor.mtk_md1_support=11
+# 2019-12-12 11:53:12.0
+ro.vendor.mtk_md_sbp_custom_value=0
+# 2020-01-16 12:53:19.0
+ro.vendor.mtk_protocol1_rat_config=Lf/Lt/W/G
+# 2020-01-16 12:53:19.0
+ro.vendor.mtk_ps1_rat=C/Lf/Lt/W/G

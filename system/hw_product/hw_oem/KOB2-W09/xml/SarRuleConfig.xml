@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SarRuleConfig>
+    <!-- restore sar value when condition not match, for wifi and cell sar value -->
+    <restore>
+        <!-- restore wifi nvram to default value -->
+        <sar_wifi_restore value="17" />
+    </restore>
+    <!-- is_use_precondition is used to control power dissipation, recommend is 1 -->
+    <configs is_use_precondition="1" >
+        <!-- value remark: 1-true, 0-false, NA-not care, empty string ""-NA -->
+        <!-- wifi_band: 0-2.4GHz, 1-5GHz -->
+		<config>
+		    <is_wifi_sar_sensor value="1" />
+			<is_wifi_connected value="1"/>
+			<is_wifi_p2p_connected value="0"/>
+			<is_wifi_ap_opened value="0"/>
+			<sar_wifi_reduce value="10"/>
+		</config>
+		<config>
+		    <is_wifi_sar_sensor value="1" />
+			<is_wifi_connected value="0"/>
+			<is_wifi_p2p_connected value="1"/>
+			<is_wifi_ap_opened value="0"/>
+			<sar_wifi_reduce value="10"/>
+		</config>	
+		<config>
+		    <is_wifi_sar_sensor value="1" />
+			<is_wifi_connected value="1"/>
+			<is_wifi_p2p_connected value="1"/>
+			<is_wifi_ap_opened value="0"/>
+			<sar_wifi_reduce value="10"/>
+		</config>
+		<config>
+		    <is_wifi_sar_sensor value="1" />
+			<is_wifi_connected value="0"/>
+			<is_wifi_p2p_connected value="0"/>
+			<is_wifi_ap_opened value="1"/>
+			<sar_wifi_reduce value="10"/>
+		</config>
+	</configs>
+</SarRuleConfig>

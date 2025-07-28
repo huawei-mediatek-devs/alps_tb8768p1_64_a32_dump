@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * itouch game Config
+ * all game states definitions at here.
+ -->
+<Config>
+    <Params name="itouch_game_features">
+        <Param name="game_switch" value="1"/>
+        <Param name="game_list" value="1"/>
+        <Param name="game_fliter" value="1"/>
+        <Param name="game_input_thread" value="1"/>
+        <Param name="game_input_reader" value="1"/>
+        <Param name="game_roi_opt" value="1"/>
+        <Param name="game_roi_level" value="2"/>
+        <Param name="game_cpu_opt" value="1"/>
+        <Param name="game_cpu_level" value="3"/>
+        <Param name="game_chip_platform" value="1"/>
+        <Param name="game_vsync_opt" value="1"/>
+        <Param name="game_vsync_level" value="1"/>
+        <Param name="game_thermal_level" value="3"/>
+        <Param name="game_doze_opt" value="0"/>
+        <Param name="game_doze_value" value="60"/>
+        <Param name="firmware_scene_opt" value="1"/>
+        <Param name="game_cpu_gpu_opt" value="0"/>
+        <Param name="game_cpu_gpu_frame_times" value="2"/>
+        <Param name="game_cpu_gpu_sched_level" value="3"/>
+        <Param name="drop_frame_opt" value="1"/>
+        <Param name="drop_frame_list" value="1"/>
+        <Param name="back_pressure_opt" value="1"/>
+        <Param name="back_pressure_list" value="1"/>
+        <Param name="back_pressure_count" value="30"/>
+        <Param name="reset_dozemode_time_delay" value="800"/>
+    </Params>
+
+    <Params name="itouch_game_list">
+        <Param name="com.tencent.tmgp.pubgmhd" value="1"/>
+        <Param name="com.tencent.tmgp.sgame" value="1"/>
+        <Param name="com.tencent.tmgp.speedmobile" value="1"/>
+        <Param name="com.tencent.tmgp.cf" value="1"/>
+    </Params>
+
+    <Params name="itouch_game_fliter">
+    </Params>
+
+    <Params name="itouch_game_predict_list">
+        <Param name="com.tencent.tmgp.pubgmhd" value="1"/>
+        <Param name="com.tencent.tmgp.sgame" value="1"/>
+        <Param name="com.tencent.tmgp.speedmobile" value="1"/>
+        <Param name="com.tencent.tmgp.cf" value="1"/>
+    </Params>
+
+    <Params name="itouch_game_predict_fliter">
+    </Params>
+
+    <Params name="itouch_drop_frame_list">
+        <Param name="com.tencent.tmgp.sgame" value="1"/>
+    </Params>
+
+    <Params name="itouch_back_pressure_list">
+        <Param name="com.tencent.tmgp.sgame" value="1"/>
+    </Params>
+</Config>

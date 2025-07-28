@@ -1,0 +1,180 @@
+{
+    "imports" : [
+        "/system/lib/libhwfilter_mtk.so"
+    ],
+
+    "filters" :
+    [
+        {
+            "id" : "ppsource",
+            "type" : "ppsource",
+            "captureTotal" : 4
+        },
+
+        {
+            "id" : "encoder",
+            "type" : "mtk_filter_jpeg"
+        },
+
+        {
+            "id" : "PpAlgo",
+            "type" : "PpAlgoFilter",
+            "captureTotal" : 4
+        },
+
+        {
+            "id" : "writer",
+            "type" : "filewriter"
+        },
+
+        {
+            "id" : "thumbnail",
+            "type" : "quickthumbnail"
+        },
+
+        {
+            "id" : "notifier",
+            "type" : "thumbnail-notifier"
+        },
+
+        {
+            "id" : "peek",
+            "type" : "peek"
+        },
+
+        {
+            "id" : "peekMeta",
+            "type" : "peek"
+        }
+    ],
+
+    "connections" :
+    [
+        {
+            "from" :
+            {
+                "filter" : "ppsource",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "PpAlgo",
+                "port" : "inMain"
+            }
+        },
+
+        {
+        "from" :
+            {
+                "filter" : "PpAlgo",
+                "port" : "OutDestYuv"
+            },
+
+            "to" :
+            {
+                "filter" : "encoder",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "encoder",
+                "port" : "jpeg"
+            },
+
+            "to" :
+            {
+                "filter" : "writer",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "PpAlgo",
+                "port" : "OutQuickThumbnailYuv"
+            },
+
+            "to" :
+            {
+                "filter" : "thumbnail",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "thumbnail",
+                "port" : "outThumbnail"
+            },
+
+            "to" :
+            {
+                "filter" : "notifier",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "ppsource",
+                "port" : "out_meta"
+            },
+
+            "to" :
+            {
+                "filter" : "peekMeta",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekMeta",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "PpAlgo",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "PpAlgo",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "encoder",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekMeta",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "thumbnail",
+                "port" : "inMeta"
+            }
+        }
+    ]
+}
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2014 Huawei Inc.
+ * Cpu Freq Config
+ *
+                TYPE                                            AVALIABLE_VALUE
+        cpu_maxprofile                    480000 807000 1018000 1306000 1517000 1805000
+        cpu_minprofile                    480000 807000 1018000 1306000 1517000 1805000
+
+        cpu_a15_maxprofile                807000 1210000 1517000 1805000 2016000 2304000
+        cpu_a15_minprofile                807000 1210000 1517000 1805000 2016000 2304000
+
+        gpu_maxprofile                    360000000 480000000 650000000 800000000 900000000
+        gpu_minprofile                    360000000 480000000 650000000 800000000 900000000
+
+        ddr_maxprofile                    120000000 240000000 360000000 533000000 667000000 960000000 1333000000
+        ddr_minprofile                    120000000 240000000 360000000 533000000 667000000 960000000 1333000000
+
+        cpu_number_max                    1,2,3,4
+        cpu_number_min                    1,2,3,4
+        cpu_a15_number_max                0,1,2,3,4
+        cpu_a15_number_min                0,1,2,3,4
+        ipa_temp
+        ipa_power
+        ipa_switch
+        fork_on_big                0,1
+
+        note:
+        1. if policy item has not configured, it means close cpupolicy of previous scene.
+        2. policy type default value is 0, policy value default value is -1
+
+        Parent Scene
+
+        Sub Scene
+        210             input
+        267             fling touch
+        504             camera recorder
+        221             full screen camera
+        506             not full screen camera, little camera
+        246             video play
+        502             screen shot
+        238             start rotation
+        500             idle, (no touch/user activity for 10s)
+        508             speed up scene, for screen on by key power or fingerprint when screen off
+-->
+<!--
+    default scene , id must be lower than 10000
+-->
+<cpu_policy version="1">
+    <!--don't config any policy-->
+    <scenemode name="default_front" id="208">
+    </scenemode>
+
+    <!--don't config any policy-->
+
+
+
+    <!--speedup for screen on by key power or fingerprint when screen off-->
+
+    <!--
+     cust scene , id must be bigger than 10000
+    -->
+    <!--
+     Benckmark,    don't limit
+     ID:10000 for benchmark, don't change
+    -->
+
+    <scenemode name="thermal_cpu" id="251">
+        <cpu_maxprofile>-1</cpu_maxprofile>
+        <gpu_maxprofile>-1</gpu_maxprofile>
+    </scenemode>
+
+    <scenemode name="battery_low" id="319">
+        <cpu_a15_maxprofile>1210000</cpu_a15_maxprofile>
+        <threshold_up>1024</threshold_up>
+        <threshold_down>824</threshold_down>
+        <gpu_maxprofile>332000000</gpu_maxprofile>
+    </scenemode>
+
+    <scenemode name="battery_okay" id="320">
+    </scenemode>
+
+    <scenemode name="battery_critical" id="333">
+        <cpu_maxprofile>1018000</cpu_maxprofile>
+        <cpu_a15_maxprofile>1210000</cpu_a15_maxprofile>
+        <threshold_up>1024</threshold_up>
+        <threshold_down>824</threshold_down>
+        <gpu_maxprofile>237143000</gpu_maxprofile>
+    </scenemode>
+
+    <scenemode name="battery_critical_okay" id="334">
+    </scenemode>
+
+    <!--add policy to test-->
+    <scenemode name="browser_front" id="203">
+        <cpu_a15_maxprofile>2093000</cpu_a15_maxprofile>
+    </scenemode>
+
+    <!--read eboot, like baidu ebook-->
+    <scenemode name="ebook_front" id="205">
+
+    <!--added cpu gpu ddr for test-->
+
+    <!--added for test-->
+
+
+
+        <cpu_a15_maxprofile>2093000</cpu_a15_maxprofile>
+    </scenemode>
+
+
+
+
+
+    <!--add policy for test-->
+
+
+
+
+    <!-- for popular map-->
+
+    <!-- for system browser, if not config, the system browser will use browser_front(id = 203)-->
+
+    <!-- for popular game-->
+        <scenemode name="com.tencent.mobileqq|com.taobao.taobao|com.chaozh.iReaderFree15|com.dianping.v1|com.ss.android.article.news|com.tencent.qqmusic|com.tencent.news|com.tadu.android|com.netease.newsreader.activity|com.baidu.tieba|com.ifeng.news2|com.sohu.newsclient|com.chaozh.iReaderFree|com.sina.news|com.thestore.main|com.netease.mobimail|com.evernote|com.supercell.boombeach.HUAWEI|com.facebook.katana|com.twitter.android" id="10010">
+
+    <!-- for weibo/qqmobile/weixin -->
+        <cpu_a15_maxprofile>2093000</cpu_a15_maxprofile>
+    </scenemode>
+
+    <!--  for cld navigation-->
+
+    <!-- crazy game, A15 binding-->
+
+
+    <!-- video touch-->
+    <!-- video fling-->
+
+    <!-- Comb Scene-->
+
+
+    <!-- navigator touch-->
+    <!-- navigator fling-->
+</cpu_policy>

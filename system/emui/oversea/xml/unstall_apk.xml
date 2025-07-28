@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>/system/app/HwUserExperience.apk;/system/app/HwTrustCircle.apk;/system/app/HwDetectRepair.apk;/system/priv-app/HwPhoneService.apk;/system/app/HwCloudDrive_Local.apk;/system/priv-app/HiSpace.apk;/system/app/HMS.apk;/system/app/HwCloudDrive.apk;/system/priv-app/HwIntelligent.apk;/system/app/HwESIMService.apk;/system/app/HwCloud.apk;/system/app/HwCloud_Local.apk;/system/priv-app/HwControlCenter.apk;</apk>
+</tag>

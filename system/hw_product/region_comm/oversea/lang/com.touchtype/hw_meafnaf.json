@@ -1,0 +1,476 @@
+﻿[ {
+  "name" : "العربية",
+  "language" : "ar",
+  "country" : "SA",
+  "sha1" : "a87f6c434718b9ea6baf4df7c01a576612e14d3b",
+  "version" : 106,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/ar_SA.zip"
+}, {
+  "name" : "Azərbaycanca",
+  "language" : "az",
+  "country" : "AZ",
+  "sha1" : "e504a58d294b7e4b0f5f49937ef21b3fbbcb88c1",
+  "version" : 101,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/az_AZ.zip"
+}, {
+  "name" : "Euskara",
+  "language" : "eu",
+  "country" : "ES",
+  "sha1" : "9eb8666a82acfaf7c76c9a0a4d7e65b3892f6cbc",
+  "version" : 101,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/eu_ES.zip"
+}, {
+  "name" : "Беларуская",
+  "language" : "be",
+  "country" : "BY",
+  "sha1" : "f215b8cde35e559617afa1014f783549582703d5",
+  "version" : 101,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/be_BY.zip"
+}, {
+  "name" : "বাংলা",
+  "language" : "bn",
+  "country" : "IN",
+  "sha1" : "32950e09a5aac231395c449f0c4c0e9ef2d4f0d4",
+  "version" : 112,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/bn_IN.zip"
+}, {
+  "name" : "Bosanski",
+  "language" : "bs",
+  "country" : "BA",
+  "sha1" : "902e56a83761bc1bdbc058a69ff06fd858bef580",
+  "version" : 104,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/bs_BA.zip"
+}, {
+  "name" : "Български",
+  "language" : "bg",
+  "country" : "BG",
+  "sha1" : "4b2acb5c10a5a14b90dcb3c3bb3b1f891a12563f",
+  "version" : 104,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/bg_BG.zip"
+}, {
+  "name" : "မြန်မာဘာသာ",
+  "language" : "my",
+  "country" : "MM",
+  "sha1" : "aacbb9f9b13c053dbe912c2bc88a6e69e2525d67",
+  "version" : 106,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/my_MM.zip"
+}, {
+  "name" : "ျမန္မာဘာသာ",
+  "language" : "my",
+  "country" : "ZG",
+  "sha1" : "e55ef7c574184f139b8c65fbb092abb84c931052",
+  "version" : 101,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/my_ZG.zip"
+}, {
+  "name" : "Català",
+  "language" : "ca",
+  "country" : "ES",
+  "sha1" : "23bcdd9321f046b1111a3e8ac1e6ecacedd4dd79",
+  "version" : 112,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/ca_ES.zip"
+}, {
+  "name" : "简体中文",
+  "short_name" : "简",
+  "language" : "zh",
+  "country" : "CN",
+  "sha1" : "12667ca55366162062881b2768065fe07f480880",
+  "version" : 112,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/zh_CN.zip",
+  "hwr" : {
+    "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/zh-hwr.zip",
+    "version" : 2,
+    "sha1" : "ed519ded919a7c649e1faa8e55b80a53f6a6d270"
+  }
+}, {
+  "name" : "繁體香港",
+  "short_name" : "繁",
+  "language" : "zh",
+  "country" : "HK",
+  "sha1" : "53214fb588fc5907bedf6263543ef36c89ed504c",
+  "version" : 40,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/zh_HK.zip",
+  "hwr" : {
+    "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/zh-hwr.zip",
+    "version" : 2,
+    "sha1" : "ed519ded919a7c649e1faa8e55b80a53f6a6d270"
+  }
+}, {
+  "name" : "繁體台灣",
+  "short_name" : "繁",
+  "language" : "zh",
+  "country" : "TW",
+  "sha1" : "2972a6f40f079d749d3d0702f55c58fb03fb15bd",
+  "version" : 45,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/zh_TW.zip",
+  "hwr" : {
+    "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/zh-hwr.zip",
+    "version" : 2,
+    "sha1" : "ed519ded919a7c649e1faa8e55b80a53f6a6d270"
+  }
+}, {
+  "name" : "Hrvatski",
+  "language" : "hr",
+  "country" : "HR",
+  "sha1" : "7d4c83f42306488d3d18d6d00145e0254d2c0566",
+  "version" : 104,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/hr_HR.zip"
+}, {
+  "name" : "Čeština",
+  "language" : "cs",
+  "country" : "CZ",
+  "sha1" : "81e93a61775b8b95ee67737dcea223f5bd7acb9d",
+  "version" : 104,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/cs_CZ.zip"
+}, {
+  "name" : "Dansk",
+  "language" : "da",
+  "country" : "DK",
+  "sha1" : "1f8f81ddd8404898f8e070b46e095da9d7ae5d42",
+  "version" : 102,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/da_DK.zip"
+}, {
+  "name" : "Nederlands (BE)",
+  "language" : "nl",
+  "country" : "BE",
+  "sha1" : "ccf3b67b2c1d291b3baefbff0f4e4332ca1608f6",
+  "version" : 106,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/nl_BE.zip"
+}, {
+  "name" : "Nederlands (NL)",
+  "language" : "nl",
+  "country" : "NL",
+  "sha1" : "fa1bc888a306064a3e539370130ccf7d6abe318c",
+  "version" : 106,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/nl_NL.zip"
+}, {
+  "name" : "English (UK)",
+  "language" : "en",
+  "country" : "GB",
+  "sha1" : "579385d6a101687ee5b6a9678cd638e65cec0680",
+  "version" : 303,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/en_GB.zip"
+}, {
+  "name" : "English (US)",
+  "language" : "en",
+  "country" : "US",
+  "sha1" : "50160abbddc2e59de672aae0e0fa815a38530de2",
+  "version" : 302,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/en_US.zip"
+}, {
+  "name" : "Eesti",
+  "language" : "et",
+  "country" : "EE",
+  "sha1" : "b2541dcf3ce1d7a1c17df37e8d89a1ce82fabaf5",
+  "version" : 105,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/et_EE.zip"
+}, {
+  "name" : "Suomi",
+  "language" : "fi",
+  "country" : "FI",
+  "sha1" : "b78b84f8fa8849953f3b3657bb13dfcb1631a5f9",
+  "version" : 110,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/fi_FI.zip"
+}, {
+  "name" : "Français (FR)",
+  "language" : "fr",
+  "country" : "FR",
+  "sha1" : "fc6f9ce776b8d7972168c98caafa3f6d7757acb1",
+  "version" : 303,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/fr_FR.zip"
+}, {
+  "name" : "Galego",
+  "language" : "gl",
+  "country" : "ES",
+  "sha1" : "c90bfc651c40d242fedbeda919638093d0572c3d",
+  "version" : 101,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/gl_ES.zip"
+}, {
+  "name" : "ქართული",
+  "language" : "ka",
+  "country" : "GE",
+  "sha1" : "84968afce24dff38b8c1457e183f359ad3849ec9",
+  "version" : 102,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/ka_GE.zip"
+}, {
+  "name" : "Deutsch (DE)",
+  "language" : "de",
+  "country" : "DE",
+  "sha1" : "8b3921206a81e2fd1780e91285561ecdb5470499",
+  "version" : 114,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/de_DE.zip"
+}, {
+  "name" : "Deutsch (CH)",
+  "language" : "de",
+  "country" : "CH",
+  "sha1" : "6e6394eb9255c6b244b027dbbe5556277feff013",
+  "version" : 103,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/de_CH.zip"
+}, {
+  "name" : "Ελληνικά",
+  "language" : "el",
+  "country" : "GR",
+  "sha1" : "45e528014c75e9889f4280429e201c69810fccbd",
+  "version" : 105,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/el_GR.zip"
+}, {
+  "name" : "עברית",
+  "language" : "he",
+  "country" : "IL",
+  "sha1" : "8c50a5bafcee74a762eaf3995ca399c888410f96",
+  "version" : 103,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/he_IL.zip"
+}, {
+  "name" : "हिन्दी",
+  "language" : "hi",
+  "country" : "IN",
+  "sha1" : "5b89441067509866e632d9b5682cdc608884e79e",
+  "version" : 127,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/hi_IN.zip"
+}, {
+  "name" : "Magyar",
+  "language" : "hu",
+  "country" : "HU",
+  "sha1" : "ef6215bc239094c9435379e1ea5aebaa4e6c467f",
+  "version" : 105,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/hu_HU.zip"
+}, {
+  "name" : "Bahasa Indonesia",
+  "language" : "id",
+  "country" : "ID",
+  "sha1" : "b91b6cd3d8d40e1c1b81c1e37d22ae2569824df4",
+  "version" : 103,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/id_ID.zip"
+}, {
+  "name" : "Italiano",
+  "language" : "it",
+  "country" : "IT",
+  "sha1" : "b72caf16d698f533eb2d0d8946ffcb690a0a77d9",
+  "version" : 115,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/it_IT.zip"
+}, {
+  "name" : "日本語",
+  "short_name" : "日",
+  "language" : "ja",
+  "country" : "JP",
+  "sha1" : "6ef9e5324abe58e49a2059295aceefb74fc74f26",
+  "version" : 18,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/ja_JP.zip"
+}, {
+  "name" : "Basa Jawa",
+  "language" : "jv",
+  "country" : "ID",
+  "sha1" : "2cdea152e1630a3e361abd78ccd353e950bad9a4",
+  "version" : 101,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/jv_ID.zip"
+}, {
+  "name" : "Қазақ",
+  "language" : "kk",
+  "country" : "KZ",
+  "sha1" : "23c297eae731d857cb06f3d20d8d4481b88da16e",
+  "version" : 101,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/kk_KZ.zip"
+}, {
+  "name" : "ភាសាខ្មែរ",
+  "language" : "km",
+  "country" : "KH",
+  "sha1" : "5112f980a41003e4e756e7eddc36e2c04d34574b",
+  "version" : 106,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/km_KH.zip"
+}, {
+  "name" : "한국어",
+  "short_name" : "한",
+  "language" : "ko",
+  "country" : "KR",
+  "sha1" : "8041da5a38db8ed327200d2e29184c89bcabad4f",
+  "version" : 120,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/ko_KR.zip"
+}, {
+  "name" : "ລາວ",
+  "language" : "lo",
+  "country" : "LA",
+  "sha1" : "04479bb7d3882c7c9224ec828591d39fd440e6e7",
+  "version" : 103,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/lo_LA.zip"
+}, {
+  "name" : "Latviešu",
+  "language" : "lv",
+  "country" : "LV",
+  "sha1" : "3d88211018b023cd73f18af9ae7260e9d6e2e111",
+  "version" : 113,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/lv_LV.zip"
+}, {
+  "name" : "Lietuvių",
+  "language" : "lt",
+  "country" : "LT",
+  "sha1" : "ebc2970cd179deeeb4abde91e4756f018d6acda2",
+  "version" : 105,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/lt_LT.zip"
+}, {
+  "name" : "Македонски",
+  "language" : "mk",
+  "country" : "MK",
+  "sha1" : "140405f1efc8e950adece18a24a15128e33b8458",
+  "version" : 104,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/mk_MK.zip"
+}, {
+  "name" : "Bahasa Melayu",
+  "language" : "ms",
+  "country" : "MY",
+  "sha1" : "1c041220268567548a458ada65413ebc23df4df4",
+  "version" : 101,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/ms_MY.zip"
+}, {
+  "name" : "नेपाली",
+  "language" : "ne",
+  "country" : "NP",
+  "sha1" : "ee7d4c180767eae71c8d37bd8ec1691e4808ceaa",
+  "version" : 108,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/ne_NP.zip"
+}, {
+  "name" : "Norsk (Bokmål)",
+  "language" : "nb",
+  "country" : "NO",
+  "sha1" : "6cca8795db22c3baf44c78821b1013af6d0d6513",
+  "version" : 102,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/nb_NO.zip"
+}, {
+  "name" : "فارسی",
+  "language" : "fa",
+  "country" : "IR",
+  "sha1" : "95a688e449bd8bfd7ef104df3734231de9b5bc96",
+  "version" : 106,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/fa_IR.zip"
+}, {
+  "name" : "Polski",
+  "language" : "pl",
+  "country" : "PL",
+  "sha1" : "822fae924610b6235f033ec3eae9e398771c7ad6",
+  "version" : 106,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/pl_PL.zip"
+}, {
+  "name" : "Português (BR)",
+  "language" : "pt",
+  "country" : "BR",
+  "sha1" : "58381d8dd417a4dc7c5678f415a61943c9384a55",
+  "version" : 117,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/pt_BR.zip"
+}, {
+  "name" : "Português (PT)",
+  "language" : "pt",
+  "country" : "PT",
+  "sha1" : "86d4c2fce7cc4c285232287430f18f8792acbc13",
+  "version" : 114,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/pt_PT.zip"
+}, {
+  "name" : "Română",
+  "language" : "ro",
+  "country" : "RO",
+  "sha1" : "064e766e61371f00bd8d794aef3c44d5c470b277",
+  "version" : 105,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/ro_RO.zip"
+}, {
+  "name" : "Русский",
+  "language" : "ru",
+  "country" : "RU",
+  "sha1" : "66c9c1d8e48b03d3db1e762b68951d126edf4a4a",
+  "version" : 107,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/ru_RU.zip"
+}, {
+  "name" : "Srpski",
+  "language" : "sr",
+  "country" : "RS",
+  "sha1" : "a27041d8ad3b9951a6c3edf554afec3cfa28e461",
+  "version" : 104,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/sr_RS.zip"
+}, {
+  "name" : "සිංහල",
+  "language" : "si",
+  "country" : "LK",
+  "sha1" : "b38c5f7462e241c1175ef47a2126f3f8c3a478df",
+  "version" : 107,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/si_LK.zip"
+}, {
+  "name" : "Slovenčina",
+  "language" : "sk",
+  "country" : "SK",
+  "sha1" : "1b9540a9f5de7f86a22303a78b3dd359b9f3399e",
+  "version" : 104,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/sk_SK.zip"
+}, {
+  "name" : "Slovenščina",
+  "language" : "sl",
+  "country" : "SI",
+  "sha1" : "70f72fcaacef70ef1c15a27c6ba94a3093f98d9e",
+  "version" : 104,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/sl_SI.zip"
+}, {
+  "name" : "Español (América Latina)",
+  "language" : "es",
+  "country" : "LA",
+  "sha1" : "c4aaac7a2744cb1bdf7d3ebbf0cd55cf8b259c0e",
+  "version" : 109,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/es_LA.zip"
+}, {
+  "name" : "Español (ES)",
+  "language" : "es",
+  "country" : "ES",
+  "sha1" : "72dddf200b1ad73eba6ad6ba71238cec329d00a4",
+  "version" : 119,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/es_ES.zip"
+}, {
+  "name" : "Svenska",
+  "language" : "sv",
+  "country" : "SE",
+  "sha1" : "11f7c02b9c677912fe972e44d1f72acaaa88e025",
+  "version" : 106,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/sv_SE.zip"
+}, {
+  "name" : "Filipino",
+  "language" : "tl",
+  "country" : "PH",
+  "sha1" : "8d81854e63edd7ccf50fe46e40fac1780da73b6a",
+  "version" : 101,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/tl_PH.zip"
+}, {
+  "name" : "ไทย",
+  "language" : "th",
+  "country" : "TH",
+  "sha1" : "869886226cf41f4dc1d6e71fa93afd5cec1c375f",
+  "version" : 112,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/th_TH.zip"
+}, {
+  "name" : "Türkçe",
+  "language" : "tr",
+  "country" : "TR",
+  "sha1" : "b12f3d94ada6b0a2026b785ae1df0d9d19263193",
+  "version" : 113,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/tr_TR.zip"
+}, {
+  "name" : "Українська",
+  "language" : "uk",
+  "country" : "UA",
+  "sha1" : "9f5fa88b5f77128731417b37e051502f1bef2ae6",
+  "version" : 104,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/uk_UA.zip"
+}, {
+  "name" : "اردو",
+  "language" : "ur",
+  "country" : "PK",
+  "sha1" : "4f64f9b75bb71a1c6470b57d17dcf7695363b55f",
+  "version" : 104,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/ur_PK.zip"
+}, {
+  "name" : "O'zbekcha",
+  "language" : "uz",
+  "country" : "UZ",
+  "sha1" : "436830089b9530821082726d257e460a22847e08",
+  "version" : 101,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/uz_UZ.zip"
+}, {
+  "name" : "Tiếng Việt",
+  "language" : "vi",
+  "country" : "VN",
+  "sha1" : "951ea3204d2d3cfe482b6a2f5aecf6d10ec4f450",
+  "version" : 110,
+  "archive" : "file:///hw_product/region_comm/oversea/lang/com.touchtype/vi_VN.zip"
+} ]

@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher" version="1">
+    <favorite
+        launcher:op="clear" />
+    <!--KOB2-L09_hw_normal-->
+    <!--左起第 0 屏-->
+    <folder
+        launcher:title="@string/folder_top_apps"
+        launcher:appid="0"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="4">
+        <favorite
+            launcher:packageName="cn.wps.moffice_i18n"
+            launcher:className="cn.wps.moffice.documentmanager.PreStartActivity" />
+    </folder>
+    <favorite
+        launcher:packageName="com.huawei.appmarket"
+        launcher:className="com.huawei.appmarket.MainActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="4"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.huawei.systemmanager"
+        launcher:className="com.huawei.systemmanager.mainscreen.MainScreenActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="4"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.HWSettings"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="4"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.huawei.camera"
+        launcher:className="com.huawei.camera"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="4"
+        launcher:y="4"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <!--左起第 1 屏-->
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.DialtactsActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.huawei.android.thememanager"
+        launcher:className="com.huawei.android.thememanager.HwThemeManagerActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.huawei.hidisk"
+        launcher:className="com.huawei.hidisk.filemanager.FileManager"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="4"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.example.android.notepad"
+        launcher:className="com.example.android.notepad.NotePadActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.huawei.kidsmode"
+        launcher:className="com.huawei.kidsmode.LauncherFacade"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.hicloud.android.clone"
+        launcher:className="com.huawei.android.clone.activity.sender.ChooseReceiveSendActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.huawei.android.tips"
+        launcher:className="com.huawei.android.tips.DrawerDisplayActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="4"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <folder
+        launcher:title="@string/folder_tools"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="2">
+        <favorite
+            launcher:packageName="com.huawei.android.totemweather"
+            launcher:className="com.huawei.android.totemweather.WeatherHome"/>
+        <favorite
+            launcher:packageName="com.android.calculator2"
+            launcher:className="com.android.calculator2.Calculator"/>
+        <favorite
+            launcher:packageName="com.android.soundrecorder"
+            launcher:className="com.android.soundrecorder.SoundRecorder"/>
+        <favorite
+            launcher:packageName="com.android.deskclock"
+            launcher:className="com.android.deskclock.AlarmsMainActivity"/>
+        <favorite
+            launcher:packageName="com.android.hwmirror"
+            launcher:className="com.android.hwmirror.Mirror"/>
+        <favorite
+            launcher:packageName="com.huawei.phoneservice"
+            launcher:className="com.huawei.phoneservice.LaunchActivity"/>
+        <favorite
+            launcher:packageName="com.huawei.compass"
+            launcher:className="com.huawei.compass.MainActivity"/>
+        <favorite
+            launcher:packageName="com.huawei.KoBackup"
+            launcher:className="com.huawei.KoBackup.InitializeActivity"/>
+        <favorite
+            launcher:packageName="com.android.documentsui"
+            launcher:className="com.android.documentsui.LauncherActivity"/>
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity"/>
+        <favorite
+            launcher:packageName="com.huawei.android.FMRadio"
+            launcher:className="com.huawei.android.FMRadio.FMRadioMainActivity"/>
+		<favorite
+            launcher:packageName="com.huawei.mycenter"
+            launcher:className="com.huawei.mycenter.module.main.view.MainActivity" />
+        <favorite
+            launcher:packageName="com.huawei.hwsearch"
+            launcher:className="com.huawei.hwsearch.splash.SplashActivity" />
+    </folder>
+	<!--工作效率-->
+	    <folder
+        launcher:title="@string/cust_folder_name_business_apps"
+        launcher:appid="11"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="2">
+    </folder>
+    <!--休闲娱乐-->
+    <folder
+        launcher:title="@string/cust_folder_name_entertainment_apps"
+        launcher:appid="12"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="2">
+    </folder>
+    <!--社交通信-->
+    <folder
+        launcher:title="@string/cust_folder_name_social_apps"
+        launcher:appid="13"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="2">
+    </folder>
+    <!--生活方式-->
+    <folder
+        launcher:title="@string/cust_folder_name_lifestyle_apps"
+        launcher:appid="14"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="4"
+        launcher:y="2">
+    </folder>
+    <!--游戏-->
+    <folder
+        launcher:title="@string/folder_games"
+        launcher:appid="2"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="3">
+    </folder>
+    <!--桌面小工具-->
+    <appwidget
+        launcher:packageName="com.huawei.android.totemweather"
+        launcher:className="com.huawei.android.totemweather.widget.huaweiwidget.HuaweiWidgetWeatherProvider"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="5"
+        launcher:spanY="1" />
+    <appwidget
+        launcher:packageName="com.huawei.hwsearch"
+        launcher:className="com.huawei.hwsearch.base.view.widget.SparkleWidgetProvider"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3"
+        launcher:spanX="5"
+        launcher:spanY="1" />
+
+    <!--DOCK区-->
+    <favorite
+        launcher:packageName="com.huawei.himovie.overseas"
+        launcher:className="com.huawei.himovie.ui.login.SplashScreenActivity"
+        launcher:container="-101"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.android.mediacenter"
+        launcher:className="com.android.mediacenter.PageActivity"
+        launcher:container="-101"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.android.email"
+        launcher:className="com.android.email.activity.Welcome"
+        launcher:container="-101"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.huawei.browser"
+        launcher:className="com.huawei.browser.Main"
+        launcher:container="-101"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.huawei.gallery.app.GalleryMain"
+        launcher:container="-101"
+        launcher:screen="4"
+        launcher:x="4"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+</favorites>

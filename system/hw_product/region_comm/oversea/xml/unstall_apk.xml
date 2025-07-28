@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>/system/app/HwTrustCircle.apk;         /hw_product/region_comm/oversea/app/HwWallet.apk;              /hw_product/region_comm/oversea/app/Kaspersky_jp.apk;       /hw_product/region_comm/oversea/app/HwUserGuide.apk;  /hw_product/region_comm/oversea/app/HwSos.apk; /system/app/BookmarkProvider.apk;/system/app/HwDetectRepair.apk;/hw_product/region_comm/oversea/app/Wnn_Japanese_Ext_Pack-HW.apk;</apk>
+  <restoreapk>/system/priv-app/HiSpace.apk;</restoreapk>
+</tag>

@@ -1,0 +1,437 @@
+# 2019-12-07 10:09:14.0
+camera.disable_zsl_mode=true
+# 2020-05-15 14:42:48.0
+camera.ignore.chat.facebeauty=1
+# 2019-10-31 22:44:03.0
+debug.stagefright.ccodec=0
+# 2020-05-15 14:42:48.0
+drm.service.enabled=true
+# 2020-05-21 22:33:14.0
+hw.config.resize_cache_bytes=true
+# 2019-11-21 18:44:01.0
+hw.no_vibrator=true
+# 2020-05-16 17:40:53.0
+hw_mc.feature.accelerate_sliding=true
+# 2020-02-22 16:45:18.0
+hw_mc.launcher.disable_back_hotzone_fullscreen=true
+# 2020-08-20 22:15:28.0
+hw_mc.lcd.esd_protect_enable=true
+# 2020-04-02 21:40:37.0
+hw_mc.multiscreen.mdms.value=1
+# 2020-05-16 17:40:53.0
+hw_mc.settings.new_navi_show=false
+# 2020-01-14 15:35:44.0
+hw_mc.sysui.qs_black_background=true
+# 2019-06-21 16:54:32.0
+lockscreen.rot_override=true
+# 2019-06-21 16:54:32.0
+persist.iaware.mem_emerg_kill=true
+# 2020-04-09 19:01:38.0
+persist.kirin.media.lowlatency.enable=true
+# 2020-04-09 19:01:38.0
+persist.media.lowlatency.enable=true
+# 2020-01-10 17:26:34.0
+persist.odm.radio.nv_by_card=2
+# 2019-12-07 10:09:14.0
+persist.sys.fast_h_delay=5000
+# 2020-05-21 22:33:14.0
+persist.sys.fast_h_duration=2000
+# 2020-05-21 22:33:14.0
+persist.sys.fast_h_max=50
+# 2019-06-21 16:54:32.0
+persist.sys.iaware_fast_h_delay=3000
+# 2020-01-10 17:26:34.0
+persist.vendor.mims_support=2
+# 2020-01-10 17:26:34.0
+persist.vendor.radio.mtk_dsbp_support=2
+# 2020-01-10 17:26:34.0
+persist.vendor.radio.mtk_ps2_rat=L/W/G
+# 2020-01-10 17:26:34.0
+persist.vendor.radio.mtk_ps3_rat=G
+# 2020-05-21 22:33:14.0
+pm.dexopt.boot.delayopt=true
+# 2019-12-05 19:42:54.0
+ro.SignalStrength.ValidateInput=true
+# 2019-06-21 16:54:32.0
+ro.audio.monitorRotation=true
+# 2019-12-28 12:12:02.0
+ro.blight.exempt_app_type=-1,1,5,8,16,24
+# 2020-01-10 17:26:34.0
+ro.boot.opt_c2k_lte_mode=2
+# 2020-01-10 17:26:34.0
+ro.boot.opt_c2k_support=1
+# 2020-01-10 17:26:34.0
+ro.boot.opt_eccci_c2k=1
+# 2020-01-10 17:26:34.0
+ro.boot.opt_lte_support=1
+# 2020-01-10 17:26:34.0
+ro.boot.opt_md1_support=12
+# 2020-01-10 17:26:34.0
+ro.boot.opt_md3_support=0
+# 2020-01-10 17:26:34.0
+ro.boot.opt_ps1_rat=C/Lf/Lt/W/T/G
+# 2020-01-10 17:26:34.0
+ro.boot.opt_using_default=0
+# 2020-01-21 17:56:09.0
+ro.build.hide=false
+# 2019-11-07 15:12:57.0
+ro.build.hide.matchers=KOB2;HW;HWKOB2;MTK8768;mali-t880;9.0.1
+# 2019-11-07 15:12:57.0
+ro.build.hide.replacements=KXX;unknown;unknown;unknown;unknown;5.0.1
+# 2019-06-21 16:54:32.0
+ro.build.hide.settings=8;1.8 GHz;2.0GB;11.00 GB;16.00 GB;1920 x 1080;5.1;3.10.30;3.1
+# 2019-06-21 16:54:31.0
+ro.build.id=HUAWEIKOB2
+# 2019-06-21 16:54:32.0
+ro.build.product=KOB2
+# 2019-12-06 11:21:21.0
+ro.check.modem_network=true
+# 2019-12-05 19:42:54.0
+ro.config.StkDisplayTexNoRes=true
+# 2019-10-25 11:50:32.0
+ro.config.app_big_icon_size=96
+# 2019-12-06 11:21:21.0
+ro.config.attach_apn_enabled=true
+# 2019-06-21 16:54:55.0
+ro.config.audioEffectForRing=true
+# 2019-12-28 12:12:02.0
+ro.config.blight_power_curve=50,1;100,0.9;150,0.85;300,0.85;350,0.9;400,1.0
+# 2019-12-05 19:42:54.0
+ro.config.browser_chr=false
+# 2019-09-02 16:13:48.0
+ro.config.bt_a2dp_disabled_enc=5
+# 2019-12-07 10:09:14.0
+ro.config.cap_buffer_count=0
+# 2019-06-21 16:54:55.0
+ro.config.colorTemperature_3d=true
+# 2019-06-21 16:54:55.0
+ro.config.colorTemperature_K3=true
+# 2019-12-07 10:25:31.0
+ro.config.cpu_info_display=MTK MT8768
+# 2019-12-19 12:46:05.0
+ro.config.deep_nodisturb=false
+# 2019-06-21 16:54:55.0
+ro.config.dev_class=pad
+# 2019-12-03 15:55:53.0
+ro.config.disabled_wifi_display=true
+# 2019-06-21 16:54:55.0
+ro.config.enable_thermal_bdata=true
+# 2019-06-21 16:55:24.0
+ro.config.face_recognition=true
+# 2019-06-21 16:55:24.0
+ro.config.face_smart_keepon=false
+# 2019-06-21 16:55:24.0
+ro.config.face_smart_rotation=false
+# 2019-07-05 14:56:01.0
+ro.config.finger_joint=false
+# 2019-06-21 16:55:24.0
+ro.config.full_network_support=false
+# 2019-06-21 16:55:24.0
+ro.config.gameassist=1
+# 2019-12-06 16:15:12.0
+ro.config.gameassist.anti-touch=1
+# 2019-12-06 16:04:17.0
+ro.config.gameassist.full-finger=1
+# 2019-12-06 16:15:12.0
+ro.config.gameassist_voipopt=true
+# 2019-12-06 11:21:21.0
+ro.config.hiai.translation_engine.full_feature=0
+# 2019-12-05 19:42:54.0
+ro.config.hidata_app_qoe=false
+# 2019-12-05 19:42:54.0
+ro.config.hisi_net_ai_change=false
+# 2019-12-06 11:21:21.0
+ro.config.hisi_video_acc=false
+# 2019-06-21 16:55:24.0
+ro.config.huawei_navi_extend=false
+# 2019-06-21 16:55:24.0
+ro.config.huawei_smallwindow=0
+# 2019-06-21 16:55:24.0
+ro.config.hw.security_volume=8
+# 2019-12-19 12:46:05.0
+ro.config.hw_booster=false
+# 2019-06-21 16:55:24.0
+ro.config.hw_codec_support=0.180410
+# 2019-12-06 11:21:21.0
+ro.config.hw_datacure.enabled=false
+# 2019-06-21 16:55:24.0
+ro.config.hw_dts_settings=true
+# 2019-07-02 21:00:25.0
+ro.config.hw_emcom=false
+# 2019-07-05 14:56:01.0
+ro.config.hw_emui_desktop_mode=false
+# 2019-12-05 19:42:54.0
+ro.config.hw_filter_cure.enabled=false
+# 2019-12-06 16:15:12.0
+ro.config.hw_freeform_enable=false
+# 2019-12-06 16:15:12.0
+ro.config.hw_fyuse_enable=false
+# 2019-12-06 11:21:21.0
+ro.config.hw_hotswap_on=true
+# 2019-06-21 16:55:46.0
+ro.config.hw_lite_discover_enable=false
+# 2019-06-21 16:55:46.0
+ro.config.hw_lite_story_enable=false
+# 2019-12-06 11:21:21.0
+ro.config.hw_lte_support=true
+# 2019-12-05 19:42:54.0
+ro.config.hw_ltecure.enabled=false
+# 2019-11-30 17:35:37.0
+ro.config.hw_motion_reco_mtk=true
+# 2019-12-06 11:21:21.0
+ro.config.hw_power_voice_key=false
+# 2019-12-06 16:15:12.0
+ro.config.hw_privacySpace=false
+# 2019-06-21 16:55:46.0
+ro.config.hw_remove_touch_mode=true
+# 2019-06-21 16:55:46.0
+ro.config.hw_singlehand=0
+# 2019-12-06 16:15:12.0
+ro.config.hw_suport_inner_fm=true
+# 2019-06-21 16:55:46.0
+ro.config.hw_support_geofence=true
+# 2019-06-21 16:55:46.0
+ro.config.hw_sws=true
+# 2019-06-21 16:55:46.0
+ro.config.hw_themeInsulate=false
+# 2019-06-21 16:55:46.0
+ro.config.hw_triple_finger=true
+# 2019-06-21 16:56:14.0
+ro.config.hw_wakeup_device=true
+# 2019-12-24 17:21:55.0
+ro.config.hw_weather_recycle=1
+# 2019-06-21 16:56:14.0
+ro.config.hw_wifibridge=true
+# 2019-06-21 16:55:24.0
+ro.config.hwvplayer_land_enable=true
+# 2019-06-21 16:56:14.0
+ro.config.kidsfinger_enable=false
+# 2019-06-21 16:56:14.0
+ro.config.limit_lcd_manual=true
+# 2019-12-05 19:42:54.0
+ro.config.linkplus.liveupdate=true
+# 2019-06-21 16:56:14.0
+ro.config.lock_land_screen=true
+# 2019-12-06 16:15:12.0
+ro.config.lock_noti_simplify=true
+# 2019-06-21 16:56:14.0
+ro.config.need_tailored=true
+# 2019-12-06 16:15:12.0
+ro.config.new_hw_screen_aspect=1280:1224:0800
+# 2019-12-06 16:15:12.0
+ro.config.nfcdisabled=true
+# 2019-12-06 16:15:12.0
+ro.config.noti_list_simplify=true
+# 2019-06-21 16:56:14.0
+ro.config.pg_camera_cabc=true
+# 2019-12-05 19:42:54.0
+ro.config.pre_dns_query=false
+# 2019-12-02 21:00:55.0
+ro.config.reduce_voice=false
+# 2019-07-02 15:53:24.0
+ro.config.show_sdcard_psw=false
+# 2019-06-21 16:56:14.0
+ro.config.show_superpower=false
+# 2019-06-21 16:56:14.0
+ro.config.simple_mode=false
+# 2019-12-06 16:15:12.0
+ro.config.support_doubletap_pay=false
+# 2019-12-10 16:03:58.0
+ro.config.support_face_mode=2
+# 2019-12-06 16:15:12.0
+ro.config.support_facepay_mode=0
+# 2019-06-21 16:56:37.0
+ro.config.support_hwpki=true
+# 2019-06-21 16:56:37.0
+ro.config.swsAlwaysActiveForSPK=true
+# 2019-06-21 16:56:37.0
+ro.config.sws_moviemode=true
+# 2019-06-21 16:56:37.0
+ro.config.sws_version=0600
+# 2019-12-05 14:44:36.0
+ro.config.systemui.hwwidget=false
+# 2019-06-21 16:56:37.0
+ro.config.vol_steps=15
+# 2019-12-06 16:15:12.0
+ro.config.weakauth_face_limit=false
+# 2019-12-06 14:55:44.0
+ro.feature.appstart.low_perf_anim=true
+# 2019-12-07 10:09:14.0
+ro.feature.gallery.change_month_view=false
+# 2019-12-07 10:09:14.0
+ro.feature.gallery.classify_album_enable=false
+# 2019-12-07 10:09:14.0
+ro.feature.gallery.common_bindGalleryService_enable=true
+# 2019-12-07 10:09:14.0
+ro.feature.gallery.display_engine=false
+# 2019-12-03 14:50:32.0
+ro.feature.gallery.edit_illusion_enable=false
+# 2019-06-21 16:56:37.0
+ro.feature.gallery.lite_animation_disable=true
+# 2019-12-03 15:25:28.0
+ro.feature.gallery.photo_extended_menu_enable=false
+# 2019-06-21 16:56:37.0
+ro.feature.gallery.photomore_enable=false
+# 2019-12-07 10:09:14.0
+ro.feature.gallery.preload_all_tab=false
+# 2019-12-07 10:09:14.0
+ro.feature.gallery.recent_delete_reserve_10=true
+# 2019-11-27 20:46:03.0
+ro.feature.gallery.search_enable=false
+# 2019-12-07 10:09:14.0
+ro.feature.gallery.selected_photos_enable=false
+# 2019-06-21 16:56:37.0
+ro.feature.gallery.story_album_enable=false
+# 2019-12-03 14:42:37.0
+ro.feature.hwcamera.beautyvideo=false
+# 2019-12-03 15:30:38.0
+ro.feature.hwcamera.burstmode=false
+# 2019-11-28 14:06:35.0
+ro.feature.hwcamera.filtereffect=false
+# 2019-12-07 10:09:14.0
+ro.feature.hwcamera.osgiframework=false
+# 2019-06-21 16:56:37.0
+ro.feature.hwcamera.provideo=false
+# 2019-12-03 15:27:00.0
+ro.feature.hwcamera.smilecapture=false
+# 2019-06-21 16:56:37.0
+ro.feature.hwcamera.videostabilization=false
+# 2019-12-07 10:09:14.0
+ro.feature.hwcamera.watermark=false
+# 2019-12-05 19:42:54.0
+ro.feature.incallui.trimglmem=true
+# 2019-12-05 15:51:51.0
+ro.feature.launcher.force_hidesoft=true
+# 2019-12-06 14:50:28.0
+ro.feature.launcher.low_performance_anim=true
+# 2019-06-21 16:56:37.0
+ro.feature.mobile_network_sharing_lite=false
+# 2019-12-03 21:56:49.0
+ro.feature.notepad.handwriting=false
+# 2019-12-06 11:21:21.0
+ro.feature.notepad.location_reminder=false
+# 2019-12-06 15:09:32.0
+ro.feature.notepad.shortcut_lite=false
+# 2019-12-06 16:15:12.0
+ro.feature.notification_badge_combine_switch=true
+# 2019-11-05 11:50:47.0
+ro.feature.systemui.lockstyle=D-AMZ,D-DYN,D-SPT,D-MAG
+# 2019-12-06 16:15:12.0
+ro.feature.wms.singlemode=false
+# 2019-06-21 16:57:02.0
+ro.gpu_turbo=GPU Turbo
+# 2019-06-21 16:57:02.0
+ro.huawei.earpiece_available=false
+# 2019-06-21 16:57:02.0
+ro.huawei.launcher_icon_res=480
+# 2019-06-21 16:57:02.0
+ro.hw_disable_instantonline=true
+# 2020-05-15 14:42:48.0
+ro.hwcamera.backpanorama.v2=false
+# 2019-12-07 10:09:14.0
+ro.hwcamera.blurPreviewBeforeOpenCamera=false
+# 2019-12-07 10:09:14.0
+ro.hwcamera.documentrecognition=false
+# 2019-06-21 16:57:02.0
+ro.hwcamera.fastcapture=false
+# 2019-12-07 10:09:14.0
+ro.hwcamera.front_panorama_enable=false
+# 2019-12-07 10:09:14.0
+ro.hwcamera.lightpainting=false
+# 2019-12-07 10:09:14.0
+ro.hwcamera.livephoto_enable=false
+# 2019-12-07 10:09:14.0
+ro.hwcamera.slowmotion=false
+# 2019-12-07 10:09:14.0
+ro.hwcamera.suppernight=false
+# 2019-12-07 10:09:14.0
+ro.hwcamera.timelapse=false
+# 2020-01-13 18:30:59.0
+ro.hwcamera.voicereg.threshold=8,5,-3
+# 2019-12-05 19:42:54.0
+ro.hwpp_fast_pref_net_reg=true
+# 2019-12-05 19:42:54.0
+ro.hwpps.network.type.comma=true
+# 2019-12-05 19:42:54.0
+ro.odm.config.hw_ollie=false
+# 2019-12-05 19:42:54.0
+ro.odm.high_priority_data_mode=false
+# 2019-12-05 19:42:54.0
+ro.odm.multi.rild=true
+# 2019-12-05 19:42:54.0
+ro.odm.radio.nvcfg_normalization=true
+# 2019-12-06 11:21:21.0
+ro.odm.smart_dual_card=false
+# 2019-12-05 19:42:54.0
+ro.odm.switcher_for_4g_to_3g=false
+# 2019-11-27 20:35:32.0
+ro.packagename.calendar=com.huawei.calendar
+# 2019-11-09 18:39:39.0
+ro.packagename.contacts=com.huawei.contacts
+# 2019-11-27 11:04:03.0
+ro.packagename.email=com.huawei.email
+# 2019-11-18 15:35:20.0
+ro.packagename.notepad=com.huawei.notepad
+# 2019-06-21 16:57:02.0
+ro.product.board=KOB2
+# 2019-06-21 16:57:02.0
+ro.product.brand=HUAWEI
+# 2019-06-21 16:57:02.0
+ro.product.device=HWKOB2
+# 2019-06-21 16:57:02.0
+ro.product.first_api_level=29
+# 2019-12-07 10:25:31.0
+ro.product.hardwareversion=SH1KOBE2M02
+# 2019-06-21 16:57:02.0
+ro.product.manufacturer=HUAWEI
+# 2019-06-21 16:57:25.0
+ro.product.name=KOB2
+# 2019-06-21 16:57:25.0
+ro.product.perfmode=true
+# 2019-06-21 16:57:25.0
+ro.projectmenu.chargemaxlevel=87
+# 2019-06-21 16:57:25.0
+ro.projectmenu.chargeminlevel=55
+# 2019-12-06 16:15:12.0
+ro.prop.hwkeychain_switch=false
+# 2019-06-21 16:57:25.0
+ro.sf.lcd_density=240
+# 2020-01-10 17:26:34.0
+ro.vendor.mtk_c2k_lte_mode=2
+# 2020-01-10 17:26:34.0
+ro.vendor.mtk_c2k_support=1
+# 2020-01-10 17:26:34.0
+ro.vendor.mtk_eccci_c2k=1
+# 2020-01-10 17:26:34.0
+ro.vendor.mtk_lte_support=1
+# 2020-01-10 17:26:34.0
+ro.vendor.mtk_md1_support=12
+# 2020-01-10 17:26:34.0
+ro.vendor.mtk_md3_support=0
+# 2020-01-10 17:26:34.0
+ro.vendor.mtk_ps1_rat=C/Lf/Lt/W/T/G
+# 2019-12-16 11:07:17.0
+sys.aps.sdr.always_switchable=1
+
+
+
+
+
+ro.comp.product_version=Product-KOB2 10.1.0(0000)
+
+
+=
+
+ro.build.display.id=no-need
+
+ro.config.beta_sec_ctrl=false
+
+sys.hisi.pmom.service.enable=false
+
+ro.hw.hota.is_hwinit_exists=false
+
+ro.comp.hl.product_base_version=KOB2-LGRP4-OVS 10.1.0.212
+
+ro.hw.base_all_groupversion=G2.0
+
+ro.build.backtargetmode=V2.0

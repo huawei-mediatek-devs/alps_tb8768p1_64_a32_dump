@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * igfx Config
+ * all states definitions at here.
+ -->
+<igfx_config version="9">
+    <igfx_min_version version="3" />
+
+    <igfx_property_config>
+        <property
+            key="persist.disable"
+            value="0" />
+    </igfx_property_config>
+
+    <xy_setting
+        xy_enable = "false"/>
+
+    <igfx_app_list>
+        <igfx name="com.tencent.tmgp.sgame"/>
+        <igfx name="com.tencent.tmgp.pubgmhd"/>
+        <igfx name="com.tencent.tmgp.cf"/>
+        <igfx name="com.tencent.tmgp.speedmobile"/>
+        <igfx name="com.netease.hyxd.huawei"/>
+        <igfx name="com.netease.hyxd"/>
+        <igfx name="com.tencent.tmgp.pubgm"/>
+        <igfx name="com.t2ksports.nba2k18and"/>
+        <igfx name="com.miHoYo.bh3.huawei"/>
+        <igfx name="com.netease.onmyoji.huawei"/>
+        <igfx name="com.netease.onmyoji"/>
+        <igfx name="com.ngame.allstar.eu"/>
+        <igfx name="com.superevilmegacorp.game"/>
+        <igfx name="com.mobile.legends:UnityKillsMe"/>
+        <igfx name="com.tencent.ig"/>
+        <igfx name="com.netease.chiji"/>
+        <igfx name="com.pubg.krmobile"/>
+    </igfx_app_list>
+</igfx_config>

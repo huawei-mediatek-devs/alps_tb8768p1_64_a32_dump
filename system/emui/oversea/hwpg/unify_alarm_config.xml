@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <array type="unify_alarm_config" version="8.0">
+        <!--item:pkg|action|threshold|interval(ms,0 is dynamic)-->
+        <item>android|com.huawei.intent.action.PUSH|1|300000</item>
+        <item>android|com.huawei.action.CONNECT_PUSHSRV|1|300000</item>
+        <item>android|com.huawei.android.push.intent.HEARTBEAT_RSP_TIMEOUT|1|300000</item>
+        <item>android|com.huawei.push.alarm.HEARTBEAT|1|300000</item>
+    </array>
+</list>

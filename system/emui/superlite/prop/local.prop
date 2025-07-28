@@ -1,0 +1,14 @@
+# 2020-06-20 10:08:14.0
+hw_mc.launcher.quick_switch_force_enable=false
+# 2019-10-17 22:00:51.0
+ro.config.distributed_app_fwk=false
+# 2019-05-30 19:43:40.0
+ro.config.hicall=false
+# 2019-03-15 08:35:09.0
+ro.config.hw_aqv_enabled=false
+# 2019-03-15 08:35:09.0
+ro.config.hw_globalSearch=false
+# 2019-03-15 08:35:09.0
+ro.feature.animation.style=supersimple
+# 2019-09-04 19:17:08.0
+ro.feature.dfr.erecovery=false

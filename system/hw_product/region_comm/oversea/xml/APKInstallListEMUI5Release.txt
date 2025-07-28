@@ -1,0 +1,6 @@
+/hw_product/region_comm/oversea/app/HwBetaClub/HwBetaClub.apk
+/hw_product/region_comm/oversea/app/HwBrowser/HwBrowser.apk,priv
+/hw_product/region_comm/oversea/app/HwHiAiEngine/HwHiAiEngine.apk,priv
+/hw_product/region_comm/oversea/app/HwUpgradeGuide/HwUpgradeGuide.apk,priv
+/hw_product/region_comm/oversea/app/SwiftKey/SwiftKey.apk
+/hw_product/region_comm/oversea/app/SwiftKeyFactorySettings/SwiftKeyFactorySettings.apk

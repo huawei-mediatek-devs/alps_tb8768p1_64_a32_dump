@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<packages>
+<package name="android.ext.shared" path="preas/app/ExtShared" ss="2C4FDB5F942C28147856595697F82D42F965B08AB67002517551733929D2F6A8" version="1"/>
+<package name="android.ext.shared" path="system/product/app/ExtShared" ss="2C4FDB5F942C28147856595697F82D42F965B08AB67002517551733929D2F6A8" version="1"/>
+<package name="com.huawei.aml" path="preas/app/HwAML" ss="2C4FDB5F942C28147856595697F82D42F965B08AB67002517551733929D2F6A8" version="1010105"/>
+<package name="com.huawei.aml" path="system/product/app/HwAML" ss="2C4FDB5F942C28147856595697F82D42F965B08AB67002517551733929D2F6A8" version="1010105"/>
+<package name="com.huawei.webview" path="preas/app/HwWebview" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="387"/>
+<package name="com.huawei.webview" path="system/product/app/HwWebview" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="387"/>
+<package name="com.android.printservice.recommendation" path="preas/app/PrintRecommendationService" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="4"/>
+<package name="com.android.printservice.recommendation" path="system/product/app/PrintRecommendationService" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="4"/>
+<package name="com.bjbyhd.screenreader_huawei" path="preas/app/ScreenReader" ss="FDDAE7CAF038CCF5AD4E7D2380E2BAE88C9B9E223981E9AE9C11DEFB7EE1C5FB" version="971"/>
+<package name="com.bjbyhd.screenreader_huawei" path="system/product/app/ScreenReader" ss="FDDAE7CAF038CCF5AD4E7D2380E2BAE88C9B9E223981E9AE9C11DEFB7EE1C5FB" version="971"/>
+<package name="com.android.onetimeinitializer" path="preas/priv-app/OneTimeInitializer" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="29"/>
+<package name="com.android.onetimeinitializer" path="system/product/priv-app/OneTimeInitializer" ss="F33283F2650791901C4C7E8EBAC778101236734FAA8FFAD5A4FEE15891733560" version="29"/>
+<package name="com.android.packageinstaller" path="preas/priv-app/PackageInstaller" ss="2C4FDB5F942C28147856595697F82D42F965B08AB67002517551733929D2F6A8" version="1002005306"/>
+<package name="com.android.packageinstaller" path="system/product/priv-app/PackageInstaller" ss="2C4FDB5F942C28147856595697F82D42F965B08AB67002517551733929D2F6A8" version="1002005306"/>
+</packages>

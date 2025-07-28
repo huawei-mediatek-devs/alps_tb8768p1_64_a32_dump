@@ -1,0 +1,8 @@
+service hwioch /system/bin/hwioch
+    class main
+    capabilities DAC_READ_SEARCH
+    priority 10
+    writepid /dev/cpuset/system-background/tasks /dev/stune/system-background/tasks /dev/blkio/system-background/tasks
+    user root
+    group package_info
+    restart_period 600

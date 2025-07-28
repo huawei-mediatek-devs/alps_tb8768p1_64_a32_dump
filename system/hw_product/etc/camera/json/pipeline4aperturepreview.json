@@ -1,0 +1,253 @@
+{
+    "imports" : [
+        "/system/lib/libhwfilter_mtk.so"
+    ],
+
+    "filters" :
+    [
+        {
+            "id" : "src",
+            "type" : "camerasource",
+            "previewQueueLength" : 8
+        },
+
+        {
+            "id" : "sync",
+            "type" : "sync"
+        },
+
+        {
+            "id" : "preview",
+            "type" : "preview"
+        },
+
+        {
+            "id" : "ASCBokehIpp",
+            "type" : "ASCBokehIpp"
+        },
+
+        {
+            "id": "bridgesink",
+            "type": "bridgesink"
+        },
+
+        {
+            "id" : "facedetect",
+            "type" : "facedetect"
+        },
+
+        {
+            "id" : "peekPreview",
+            "type" : "peek"
+        },
+
+        {
+            "id" : "peekerMeta",
+            "type" : "peek"
+        },
+
+        {
+            "id" : "metadata",
+            "type" : "mtk_metadata_extractor"
+        }
+    ],
+
+    "connections" :
+    [
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "peekPreview",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out1"
+            },
+
+            "to" :
+            {
+                "filter" : "sync",
+                "port" : "in1"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_meta"
+            },
+
+            "to" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekPreview",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "ASCBokehIpp",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "ASCBokehIpp",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "preview",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekPreview",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "facedetect",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "preview",
+                "port" : "in_meta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "metadata",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "metadata",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "facedetect",
+                "port" : "InMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "facedetect",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "ASCBokehIpp",
+                "port" : "InMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "ASCBokehIpp",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "bridgesink",
+                "port" : "in_meta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "metadata",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "bridgesink",
+                "port" : "in_meta1"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_cap0"
+            },
+
+            "to" :
+            {
+                "filter" : "bridgesink",
+                "port" : "in0"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_cap1"
+            },
+
+            "to" :
+            {
+                "filter" : "bridgesink",
+                "port" : "in1"
+            }
+        }
+    ]
+}

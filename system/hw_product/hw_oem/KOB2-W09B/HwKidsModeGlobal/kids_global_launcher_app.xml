@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kidsmode>
+  <featured-contents>
+    <content index="1">
+      <package>com.huawei.appmarket</package>
+    </content>
+    <content index="2">
+      <package>com.sinyee.babybus.world.huawei.global</package>
+    </content>
+    <content index="3">
+      <package>com.tinizine.azoomee</package>
+    </content>
+  </featured-contents>
+  <home-islands>
+    <pad name="other-oversea">
+      <island index="1" customizable="true" lockable="false">
+        <app>
+          <package>com.tinizine.azoomee</package>
+          <class/>
+          <action>android.intent.action.VIEW</action>
+          <uri>azoomee://video</uri>
+          <gifState>false</gifState>
+          <imageIcon>ic_azoomee</imageIcon>
+          <imageInstall>azoomee_video</imageInstall>
+          <imageUninstall>azoomee_video_uninstall</imageUninstall>
+          <showIcon>false</showIcon>
+        </app>
+      </island>
+      <island index="2" customizable="false" lockable="true">
+        <app>
+          <package>com.huawei.appmarket</package>
+          <class>com.huawei.appmarket.service.thirdzone.ThirdAppZoneActivity</class>
+          <action/>
+          <uri/>
+          <gifState>false</gifState>
+          <imageIcon/>
+          <imageInstall>childrens_shop_global</imageInstall>
+          <imageUninstall>childrens_shop_global_uninstall</imageUninstall>
+          <showIcon/>
+        </app>
+      </island>
+      <island index="3" customizable="true" lockable="false">
+        <app>
+          <package>com.sinyee.babybus.world.huawei.global</package>
+          <class>com.sinyee.babybus.SplashAct</class>
+          <action/>
+          <uri/>
+          <gifState>false</gifState>
+          <imageIcon>baobaobashi</imageIcon>
+          <imageInstall>babybus_global</imageInstall>
+          <imageUninstall>babybus_global_uninstall</imageUninstall>
+          <showIcon/>
+        </app>
+      </island>
+      <island index="4" customizable="true" lockable="false">
+        <app>
+          <package>com.tinizine.azoomee</package>
+          <class/>
+          <action>android.intent.action.VIEW</action>
+          <uri>azoomee://game</uri>
+          <gifState>false</gifState>
+          <imageIcon>ic_azoomee</imageIcon>
+          <imageInstall>azoomee_game</imageInstall>
+          <imageUninstall>azoomee_game_uninstall</imageUninstall>
+          <showIcon>false</showIcon>
+        </app>
+      </island>
+      <island index="5" customizable="true" lockable="false">
+        <app>
+          <package>com.huawei.kidsmode</package>
+          <class>com.huawei.kidsmode.kidspaint.MainActivity</class>
+          <action/>
+          <uri/>
+          <imageIcon>icon_kids_paint</imageIcon>
+          <gifState>false</gifState>
+          <imageInstall>children_paint</imageInstall>
+          <imageUninstall>children_paint</imageUninstall>
+          <showIcon/>
+        </app>
+      </island>
+    </pad>
+  </home-islands>
+</kidsmode>

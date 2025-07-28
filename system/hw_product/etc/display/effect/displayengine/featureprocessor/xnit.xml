@@ -1,0 +1,12 @@
+<DisplayEngineConfig>
+	<id>23</id>
+	<updated>2016-12-24</updated>
+	<feature name="XNIT">
+		<mode name="CTRL">
+			<param name="Enable">1</param>
+		</mode>
+		<mode name="FILTER">
+			<param name="DE_SCENE_ACTION_XNIT_CHANGE">MODE_XNIT_CHANGE_INTEGRATION</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

@@ -1,0 +1,44 @@
+on post-fs-data
+    mkdir /data/dumpsys 0775 system system
+    mkdir /data/core 0775 system system
+    mkdir /data/misc/aee_interim 0775 system system
+
+on post-fs && property:ro.runmode=factory
+    start aee_aed
+    start aee_aed64
+
+on property:ro.build.type=eng && property:ro.runmode=factory
+    write /proc/sys/fs/suid_dumpable 1
+    write /proc/sys/kernel/core_pattern "|/system/bin/aee_core_forwarder /data/core/ %p %s UID=%u GID=%g"
+    write /proc/sys/kernel/core_pipe_limit 3
+
+on property:ro.build.type=userdebug && property:ro.runmode=factory
+    write /proc/sys/fs/suid_dumpable 1
+    write /proc/sys/kernel/core_pattern "|/system/bin/aee_core_forwarder /data/core/ %p %s UID=%u GID=%g"
+    write /proc/sys/kernel/core_pipe_limit 3
+
+on property:persist.vendor.aeev.core.dump=enable && property:ro.runmode=factory
+    write /proc/sys/fs/suid_dumpable 1
+    write /proc/sys/kernel/core_pattern "|/system/bin/aee_core_forwarder /data/core/ %p %s UID=%u GID=%g"
+    write /proc/sys/kernel/core_pipe_limit 3
+
+on property:ro.build.type=eng && property:persist.vendor.aee.tracing_on=0 && property:ro.runmode=factory
+    write /sys/kernel/debug/tracing/tracing_on 0
+
+on property:ro.build.type=eng && property:persist.vendor.aee.tracing_on=1 && property:ro.runmode=factory
+    write /sys/kernel/debug/tracing/tracing_on 1
+
+on property:ro.build.type=userdebug && property:persist.vendor.aee.tracing_on=0 && property:ro.runmode=factory
+    write /sys/kernel/debug/tracing/tracing_on 0
+
+on property:ro.build.type=userdebug && property:persist.vendor.aee.tracing_on=1 && property:ro.runmode=factory
+    write /sys/kernel/debug/tracing/tracing_on 1
+
+on init && property:ro.runmode=factory
+    write /proc/self/coredump_filter 39
+    export LD_PRELOAD libdirect-coredump.so
+
+on property:sys.boot_completed=1
+    start aee-reinit
+
+import /init.preload.rc

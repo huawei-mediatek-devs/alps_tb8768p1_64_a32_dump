@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+    <night_iso>6400</night_iso>
+    <night_exposure>12</night_exposure><!--night exposure threshold-->
+    <night_lumaavg>15</night_lumaavg><!--night avgbright threshold,[0,255]-->
+    <zoom_ratio_max>1.5</zoom_ratio_max><!--night zoom bypass threshold, 只在dallas上采用该逻辑-->
+
+    <ImageRegistrationMethod>1</ImageRegistrationMethod><!--图像配准模块开关,{0,1}-->
+
+    <GhostRemovalMethod>1</GhostRemovalMethod><!--鬼影消除方法,{0,1}-->
+    <LocalMotionDetection><!--初始化鬼影阈值-->
+        <MotionLowGray>10</MotionLowGray><!--低灰阶运动检测阈值,[0,255]-->
+        <MotionHighGray>20</MotionHighGray><!--高灰阶运动检测阈值,[0,255]-->
+        <MotionRatio>2.0</MotionRatio><!--运动像素比例，判断是否参与融合,[0,100]-->
+    </LocalMotionDetection>
+
+    <DarkMotionDetection><!--分档ISO和鬼影检测、容许阈值-->
+        <Thresh1>
+            <ISO>160</ISO>
+            <MotionLowGray>15</MotionLowGray>
+            <MotionHighGray>20</MotionHighGray>
+            <MotionRatio>2.5</MotionRatio>
+        </Thresh1>
+        <Thresh2>
+            <ISO>240</ISO>
+            <MotionLowGray>15</MotionLowGray>
+            <MotionHighGray>20</MotionHighGray>
+            <MotionRatio>2.5</MotionRatio>
+        </Thresh2>
+        <Thresh3>
+            <ISO>320</ISO>
+            <MotionLowGray>15</MotionLowGray>
+            <MotionHighGray>20</MotionHighGray>
+            <MotionRatio>2.5</MotionRatio>
+        </Thresh3>
+        <Thresh4>
+            <ISO>640</ISO>
+            <MotionLowGray>15</MotionLowGray>
+            <MotionHighGray>20</MotionHighGray>
+            <MotionRatio>2.5</MotionRatio>
+        </Thresh4>
+        <Thresh5>
+            <ISO>960</ISO>
+            <MotionLowGray>10</MotionLowGray>
+            <MotionHighGray>20</MotionHighGray>
+            <MotionRatio>2.0</MotionRatio>
+        </Thresh5>
+        <Thresh6>
+            <ISO>1280</ISO>
+            <MotionLowGray>15</MotionLowGray>
+            <MotionHighGray>25</MotionHighGray>
+            <MotionRatio>2.0</MotionRatio>
+        </Thresh6>
+        <Thresh7>
+            <ISO>1600</ISO>
+            <MotionLowGray>20</MotionLowGray>
+            <MotionHighGray>30</MotionHighGray>
+            <MotionRatio>2.0</MotionRatio>
+        </Thresh7>
+        <Thresh8>
+            <ISO>1920</ISO>
+            <MotionLowGray>25</MotionLowGray>
+            <MotionHighGray>35</MotionHighGray>
+            <MotionRatio>1.5</MotionRatio>
+        </Thresh8>
+        <Thresh9>
+            <ISO>2560</ISO>
+            <MotionLowGray>30</MotionLowGray>
+            <MotionHighGray>40</MotionHighGray>
+            <MotionRatio>1.0</MotionRatio>
+        </Thresh9>
+        <Thresh10>
+            <ISO>6400</ISO>
+            <MotionLowGray>30</MotionLowGray>
+            <MotionHighGray>50</MotionHighGray>
+            <MotionRatio>0.5</MotionRatio>
+        </Thresh10>
+    </DarkMotionDetection>
+
+    <PureColorMotionDetection><!--纯色场景鬼影容许阈值参数-->
+        <MotionRatio>0.2</MotionRatio>
+    </PureColorMotionDetection>
+    <LocalMotionCorrection>255</LocalMotionCorrection>
+
+    <ImageFusionMethod>1</ImageFusionMethod><!--图像融合算法-->
+    <ImageFusion><!--普通3帧HDR融合参数-->
+        <MinDarkWeight>-1.0</MinDarkWeight>
+        <MinBrightWeight>-1.0</MinBrightWeight>
+        <MaxBrightWeight>0.6</MaxBrightWeight>
+        <MaxDarkWeight>1.0</MaxDarkWeight>
+        <PyramidTopSize>16</PyramidTopSize><!--金字塔顶层尺寸,{2,4,8,16,32,64}-->
+        <WeightCalcMethod>1</WeightCalcMethod><!--权重计算方法,{0,1}-->
+        <MinUnderExposureDiv>32</MinUnderExposureDiv>
+        <MaxUnderExposureDiv>96</MaxUnderExposureDiv><!--长曝光权重中心，MinUnderExposureDiv<MaxUnderExposureDiv,[0,255]-->
+        <MinOverExposureDiv>176</MinOverExposureDiv><!--MaxUnderExposureDiv<MinOverExposureDiv-->
+        <MaxOverExposureDiv>226</MaxOverExposureDiv><!--短曝光权重中心，MinOverExposureDiv<MaxOverExposureDiv,[0,255]-->
+        <BlendCenter>128</BlendCenter><!--正常曝光帧权重图的Gaussian分布中心-->
+        <BlendSigma>0.25</BlendSigma><!--正常曝光帧权重图的Gaussian分布标准差,[0.05,0.5]-->
+        <ProcessExtremFlag>1</ProcessExtremFlag><!--Flag to speacially process the dark or bright regions,{0,1}-->
+        <EnhanceLayerRatio>0.2</EnhanceLayerRatio><!--Number of Layers to be enhanced,[0,0.7]-->
+        <DetailThresh>10</DetailThresh><!--Detail Threshold for degrade the coe,[0,128]-->
+        <DegradeStep>2</DegradeStep><!--衰减步长，the coe is degraded with this step by level,[1,16]-->
+        <DetailEnhanceRatio>64</DetailEnhanceRatio><!--标准衰减系数，128 would produce edge overshoot,[0,156]-->
+    </ImageFusion>
+
+    <PostProcessValid>1</PostProcessValid>
+    <PostProcess>
+        <DenoiseDarkThresh>255</DenoiseDarkThresh>
+    </PostProcess>
+
+    <FlashHDR><!--Flash HDR融合参数-->
+        <PyramidTopSize>16</PyramidTopSize>
+        <WeightCalcMethod>0</WeightCalcMethod>
+        <BlendCenter>128</BlendCenter>
+        <BlendSigma>0.2</BlendSigma>
+        <NoFlashWeight>128</NoFlashWeight>
+    </FlashHDR>
+
+    <Face>
+        <AjustRatio>128</AjustRatio><!--人脸框调整，人脸保护权重,[0,255]-->
+        <Margin>10</Margin><!--人脸框调整，人脸框平滑边缘,[-400,400]-->
+        <SmoothRadius>40</SmoothRadius><!--人脸框调整，人脸框平滑半径,[0,64]-->
+    </Face>
+    
+    <Potrait><!--人像分割控制参数-->
+        <usePotraitMask>0</usePotraitMask><!--控制开关,{0,1}-->
+        <maskType>1</maskType><!--Mask解析方式,[0,3]-->
+        <useDarkPotraitBlend>1</useDarkPotraitBlend><!--使用暗帧人像替换策略,{0,1}-->
+        <PotraitRatio>1.0</PotraitRatio><!--中间帧保护强度,[0.0,1.0]-->
+        <SmoothRadius>10</SmoothRadius><!--Mask 平滑半径,[0,100]-->
+        <FusionErosionRadius>5</FusionErosionRadius><!--图像融合mask腐蚀半径,[0,100]-->
+        <BlendErosionRadius>20</BlendErosionRadius><!--人像暗帧替换腐蚀半径,[0,100]-->
+        <BlendSmoothRadius>10</BlendSmoothRadius><!--人像暗帧替换平滑半径,[0,100]-->
+        <WeightDiffThreshold>200</WeightDiffThreshold><!--中间帧与暗帧权重差阈值，用于指导更新暗帧权重-->
+        <useGuidedFilter>1</useGuidedFilter><!--guided filter控制开关，{0,1}-->
+        <GuidedFilterRadius>10</GuidedFilterRadius><!--guidedFilter半径-->
+        <GuidedFilterEps>0.05</GuidedFilterEps><!--guidedFilter正则系数-->
+    </Potrait>
+
+    <PreMotionDetection><!--Mono帧鬼影检测参数-->
+        <MotionLowGray>10</MotionLowGray>
+        <MotionHighGray>20</MotionHighGray>
+        <MotionRatio>100.0</MotionRatio>
+    </PreMotionDetection>
+
+    <MultiFrameHDR><!--多帧HDR(>4)鬼影检测参数-->
+        <MotionLowGray>10</MotionLowGray>
+        <MotionHighGray>20</MotionHighGray>
+        <MotionRatio>5.0</MotionRatio>
+        <PyramidTopSize>8</PyramidTopSize>
+        <BlendCenter>128</BlendCenter>
+        <BlendSigma>0.25</BlendSigma>
+        <ProcessExtremFlag>1</ProcessExtremFlag><!--Flag to speacially process the dark or bright regions,{0,1}-->
+        <EnhanceLayerRatio>0.2</EnhanceLayerRatio><!--Number of Layers to be enhanced,[0,0.7]-->
+        <DetailThresh>10</DetailThresh><!--Detail Threshold for degrade the coe,[0,128]-->
+        <DegradeStep>2</DegradeStep><!--the coe is degraded with this step by level,[1,16]-->
+        <DetailEnhanceRatio>64</DetailEnhanceRatio>
+    </MultiFrameHDR>
+
+    <!--AB Night_Stage_Scene Parameter-->
+    <NightImageFusion>
+        <MinDarkWeight>-1.0</MinDarkWeight>
+        <MinBrightWeight>-1.0</MinBrightWeight>
+        <MaxBrightWeight>1.0</MaxBrightWeight>
+        <MaxDarkWeight>1.0</MaxDarkWeight>
+        <PyramidTopSize>16</PyramidTopSize>
+        <WeightCalcMethod>1</WeightCalcMethod>
+        <MinUnderExposureDiv>32</MinUnderExposureDiv>
+        <MaxUnderExposureDiv>96</MaxUnderExposureDiv>
+        <MinOverExposureDiv>176</MinOverExposureDiv>
+        <MaxOverExposureDiv>226</MaxOverExposureDiv>
+        <BlendCenter>128</BlendCenter>
+        <BlendSigma>0.25</BlendSigma>
+        <ProcessExtremFlag>1</ProcessExtremFlag><!--Flag to speacially process the dark or bright regions,{0,1}-->
+        <EnhanceLayerRatio>0.3</EnhanceLayerRatio><!--Number of Layers to be enhanced,[0,0.7]-->
+        <DetailThresh>10</DetailThresh><!--Detail Threshold for degrade the coe,[0,128]-->
+        <DegradeStep>2</DegradeStep><!--the coe is degraded with this step by level,[1,16]-->
+        <DetailEnhanceRatio>128</DetailEnhanceRatio><!--128 would produce edge overshoot,[0,156]-->
+    </NightImageFusion>
+    <!--AB Night_Stage_Scene Parameter for 5+1-->
+    <NightMultiFrameHDR>
+        <MotionLowGray>10</MotionLowGray>
+        <MotionHighGray>20</MotionHighGray>
+        <MotionRatio>5.0</MotionRatio>
+        <PyramidTopSize>8</PyramidTopSize>
+        <BlendCenter>128</BlendCenter>
+        <BlendSigma>0.25</BlendSigma>
+        <ProcessExtremFlag>1</ProcessExtremFlag><!--Flag to speacially process the dark or bright regions,{0,1}-->
+        <EnhanceLayerRatio>0.3</EnhanceLayerRatio><!--Number of Layers to be enhanced,[0,0.7]-->
+        <DetailThresh>10</DetailThresh><!--Detail Threshold for degrade the coe,[0,128]-->
+        <DegradeStep>2</DegradeStep><!--the coe is degraded with this step by level,[1,16]-->
+        <DetailEnhanceRatio>128</DetailEnhanceRatio>
+    </NightMultiFrameHDR>
+
+    <MotionCorrection><!--未商用模块，测试新算法，用于PDF检测，Inpainting鬼影矫正，和单帧HDR回退-->
+        <usePDFsDetection>0</usePDFsDetection> <!--swither for PDF detection method-->
+        <useInpaitingMethod>0</useInpaitingMethod> <!--swither for inpaiting method-->
+        <useSyntheticExposure>0</useSyntheticExposure> <!--swither for synthetic exposure-->
+        <useDarkReference>1</useDarkReference><!--use dark frame as reference-->
+        <useGuidedFilter>1</useGuidedFilter><!--use guided filtering-->
+        <underEx_val>20</underEx_val>
+        <overEx_val>235</overEx_val>
+        <inpaint_iso_val>800</inpaint_iso_val>
+        <denoise_iso_val>400</denoise_iso_val>
+        <synthetic_max_iso>100</synthetic_max_iso>  <!--iso threshold for synthetic exposure fusion-->
+        <overExposureRatio>0.2</overExposureRatio>  <!--over-exposure threshold for using dark as ref-->
+        <gf_radius>2</gf_radius>
+        <gf_epsilon>0.0001f</gf_epsilon>
+        <gf_epsilon_b1>0.0003f</gf_epsilon_b1>
+        <gf_epsilon_k1>0.0001f</gf_epsilon_k1>
+        <gf_epsilon_b2>0.0006f</gf_epsilon_b2>
+        <gf_epsilon_k2>0.0002f</gf_epsilon_k2>
+    </MotionCorrection>
+</Config>

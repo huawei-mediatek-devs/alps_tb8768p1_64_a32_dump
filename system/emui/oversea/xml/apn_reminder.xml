@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apnReminderList version="1">
+  <apnReminder plmn="23415" remindType="imsiChange" title="Please Choose your Tariff:" popupAfterRestart="true">
+    <apnSetting name="Pay Monthly Data" apn="wap.vodafone.co.uk" displayName="1.Pay Monthly Data" onsName="vodafone UK" otherApns="" vmNumber="121" vmTag="voicemail"/>
+    <apnSetting name="Pay as You Go/VOXI Data" apn="pp.vodafone.co.uk" displayName="2.Pay as You Go/VOXI Data" onsName="vodafone UK" otherApns="PAYG WAP:pp.vodafone.co.uk" vmNumber="121" vmTag="voicemail"/>
+    <apnSetting name="Talkmobile Prepay" apn="payg.talkmobile.co.uk" displayName="1 for Talk Mobile Prepay" onsName="Talkmobile" otherApns="" vmNumber="121" vmTag="voicemail"/>
+    <apnSetting name="Talkmobile Contract" apn="talkmobile.co.uk" displayName="2 for Talk Mobile Postpay" onsName="Talkmobile" otherApns="" vmNumber="121" vmTag="voicemail"/>
+  </apnReminder>
+  <apnReminder plmn="52501" remindType="imsiChange" title="Choose your default APN:">
+    <apnSetting name="Singtel (Postpaid)" apn="e-ideas" displayName="Singtel (Postpaid)" onsName="" otherApns="" vmNumber="1389" vmTag="voicemail"/>
+    <apnSetting name="Singtel (Prepaid)" apn="hicard" displayName="Singtel (Prepaid)" onsName="" otherApns="" vmNumber="1389" vmTag="voicemail"/>
+  </apnReminder>
+  <apnReminder plmn="51502" remindType="imsiChange" title="Choose your default APN">
+    <apnSetting name="myGlobe Internet" apn="internet.globe.com.ph" displayName="Globe Postpaid" onsName="" otherApns="" vmNumber="" vmTag="voicemail"/>
+    <apnSetting name="myGlobe INET" apn="http.globe.com.ph" displayName="Globe Prepaid" onsName="" otherApns="" vmNumber="" vmTag="voicemail"/>
+  </apnReminder>
+  <apnReminder plmn="52505" remindType="imsiChange" title="Choose your default APN:">
+    <apnSetting name="SH Data Postpaid" apn="shwap" displayName="StarHub (Postpaid)" onsName="" otherApns="" vmNumber="" vmTag="voicemail"/>
+    <apnSetting name="SH Data Prepaid" apn="shppd" displayName="StarHub (Prepaid)" onsName="" otherApns="" vmNumber="" vmTag="voicemail"/>
+  </apnReminder>
+</apnReminderList>

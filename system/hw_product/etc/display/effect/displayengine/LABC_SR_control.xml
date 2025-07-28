@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LABCSRControl>
+    <Enable>true</Enable>
+    <ReadingSceneEnable>true</ReadingSceneEnable>
+    <ReadingModeWhiteList>com.huawei.hwread.al,1</ReadingModeWhiteList>
+    <ReadingModeWhiteList>com.huawei.hwireader,1</ReadingModeWhiteList>
+    <ReadingModeWhiteList>com.huawei.hnreader,1</ReadingModeWhiteList>
+    <ReadingModeWhiteList>com.huawei.kidsmode,1</ReadingModeWhiteList>
+    <ReadingModeWhiteList>com.huawei.android.launcher,2</ReadingModeWhiteList>
+    <ReadingModeWhiteList>com.android.incallui,2</ReadingModeWhiteList>
+    <ReadingModeWhiteList>com.tencent.mobileqq,2</ReadingModeWhiteList>
+</LABCSRControl>

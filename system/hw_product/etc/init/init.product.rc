@@ -1,0 +1,31 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+
+on early-boot
+	service HwCamCfgSvr /vendor/bin/HwCamCfgSvr kirin710 KOB2
+	class main
+	user media
+	group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system dsm
+	
+on early-boot
+	service vr_daemon /system/bin/vr_daemon
+	class main
+	user system
+	group system
+	socket vr_daemon stream 660 root system graphics	
+
+on boot
+
+
+#voltage
+	chown system system /sys/class/voltage/voltage/vol_enable
+	chown system system /sys/class/voltage/voltage/vol_value
+	chown system system /sys/class/voltage/voltage/vol_values

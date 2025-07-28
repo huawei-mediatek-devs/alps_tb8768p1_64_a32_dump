@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<preferred-activities>
+    <item name="com.google.android.googlequicksearchbox/com.google.android.search.core.google.GoogleSearch">
+        <filter>
+            <action name="android.intent.action.WEB_SEARCH" />
+            <cat name="android.intent.category.DEFAULT" />
+        </filter>
+    </item>
+    <item name="com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity">
+        <filter>
+            <action name="android.intent.action.SEARCH_LONG_PRESS" />
+            <cat name="android.intent.category.DEFAULT" />
+        </filter>
+    </item>
+    <item name="com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity">
+        <filter>
+            <action name="android.speech.action.WEB_SEARCH"/>
+            <cat name="android.intent.category.DEFAULT"/>
+        </filter>
+    </item>
+    <item name="com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity">
+        <filter>
+            <action name="android.speech.action.WEB_SEARCH"/>
+            <cat name="android.intent.category.BROWSABLE"/>
+        </filter>
+    </item>
+    <item name="com.google.android.googlequicksearchbox/com.google.android.voicesearch.handsfree.HandsFreeActivity">
+        <filter>
+            <action name="android.intent.action.VOICE_COMMAND" />
+            <cat name="android.intent.category.DEFAULT" />
+        </filter>
+    </item>
+    <item name="com.google.android.googlequicksearchbox/com.google.android.voicesearch.handsfree.HandsFreeActivity">
+        <filter>
+            <action name="android.speech.action.VOICE_SEARCH_HANDS_FREE" />
+            <cat name="android.intent.category.DEFAULT" />
+        </filter>
+    </item>
+    <item name="com.google.android.googlequicksearchbox/com.google.android.voicesearch.intentapi.IntentApiActivity">
+        <filter>
+            <action name="android.speech.action.RECOGNIZE_SPEECH" />
+            <cat name="android.intent.category.DEFAULT" />
+        </filter>
+    </item>
+</preferred-activities>

@@ -1,0 +1,375 @@
+{
+    "imports" : [
+		"/system/lib64/libhwfilter_hisi.so"
+	],
+
+    "filters" :
+    [
+        {
+            "id" : "src",
+            "type" : "camerasource",
+            "previewQueueLength" : 12
+        },
+
+        {
+            "id" : "peekerMain",
+            "type" : "peek"
+        },
+
+        {
+            "id" : "preview",
+            "type" : "preview"
+        },
+
+        {
+            "id" : "3d",
+            "type" : "d3d.D3DReconstruct",
+            "bufTraceback" : 5,
+            "libpath4D3d" : "/system/lib64/libface3DREC.so",
+            "dataRoot" : "/data/hw_init/product/d3d"
+        },
+
+        {
+            "id" : "3dWriter",
+            "type" : "d3d.D3DFileWriter"
+        },
+
+        {
+            "id" : "metadata",
+            "type" : "hisi_metadata_extractor"
+        },
+
+        {
+            "id" : "forkMeta",
+            "type" : "fork"
+        },
+
+        {
+            "id" : "fFront",
+            "type" : "flushcache"
+        },
+
+        {
+            "id" : "fHead",
+            "type" : "flushcache"
+        },
+
+        {
+            "id" : "fBody",
+            "type" : "flushcache"
+        },
+
+        {
+            "id" : "jFront",
+            "type" : "hisi_filter_jpeg"
+        },
+
+        {
+            "id" : "jHead",
+            "type" : "hisi_filter_jpeg"
+        },
+
+        {
+            "id" : "jBody",
+            "type" : "hisi_filter_jpeg"
+        }
+    ],
+
+    "connections" :
+    [
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "peekerMain",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekerMain",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "preview",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekerMain",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "3d",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out1"
+            },
+
+            "to" :
+            {
+                "filter" : "3d",
+                "port" : "inSecond"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_meta"
+            },
+
+            "to" :
+            {
+                "filter" : "metadata",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "metadata",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "3d",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_dmap"
+            },
+
+            "to" :
+            {
+                "filter" : "3d",
+                "port" : "inDMap"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "3d",
+                "port" : "outMetaTex"
+            },
+
+            "to" :
+            {
+                "filter" : "forkMeta",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "forkMeta",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "jHead",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "forkMeta",
+                "port" : "out1"
+            },
+
+            "to" :
+            {
+                "filter" : "jBody",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "3d",
+                "port" : "outMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "jFront",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "3d",
+                "port" : "outFront"
+            },
+
+            "to" :
+            {
+                "filter" : "fFront",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "fFront",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "jFront",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "3d",
+                "port" : "outHeadTex"
+            },
+
+            "to" :
+            {
+                "filter" : "fHead",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "fHead",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "jHead",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "3d",
+                "port" : "outBodyTex"
+            },
+
+            "to" :
+            {
+                "filter" : "fBody",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "fBody",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "jBody",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "3d",
+                "port" : "outD3dResult"
+            },
+
+            "to" :
+            {
+                "filter" : "3dWriter",
+                "port" : "inD3dResult"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "jFront",
+                "port" : "jpeg"
+            },
+
+            "to" :
+            {
+                "filter" : "3dWriter",
+                "port" : "inFront"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "jHead",
+                "port" : "jpeg"
+            },
+
+            "to" :
+            {
+                "filter" : "3dWriter",
+                "port" : "inHeadTex"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "jBody",
+                "port" : "jpeg"
+            },
+
+            "to" :
+            {
+                "filter" : "3dWriter",
+                "port" : "inBodyTex"
+            }
+        }
+    ]
+}
+

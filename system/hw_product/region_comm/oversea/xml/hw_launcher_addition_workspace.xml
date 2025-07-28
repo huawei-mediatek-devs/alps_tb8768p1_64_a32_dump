@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+  <favorite launcher:packageName="com.huawei.gamebox" launcher:className="com.huawei.gamebox.GameBoxActivity" launcher:op="addinspace"/>
+  <favorite launcher:packageName="com.huawei.hwread.dz" launcher:className="com.huawei.reader.launch.impl.splash.SplashScreenActivity" launcher:op="addinspace"/>
+  <favorite launcher:packageName="com.huawei.maps.app" launcher:className="com.huawei.maps.app.petalmaps.splash.SplashActivity" launcher:op="addinspace"/>
+  <folder launcher:title="@string/cust_folder_name_hwapp" launcher:container="-100" launcher:op="addinspace">
+    <favorite launcher:packageName="com.huawei.welinknow" launcher:className="com.huawei.welinklite.MainActivity"/>
+  </folder>
+</favorites>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="therm.xsl"?>
+<!--
+ * Copyright (C) 2014 Huawei Inc.
+only support these sensors
+sensor_name ,  type,   description
+ system_h   ,    0 ,   board high temperature area
+ pa_0       ,    1 ,   major pa
+ charger    ,    2 ,   charge ic
+ usb        ,    3 ,   USB
+ cluster0   ,    4 ,   cpu little core
+ cluster1   ,    5 ,   cpu middle core
+ gpu        ,    6 ,   gpu core
+ modem      ,    7 ,   modem
+ ddr        ,    8 ,   ddr
+ battery    ,    9 ,   battery
+ lcd        ,    10,   display screen
+ tp         ,    11,   touch screen
+ system_l   ,    12,   board low temperature area
+ rfboard    ,    13,   mobile cool area
+ wireless   ,    14,   wireless charge ic
+ pa_1       ,    15,   minor pa
+ dcxo_0     ,    16,   major crystal oscillator
+ dcxo_1     ,    17,   minor crystal oscillator
+ camera_0   ,    18,   back camera
+ camera_1   ,    19,   front camera
+ codec      ,    20,   codec
+ charger1   ,    21,   minor charger ic
+ shell_frame,    22,   frame shell
+ ambient_v1 ,    23,   ambient v1.0
+ ambient    ,    24,   ambient v2
+ ir         ,    25,   ir
+ dot        ,    26,   dot
+ flash_led  ,    27,   flash led
+ shell_front,    28,   front shell
+ shell_back ,    29,   back shell
+ usb_port   ,    30,   accurate USB
+ supply_avg ,    31, average value of battery supply
+ "supply_peak,   32, peak value of battery supply
+ bat_0      ,    33, battery_0 of dual-battery
+ bat_1      ,    34, battery_1 of dual-battery
+ pa_2       ,    35, sub pa
+ pa_3       ,    36, sub pa
+ pa_4       ,    37, sub pa
+ mmw_0      ,    38, mmw major pa
+ mmw_1      ,    39, mmw minor pa
+ shell_0    ,    40, shell v3.0
+ shell_1    ,    41, shell v3.0
+ shell_2    ,    42, shell v3.0
+ shell_3    ,    43, shell v3.0
+ shell_4    ,    44, shell v3.0
+ shell_5    ,    45, shell v3.0
+ cluster2   ,    46, acpu big cpu core
+ msm-therm-adc,  47, ap zone on Qcom platform
+ msm-therm  ,    48, ap zone on Qcom platform
+ chg-therm-adc,  49, charge ic on Qcom platform
+ pa-therm0  ,    50, pa on Qcom platform
+ pa_therm0  ,    51, pa on Qcom platform
+ mtktsAP    ,    52, ap zone on mtk platform
+ mtkts_chargerntc, 53, charge ic on mtk platform
+ mtktsbtsmdpa,   54, pa on mtk platform
+ mtkts_usbntc,   55, usb on mtk platform
+-->
+<thermal version="0.02" product="KOB">
+
+<!--配置需要上传的温度属性信息-->
+
+<sensor_temp name="mtks_usbntc" type="55" enable="true" min_temp="-30" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="shell_frame" type="22" enable="true" min_temp="0" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="shell_front" type="28" enable="true" min_temp="0" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="mtksAP" type="52" enable="true" min_temp="-30" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="mtktsbtsmdpa" type="54" enable="true" min_temp="0" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="battery" type="9" enable="true" min_temp="-20" step="5" to_celsius="1000">
+    <thresholds>70</thresholds>
+</sensor_temp>
+
+<ambient_calculate_coef>
+    <debug>0</debug>
+    <nstate>60</nstate>
+    <ncalc>6</ncalc>
+    <nout>5</nout>
+    <deltat>5</deltat>
+    <tau>100</tau>
+    <epsilon>1</epsilon>
+    <interval>500</interval>
+    <cur_step>300</cur_step>
+    <ntc_step>2000</ntc_step>
+    <ntc_rate>75</ntc_rate>
+    <version>30</version>
+    <para_init_a>2117.2</para_init_a>
+    <para_init_b>44.178</para_init_b>
+    <para_ac_a>-5850</para_ac_a>
+    <para_ac_b>-0.13257</para_ac_b>
+    <para_ac_cur>0</para_ac_cur>
+    <para_dc_a>-4045.5</para_dc_a>
+    <para_dc_b>-0.13765</para_dc_b>
+    <para_dc_cur>-0.55487</para_dc_cur>
+    <temp_norm>1</temp_norm>
+    <amb_max>80000</amb_max>
+    <amb_min>-40000</amb_min>
+    <amb_range>-40000</amb_range>
+    <cur_norm>3800000</cur_norm>
+    <sensor_count>4</sensor_count>
+    <sensor0 type="battery" alpha="1.08096" beta="1.09134"/>
+    <sensor1 type="battery" alpha="0" beta="0"/>
+    <sensor2 type="mtktsbtsmdpa" alpha="0.04328" beta="-0.02112"/>
+    <sensor3 type="mtktsAP" alpha="-0.07457" beta="-0.04725"/>
+</ambient_calculate_coef>
+
+</thermal>

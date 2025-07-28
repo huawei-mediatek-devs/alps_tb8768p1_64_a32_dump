@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logo_list  displayimage="true">
+  <logo_item image="email_gmail_icon.png" value="@gmail.com" displayname="Gmail"/>
+  <logo_item image="email_hotmail_icon.png" value="@hotmail.com" displayname="Hotmail"/>
+  <logo_item image="email_yahoomail_icon.png" value="@yahoo.com" displayname="Yahoo"/>
+</logo_list>

@@ -1,0 +1,4 @@
+version=10.17.20.107
+type=triStatePara
+subtype=generic
+compatibleVersion=10

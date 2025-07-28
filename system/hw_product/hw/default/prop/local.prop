@@ -1,0 +1,5 @@
+ro.config.hw_optb=156
+ro.config.hw_nfc_on=true
+#DTS2014072801923 l00182131 begin
+ro.config.nfc_aid=A0000000031010,A0000000041010
+#DTS2014072801923 l00182131 end

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE powerlog_config[
+    <!ELEMENT powerlog_config (node_path,log_config,output_path)>
+    <!ELEMENT node_path (CPU_freq,CPU0_temp,CPU1_temp,Board_temp,CPU_online,WakeupSource,Current,PA_temp,Battery_temp,Current_limit,Capacity_rm)>
+    <!ELEMENT CPU_freq (#PCDATA)>
+    <!ELEMENT CPU0_temp (#PCDATA)>
+    <!ELEMENT CPU1_temp (#PCDATA)>
+    <!ELEMENT Board_temp (#PCDATA)>
+    <!ELEMENT CPU_online (#PCDATA)>
+    <!ELEMENT WakeupSource (#PCDATA)>
+    <!ELEMENT Current (#PCDATA)>
+    <!ELEMENT PA_temp (#PCDATA)>
+    <!ELEMENT Battery_temp (#PCDATA)>
+    <!ELEMENT Current_limit (#PCDATA)>
+    <!ELEMENT Capacity_rm (#PCDATA)>
+    <!ELEMENT log_config (TimeStep,WriteBufferMax,ZipFileMax,WakeLock_num,WakeupSource_num,Top_process_num)>
+    <!ELEMENT TimeStep (#PCDATA)>
+    <!ELEMENT WriteBufferMax (#PCDATA)>
+    <!ELEMENT ZipFileMax (#PCDATA)>
+    <!ELEMENT WakeLock_num (#PCDATA)>
+    <!ELEMENT WakeupSource_num (#PCDATA)>
+    <!ELEMENT Top_process_num (#PCDATA)>
+    <!ELEMENT output_path (Log_path,Log_name)>
+    <!ELEMENT Log_path (#PCDATA)>
+    <!ELEMENT Log_name (#PCDATA)>
+]>
+<powerlog_config>
+    <version>
+        <Powerinfo_Version>2.0</Powerinfo_Version>
+    </version>
+    <node_path>
+        <CPU_freq>/sys/devices/system/cpu/cpu</CPU_freq>                    <!-- the prefix of cpu freqency node path -->
+        <CPU0_temp>/sys/class/thermal/thermal_zone3/temp</CPU0_temp>        <!-- the path of cpu cluster0 temp -->
+        <CPU1_temp>/sys/class/thermal/thermal_zone4/temp</CPU1_temp>        <!-- the path of cpu cluster1 temp -->
+        <Board_temp>/sys/class/thermal/thermal_zone8/temp</Board_temp>      <!-- the path of system_h temp -->
+        <CPU_online>/sys/devices/system/cpu/online</CPU_online>             <!-- the path of cpu online -->
+        <WakeupSource>/sys/kernel/debug/wakeup_sources</WakeupSource>       <!-- the path of wakeupsource -->
+        <Current>/sys/class/power_supply/Battery/current_now</Current>      <!-- the path of current -->
+        <PA_temp>/sys/class/thermal/thermal_zone11/temp</PA_temp>            <!-- the path of PA temp -->
+        <Battery_temp>/sys/class/thermal/thermal_zone2/temp</Battery_temp>  <!-- the path of Battery temp -->
+        <Current_limit>/sys/class/hw_power/charger/charge_data/iin_thermal</Current_limit>  <!-- the path of current limit -->
+        <Capacity_rm>/sys/class/power_supply/Battery/capacity_rm</Capacity_rm>              <!-- the path of battery capacity_rm -->
+    </node_path>
+    <log_config>
+        <TimeStep>5000</TimeStep>                   <!-- the interval of get log,unit:ms -->
+        <WriteBufferMax>1</WriteBufferMax>          <!-- the max log number in the buffer -->
+        <ZipFileMax>6</ZipFileMax>                  <!-- the max zip file number -->
+        <WakeLock_num>3</WakeLock_num>              <!-- the max number of wakelock -->
+        <WakeupSource_num>3</WakeupSource_num>      <!-- the max number of WakeupSource -->
+        <Top_process_num>3</Top_process_num>        <!-- the max number of Top_process -->
+    </log_config>
+    <output_path>
+        <Log_path>log/sleeplog</Log_path>           <!-- where save the log file -->
+        <Log_name>power_stats-log</Log_name>        <!-- log file name -->
+    </output_path>
+</powerlog_config>

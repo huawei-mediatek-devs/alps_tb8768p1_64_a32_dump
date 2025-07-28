@@ -1,0 +1,259 @@
+{
+    "imports" : [
+        "/system/lib/libhwfilter_mtk.so"
+    ],
+
+    "filters" :
+    [
+        {
+            "id" : "src",
+            "type" : "camerasource",
+            "previewQueueLength" : 16
+        },
+
+        {
+            "id" : "preview",
+            "type" : "preview"
+        },
+
+        {
+            "id" : "peekPreview",
+            "type" : "peek"
+        },
+
+        {
+            "id" : "video",
+            "type" : "video"
+        },
+
+        {
+            "id" : "beauty_preview",
+            "type" : "HwBeautyIpp"
+        },
+
+        {
+            "id" : "facedetect",
+            "type" : "facedetect"
+        },
+
+        {
+            "id" : "beauty_video",
+            "type" : "HwBeautyIpp"
+        },
+
+        {
+            "id": "bridgesink",
+            "type": "bridgesink"
+        },
+
+        {
+            "id" : "peekerMeta",
+            "type" : "peek"
+        },
+
+        {
+            "id" : "metadata",
+            "type" : "mtk_metadata_extractor"
+        }
+    ],
+
+    "connections" :
+    [
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "peekPreview",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekPreview",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "beauty_preview",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "beauty_preview",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "preview",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekPreview",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "facedetect",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_video0"
+            },
+
+            "to" :
+            {
+                "filter" : "beauty_video",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "beauty_video",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "video",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_meta"
+            },
+
+            "to" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "preview",
+                "port" : "in_meta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "metadata",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "metadata",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "facedetect",
+                "port" : "InMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "facedetect",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "beauty_preview",
+                "port" : "InMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "beauty_preview",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "beauty_video",
+                "port" : "InMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "beauty_video",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "bridgesink",
+                "port" : "in_meta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_cap0"
+            },
+
+            "to" :
+            {
+                "filter" : "bridgesink",
+                "port" : "in0"
+            }
+        }
+    ]
+}
+

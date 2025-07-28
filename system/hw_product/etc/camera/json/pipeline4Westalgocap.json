@@ -1,0 +1,286 @@
+{
+    "imports" : [
+        "/system/lib/libhwfilter_mtk.so"
+    ],
+
+    "filters" :
+    [
+        {
+            "id" : "ppsource",
+            "type" : "ppsource"
+        },
+
+        {
+            "id" : "sync",
+            "type" : "sync"
+        },
+
+        {
+            "id" : "jpeg",
+            "type" : "mtk_filter_jpeg"
+        },
+
+        {
+            "id" : "writer",
+            "type" : "filewriter"
+        },
+
+        {
+            "id" : "thumbnail",
+            "type" : "quickthumbnail"
+        },
+
+        {
+            "id" : "notifier",
+            "type" : "thumbnail-notifier"
+        },
+
+        {
+            "id" : "peek",
+            "type" : "peek"
+        },
+
+        {
+            "id" : "peekMeta",
+            "type" : "peek"
+        },
+
+        {
+            "id" : "Davinci",
+            "type" : "Davinci"
+        },
+
+        {
+            "id" : "WestalgoDofPp",
+            "type" : "WestalgoDofPp"
+        }
+    ],
+
+    "connections" :
+    [
+        {
+            "from" :
+            {
+                "filter" : "ppsource",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "sync",
+                "port" : "in0"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "ppsource",
+                "port" : "out1"
+            },
+
+            "to" :
+            {
+                "filter" : "sync",
+                "port" : "in1"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "sync",
+                "port" : "out1"
+            },
+
+            "to" :
+            {
+                "filter" : "WestalgoDofPp",
+                "port" : "inSecond"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "ppsource",
+                "port" : "out_meta"
+            },
+
+            "to" :
+            {
+                "filter" : "sync",
+                "port" : "in2"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "sync",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "peek",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "sync",
+                "port" : "out2"
+            },
+
+            "to" :
+            {
+                "filter" : "peekMeta",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peek",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "WestalgoDofPp",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "WestalgoDofPp",
+                "port" : "OutDestyuv"
+            },
+
+            "to" :
+            {
+                "filter" : "Davinci",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "Davinci",
+                "port" : "OutDestyuv"
+            },
+
+            "to" :
+            {
+                "filter" : "jpeg",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekMeta",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "WestalgoDofPp",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "WestalgoDofPp",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "Davinci",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "Davinci",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "jpeg",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "jpeg",
+                "port" : "jpeg"
+            },
+
+            "to" :
+            {
+                "filter" : "writer",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peek",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "thumbnail",
+                "port" : "inMain"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekMeta",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "thumbnail",
+                "port" : "inMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "thumbnail",
+                "port" : "outThumbnail"
+            },
+
+            "to" :
+            {
+                "filter" : "notifier",
+                "port" : "in"
+            }
+        }
+    ]
+}
+

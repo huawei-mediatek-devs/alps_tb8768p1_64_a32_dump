@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <!--插入huwei device-->
+    <favorite
+        launcher:packageName="com.huawei.android.launcher"
+        launcher:className="com.huawei.launcher.cust.LauncherShortcutActivity"
+        launcher:shortcutid="HuaweiDevice"
+        launcher:container="-100"
+        launcher:shortcut="true"
+        launcher:icontype="0"
+        launcher:translatetitle = "1"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+</favorites>

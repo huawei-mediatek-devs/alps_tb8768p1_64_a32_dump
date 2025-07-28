@@ -1,0 +1,201 @@
+{
+    "imports" : [
+        "/system/lib/libhwfilter_mtk.so"
+    ],
+
+    "filters" :
+    [
+        {
+            "id" : "src",
+            "type" : "camerasource",
+            "previewQueueLength" : 16
+        },
+        {
+            "id" : "preview",
+            "type" : "preview"
+        },
+        {
+            "id" : "bridgesink",
+            "type" : "bridgesink"
+        },
+        {
+            "id" : "IppAlgo",
+            "type" : "IppAlgoFilter"
+        },
+        {
+            "id" : "HwBeautyIpp",
+            "type" : "HwBeautyIpp"
+        },
+        {
+            "id" : "peekerMeta",
+            "type" : "peek"
+        },
+        {
+            "id" : "peekPreview",
+            "type" : "peek"
+        },
+        {
+            "id" : "metadata",
+            "type" : "mtk_metadata_extractor"
+        }
+    ],
+
+    "connections" :
+    [
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out0"
+            },
+
+            "to" :
+            {
+                "filter" : "peekPreview",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekPreview",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "HwBeautyIpp",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "HwBeautyIpp",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "preview",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekPreview",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "IppAlgo",
+                "port" : "in"
+            }
+        },
+
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_meta"
+            },
+
+            "to" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "preview",
+                "port" : "in_meta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "metadata",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "metadata",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "IppAlgo",
+                "port" : "InMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "IppAlgo",
+                "port" : "OutMeta"
+            },
+
+            "to" : 
+            {
+                "filter" : "HwBeautyIpp",
+                "port" : "InMeta"
+            }
+        },
+
+        {
+            "from" : 
+            {
+                "filter" : "HwBeautyIpp",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "bridgesink",
+                "port" : "in_meta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_cap0"
+            },
+
+            "to" :
+            {
+                "filter" : "bridgesink",
+                "port" : "in0"
+            }
+        }
+    ]
+}
+

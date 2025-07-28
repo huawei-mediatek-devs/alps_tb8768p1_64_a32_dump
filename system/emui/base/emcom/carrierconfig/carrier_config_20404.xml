@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- VDF NL -->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="3" />
+        <!--Google Message config end -->
+        <!-- Volte UI -->
+        <!--RCS config begin -->
+        <string name="huawei_rcs_enabler">false</string>
+        <string name="ims_ip">72.10.10.10</string>
+        <string name="ims_port">5060</string>
+        <string name="ims_domain">prepro.rcse.ims.vodafone.es</string>
+        <string name="hw_rcs_version">1</string>
+        <string name="CONFIG_SESSION_REFRESH_METHOD">1</string>
+        <!--RCS config end -->
+    </carrier_config>
+</carrier_config_list>

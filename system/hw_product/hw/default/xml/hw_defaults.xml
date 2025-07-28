@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <integer settings.secure.dts_mode="0"/>
+    <!--bool hw_backup_otg_enable ="true"/-->
+    <!--bool hw_backup_sd_disable ="true"/-->
+    <string theme_no_online = "false"/>
+    <!-- DTS2011112802074 yangchenghai 00184280 20111208 begin -->
+    <!-- When remote hand up ,whether screen should wakeup or not ,here we set value is wakeup-->
+    <!-- BEGIN PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!--<bool hw_call_wakeup="true"/>-->
+    <!-- END PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+     <!-- DTS2012070305313 chenzhong 20120703 begin -->
+    <!--DTS2012122503629 shifengbing add Austrian mcc/mnc 20121226 begin-->
+    <!--DTS2012122503629 shifengbing add Austrian mcc/mnc 20121226 end-->
+    <!-- DTS2012070305313 chenzhong 20120703 end -->
+    <!-- DTS2011112802074 yangchenghai 00184280 20111208 end -->
+    <!-- DTS2011030905517 shifengbin 20110314 begin -->
+    <integer settings.system.screen_brightness="128"/>
+    <!-- DTS2011030905517 shifengbin 20110314 end -->
+    <!-- DTS2011121605249 niguanhua 20111216 begin -->
+    <!-- When remote answer ,whether vibrate should turn on  or not ,here we set value is turn on-->
+    <!--DTS2015122207783 g00303690 20160112 begin -->
+    <!--<integer vibrate_on_message="1"/>-->
+    <!--DTS2015122207783 g00303690 20160112 end -->
+    <!-- DTS2011121605249 niguanhua 20111216 end -->
+    <!-- DTS2011080903932 yushaochen 20110811 begin -->
+    <!-- BEGIN PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!--<integer hwfeature_endtocall_log="1"/>-->
+    <!-- END PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!-- DTS2011080903932 yushaochen 20110811 end -->
+    <!-- DTS2011072606499 wanggang 20110802 begin -->
+    <!-- DTS2011072606499 wanggang 20110802 end -->
+    <!-- DTS2011112503270 yangchenghai 00184280 20111205 begin -->
+    <!-- DTS2011112503270 yangchenghai 00184280 20111205 end -->
+    <!-- DTS2012112006951   sunshangbang 20121124 begin -->
+    <!-- DTS2012112006951   sunshangbang 20121124 end -->
+    <!--string default_first_music="Emo_Mamma.mp3"/-->
+    <!-- DTS2014030800351 jiayanhong/00176905 20140308 begin -->
+    <!-- DTS2014053000811   zhanghao 00260328 20140616 begin-->
+    <!-- DTS2014062307965 g00122041 20140623 begin-->
+    <!-- <string no_write_sms_package="com.huawei.android.ds,com.android.mediacenter,com.huawei.hwid,com.huawei.security,com.huawei.hisuite,com.android.phone,com.huawei.remoteassistant"/>-->
+    <!-- DTS2014062307965 g00122041 20140623 end-->
+    <!-- DTS2014053000811   zhanghao 00260328 20140616 end-->
+    <!-- DTS2014030800351 jiayanhong/00176905 20140308 end -->
+</resources>
+

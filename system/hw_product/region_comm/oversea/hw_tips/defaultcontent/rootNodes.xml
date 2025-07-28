@@ -1,0 +1,1984 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2008, v.4002-->
+<root xmlns:atict="http://www.arbortext.com/namespace/atict">
+	<atict:info tracking="off" ref="0"/>
+	<atict:user user="x00228825" fullname="Xingzhikang"/>
+	<content lan="zh-cn">
+		<item>
+			<id>1</id>
+			<title>快捷操作</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>个性化设置</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>连接与共享</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>相机与图库</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>联系人</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>通话（Wi-Fi Only版本不支持）</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>支付与安全</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>平板管家</title>
+		</item>
+                <item>
+			<id>9</id>
+			<title>备份、恢复与升级</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>更多帮助</title>
+		</item>
+	</content>
+	<content lan="en">
+		<item>
+			<id>1</id>
+			<title>Quick Operations</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Customized Settings</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Connection and Sharing</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Camera and Gallery</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Contacts</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Calls (Not available in the Wi-Fi Only version)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Payment and Security</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Tablet Management</title>
+		</item>
+                <item>
+			<id>9</id>
+			<title>Backup, Restoration, and Update</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>More Information</title>
+		</item>
+	</content>
+	<content lan="de">
+		<item>
+			<id>1</id>
+			<title>Schnelle Bedienung</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Benutzerdefinierte Einstellungen</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Verbindung und Teilen</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera und Galerie</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontakte</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Anrufe (nicht verfügbar auf der Nur-WLAN-Version)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Zahlung und Sicherheit</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Tabletverwaltung</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Sicherung, Wiederherstellung und Aktualisierung</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Weitere Informationen</title>
+		</item>
+	</content>
+	<content lan="en-gb">
+		<item>
+			<id>1</id>
+			<title>Quick Operations</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Customised Settings</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Connection and Sharing</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Camera and Gallery</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Contacts</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Calls (Not available in the Wi-Fi Only version)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Payment and Security</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Tablet Management</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Backup, Restoration, and Update</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>More Information</title>
+		</item>
+	</content>
+
+	<content lan="it">
+		<item>
+			<id>1</id>
+			<title>Operazioni rapide</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Impostazioni Personalizzate</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Connessione e Condivisione</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Fotocamera e Galleria</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Contatti</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Chiamate (non disponibile nella versione solo Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Pagamento e Sicurezza</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Gestione Tablet</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Backup, Ripristino e Aggiornamento</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Maggiori Informazioni</title>
+		</item>
+	</content>
+	<content lan="ja">
+		<item>
+			<id>1</id>
+			<title>クイック操作</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>カスタマイズ設定</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>接続と共有</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>カメラとギャラリー</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>連絡先</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>通話（Wi-Fiモデル対象外）</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>支払いとセキュリティ</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>タブレット管理</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>バックアップ、復元、システム更新</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>その他の情報</title>
+		</item>
+	</content>
+	<content lan="nl">
+		<item>
+			<id>1</id>
+			<title>Snelle handelingen</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Aangepaste instellingen</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Verbinding en delen</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Camera en Galerie</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Contacten</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Oproepen (Niet beschikbaar op de versie die alleen Wi-Fi ondersteunt)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Betaling en beveiliging</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Tabletbeheer</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Back-ups, herstellen en bijwerken</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Meer informatie</title>
+		</item>
+	</content>
+	<content lan="pt-pt">
+		<item>
+			<id>1</id>
+			<title>Operações rápidas</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Definições personalizadas</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Ligações e partilha</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Câmara e Galeria</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Contactos</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Chamadas (indisponível na versão Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Pagamentos e segurança</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Gestão do tablet</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Cópia de segurança, restauro e atualização</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Mais informações</title>
+		</item>
+	</content>
+	<content lan="ru">
+		<item>
+			<id>1</id>
+			<title>Быстрые операции</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Персональные настройки</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Соединение и предоставление доступа в Интернет</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Камера и галерея</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Контакты</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Вызовы (недоступно в моделях с поддержкой только сети Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Платежи и безопасность</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Диспетчер планшета</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Резервное копирование, восстановление и обновление</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Дополнительная информация</title>
+		</item>
+	</content>
+
+	<content lan="es">
+		<item>
+			<id>1</id>
+			<title>Operaciones rápidas</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Ajustes personalizados</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Conexiones y cómo compartirlas</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Cámara y Galería</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Contactos</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Llamadas (no disponible en la versión solo Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Pagos y seguridad</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Gestión de la tableta</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Copia de seguridad, restauración y actualización</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Más información</title>
+		</item>
+	</content>
+
+	<content lan="es-us">
+		<item>
+			<id>1</id>
+			<title>Operaciones rápidas</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Ajustes personalizados</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Conexiones y cómo compartirlas</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Cámara y Galería</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Contactos</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Llamadas (no disponible en la versión solo Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Pagos y seguridad</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Gestión de la tableta</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Copia de respaldo, restauración y actualización</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Más información</title>
+		</item>
+	</content>
+
+	<content lan="th">
+		<item>
+			<id>1</id>
+			<title>การดำเนินงานอย่างรวดเร็ว</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>การตั้งค่าที่กำหนดเอง</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>การเชื่อมต่อและการแบ่งปัน</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>กล้องถ่ายรูปและแกลลอรี่</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>รายชื่อติดต่อ</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>การโทร (ไม่สามารถใช้ได้ในเวอร์ชัน Wi-Fi เท่านั้น)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>การชำระเงินและความปลอดภัย</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>การจัดการแท็บเล็ต</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>การสำรองข้อมูล การคืนค่าและการอัปเดต</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>ข้อมูลเพิ่มเติม</title>
+		</item>
+	</content>
+	<content lan="ar">
+		<item>
+			<id>1</id>
+			<title>تشغيل أسرع</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>إعدادات مخصصة</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>الاتصال والمشاركة</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>الكاميرا والمعرض</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>جهات الاتصال</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>المكالمات (غير متاحة في إصدار الشبكة اللاسلكية فقط)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>الدفع والأمان</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>إدارة الهاتف اللوحي</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>النسخ الاحتياطي والاستعادة والتحديث</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>مزيد من المعلومات</title>
+		</item>
+	</content>
+	<content lan="ar-eg">
+		<item>
+			<id>1</id>
+			<title>تشغيل أسرع</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>إعدادات مخصصة</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>الاتصال والمشاركة</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>الكاميرا والمعرض</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>جهات الاتصال</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>المكالمات (غير متاحة في إصدار الشبكة اللاسلكية فقط)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>الدفع والأمان</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>إدارة الهاتف اللوحي</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>النسخ الاحتياطي والاستعادة والتحديث</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>مزيد من المعلومات</title>
+		</item>
+	</content>
+	<content lan="my-zg">
+		<item>
+			<id>1</id>
+			<title>အျမန္ လုပ္ေဆာင္ခ်က္မ်ား</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>စိတ္ႀကိဳက္သတ္မွတ္ထားေသာ ဆက္တင္မ်ား</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>ခ်ိတ္ဆက္မႈႏွင့္ မွ်ေဝျခင္း</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>ကင္မရာႏွင့္ ပံုျပခန္း</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>အဆက္အသြယ္မ်ား</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>ဖုန္းေခၚဆုိမႈမ်ား (Wi-Fi သာ သံုးႏုိင္သည့္ ဗားရွင္းတြင္ မရႏုိင္ပါ)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>ေငြေပးေခ်မႈႏွင့္ လုံျခံဳေရး</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>တက္ဘလက္ စီမံခန္႔ခြဲမႈ</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>ဘက္ခ္အပ္၊ ျပန္ရယူျခင္းႏွင့္ အပ္ဒိတ္</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>ေနာက္ထပ္ အခ်က္အလက္</title>
+		</item>
+	</content>
+	<content lan="fa">
+		<item>
+			<id>1</id>
+			<title>عمليات‌های سريع</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>تنظیمات سفارشی</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>اتصال و اشتراک‌گذاری</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>دوربین و گالری</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>مخاطبین</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>تماس‌ها (در نسخه فقط Wi-Fi موجود نیست)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>پرداخت و امنیت</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>مدیریت تبلت</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>پشتیبان‌گیری، بازیابی، و به‌روزرسانی</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>اطلاعات بیشتر</title>
+		</item>
+	</content>
+	<content lan="fr">
+		<item>
+			<id>1</id>
+			<title>Opérations rapides</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Paramètres personnalisés</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Connexion et partage</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Appareil photo et Galerie</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Contacts</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Appels (sauf dans la version Wi-Fi only)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Paiements et sécurité</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Gestion de la tablette</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Sauvegarde, restauration et mise à jour</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>En savoir plus</title>
+		</item>
+	</content>
+	<content lan="el">
+		<item>
+			<id>1</id>
+			<title>Γρήγορες λειτουργίες</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Εξατομικευμένες ρυθμίσεις</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Σύνδεση και Κοινή χρήση</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Κάμερα και Συλλογή</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Επαφές</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Κλήσεις (μη διαθέσιμη επιλογή στην έκδοση μόνο για Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Πληρωμή και Ασφάλεια</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Διαχείριση tablet</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Δημιουργία αντιγράφων ασφαλείας, Επαναφορά και Ενημέρωση</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Περισσότερες πληροφορίες</title>
+		</item>
+	</content>
+	<content lan="iw">
+		<item>
+			<id>1</id>
+			<title>פעולות מהירות</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>הגדרות מותאמות אישית</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>חיבור ושיתוף</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>מצלמה וגלריה</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>אנשי קשר</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>שיחות (לא זמין בגרסת Wi-Fi בלבד)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>תשלומים ואבטחה</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>ניהול הטאבלט</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>גיבוי, שחזור ועדכון</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>מידע נוסף</title>
+		</item>
+	</content>
+	<content lan="hu">
+		<item>
+			<id>1</id>
+			<title>Gyorsműveletek</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Testreszabott beállítások</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Kapcsolat és megosztás</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera és galéria</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Névjegyzék</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Hívások (Nem érhető el a csak Wi-Fi verzióban)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Fizetés és biztonság</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Tabletkezelés</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Biztonsági mentés, visszaállítás és frissítés</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>További információk</title>
+		</item>
+	</content>
+	<content lan="km-kh">
+		<item>
+			<id>1</id>
+			<title>ប្រតិបត្តិការរហ័ស</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>ការកំណត់តាមតម្រូវការ</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>ការតភ្ជាប់ និង​ការចែករំលែក</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>កាមេរ៉ា​ និង​វិចិត្រសាល</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>ទំនាក់ទំនង</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>ការហៅទូរស័ព្ទ (មិនមាន​នៅក្នុង​កំណែ​ Wi-Fi តែ​ប៉ុណ្ណោះ​ទេ​)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>ការទូទាត់ និងសន្តិសុខ</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>ការគ្រប់គ្រងថេប្លិត</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>ការបម្រុងទុក ការស្ដារឡើងវិញ និង​ការធ្វើបច្ចុប្បន្នភាព</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>ព័ត៌មានបន្ថែម</title>
+		</item>
+	</content>
+	<content lan="mk">
+		<item>
+			<id>1</id>
+			<title>Брзи операции</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Приспособени поставки</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Поврзување и споделување</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Камера и галерија</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Контакти</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Повици (не се достапни во верзијата само со Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Плаќање и безбедност</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Администрирање на таблетот</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Резервна копија, обнова и ажурирање</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Повеќе информации</title>
+		</item>
+	</content>
+	<content lan="ne">
+		<item>
+			<id>1</id>
+			<title>द्रुत सञ्चालनहरू</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>अनुकूलित सेटिङहरू</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>जडान र साझेदारी</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>क्यामेरा र ग्यालरी</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>सम्पर्कहरू</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>कलहरू (Wi-Fi मात्र संस्करणमा उपलब्ध छैनन्)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>भुक्तानी र सुरक्षा</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>ट्याब्लेट व्यवस्थापन</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>ब्याकअप, पूर्वावस्थामा ल्याउने कार्य र अद्यावधिक</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>थप जानकारी</title>
+		</item>
+	</content>
+	<content lan="pl">
+		<item>
+			<id>1</id>
+			<title>Szybkie operacje</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Dostosowane ustawienia</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Połączenie i udostępnianie</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Aparat i Galeria</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontakty</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Połączenia (niedostępne w wersji tylko z Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Płatności i bezpieczeństwo</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Zarządzanie tabletem</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Kopia zapasowa, przywracanie i aktualizacja</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Więcej informacji</title>
+		</item>
+	</content>
+	<content lan="sr">
+		<item>
+			<id>1</id>
+			<title>Brze operacije</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Prilagođena podešavanja</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Veza i deljenje</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera i galerija</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontakti</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Pozivi (nije dostupno u verziji opcije Samo Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Plaćanje i bezbednost</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Upravljanje tabletom</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Rezervna kopija, obnavljanje i ažuriranje</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Više informacija</title>
+		</item>
+	</content>
+	<content lan="zh-tw">
+		<item>
+			<id>1</id>
+			<title>快捷操作</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>個人化設定</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>連線與共用</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>相機與圖片庫</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>聯絡人</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>通話（Wi-Fi Only版本不支援）</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>支付與安全性</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>平板電腦管理員</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>備份、還原與更新</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>更多說明</title>
+		</item>
+	</content>
+	<content lan="bs">
+		<item>
+			<id>1</id>
+			<title>Brze radnje</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Prilagođene postavke</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Povezivanje i dijeljenje</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Fotoaparat i Galerija</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontakti</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Pozivi (Nije dostupno u verziji Samo Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Plaćanje i sigurnost</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Upravljanje tabletom</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Rezervna kopija, obnavljanje i ažuriranje</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Dodatne informacije</title>
+		</item>
+	</content>
+	<content lan="bg">
+		<item>
+			<id>1</id>
+			<title>Бързи операции</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Персонализирани настройки</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Свързване и споделяне</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Камера и галерия</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Контакти</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Обаждания (не се предлага при версия само с Wi-Fi )</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Плащане и сигурност</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Управление на таблет</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Резервно копиране, възстановяване и актуализиране</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Повече информация</title>
+		</item>
+	</content>
+	<content lan="da">
+		<item>
+			<id>1</id>
+			<title>Hurtige handlinger</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Tilpassede indstillinger</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Forbindelse og deling</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera og Galleri</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontakter</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Opkald (ikke tilgængelig i versionen med kun Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Betaling og sikkerhed</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Tablet-styring</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Sikkerhedskopiering, gendannelse og opdatering</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Flere oplysninger</title>
+		</item>
+	</content>
+	<content lan="pt">
+		<item>
+			<id>1</id>
+			<title>Operações rápidas</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Configurações personalizadas</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Conexão e compartilhamento</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Câmera e Galeria</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Contatos</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Chamadas (não disponível na versão Apenas Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Pagamento e segurança</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Gerenciamento do tablet</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Backup, restauração e atualização</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Mais informações</title>
+		</item>
+	</content>
+	<content lan="vi">
+		<item>
+			<id>1</id>
+			<title>Thao tác nhanh</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Cài đặt tùy chỉnh</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Kết nối và Chia sẻ</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Máy ảnh và Bộ sưu tập</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Danh bạ</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Gọi điện (Không khả dụng trong phiên bản chỉ sử dụng Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Thanh toán và Bảo mật</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Quản lý Máy tính bảng</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Sao lưu, Khôi phục và Cập nhật</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Thông tin khác</title>
+		</item>
+	</content>
+	<content lan="hr">
+		<item>
+			<id>1</id>
+			<title>Brze radnje</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Prilagođene postavke</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Povezivanje i dijeljenje</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera i galerija</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontakti</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Pozivi (nisu dostupni u inačici Samo značajka Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Plaćanje i sigurnost</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Upravljanje tabletom</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Sigurnosno kopiranje, obnavljanje i ažuriranje</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Više informacija</title>
+		</item>
+	</content>
+	<content lan="cs">
+		<item>
+			<id>1</id>
+			<title>Rychlé operace</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Přizpůsobení nastavení</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Připojení a sdílení</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Fotoaparát a galerie</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontakty</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Hovory(ve verzi Pouze Wi-Fi nejsou k dispozici)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Platba a zabezpečení</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Správa tabletu</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Zálohování, obnovení a aktualizace</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Další informace</title>
+		</item>
+	</content>
+	<content lan="et">
+		<item>
+			<id>1</id>
+			<title>Kiirtoimingud</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Kohandatud sätted</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Ühendamine ja jagamine</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kaamera ja galerii</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontaktid</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Kõned (ei ole ainult Wi-Fi versioonis saadaval)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Maksmine ja turve</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Tahvelarvuti haldus</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Varundus, taaste ja värskendamine</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Lisateave</title>
+		</item>
+	</content>
+	<content lan="fi">
+		<item>
+			<id>1</id>
+			<title>Pikatoiminnot</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Mukautetut asetukset</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Yhteydet ja jakaminen</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera ja Galleria</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Yhteystiedot</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Puhelut (ei käytettävissä Vain Wi-Fi -versiossa)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Maksut ja turvallisuus</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Taulutietokoneen hallinta</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Varmuuskopiointi, palauttaminen ja päivittäminen</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Lisää tietoja</title>
+		</item>
+	</content>
+	<content lan="kk">
+		<item>
+			<id>1</id>
+			<title>Жылдам жұмыстар</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Реттелетін параметрлер</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Байланыс және бөлісу</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Камера және галерея</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Контактілер</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Қоңыраулар (тек Wi-Fi нұсқасында қолжетімсіз)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Төлем және қауіпсіздік</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Планшет реттегіші</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Сақтық көшірме жасау, қалпына келтіру және жаңарту</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Қосымша ақпарат</title>
+		</item>
+	</content>
+	<content lan="lo">
+		<item>
+			<id>1</id>
+			<title>ການ​ດຳ​ເນີນ​ການດ່ວນ</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>​ການ​ຕັ້ງ​ຄ່າ​ກຳ​ນົດ​ເອງ</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>ການ​ເຊື່ອມ​ຕໍ່ ແລະ ການ​ແຊ​ຣ໌</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>ກ້ອງ​ຖ່າຍ​ຮູບ ແລະ ແກ​ເລີ​ຣີ</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>ລາຍຊື່​ຕິດ​ຕໍ່</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>ສາຍ​ໂທ (ບໍ່​ມີ​ຢູ່​ໃນ​ເວີ​ຊັນ Wi-Fi ເທົ່າ​ນັ້ນ)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>ການຊໍາລະ ແລະ ຄວາມ​ປອດ​ໄພ</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>ການ​ຈັດ​ການ​ແທັບ​ເລັດ</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>ການ​ສຳ​ຮອງ​ຂໍ້​ມູນ, ການ​ກູ້​ຄືນ ແລະ ການ​ອັບ​ເດດ</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>ຂໍ້ມູນເພີ່ມເຕີມ</title>
+		</item>
+	</content>
+	<content lan="lv">
+		<item>
+			<id>1</id>
+			<title>Ātrās darbības</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Pielāgoti iestatījumi</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Savienojums un kopīgošana</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera un galerija</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontaktpersonas</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Zvani (nav pieejami versijā Tikai Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Maksājumi un drošība</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Planšetdatora pārvaldība</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Dublēšana, atjaunošana un atjaunināšana</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Papildinformācija</title>
+		</item>
+	</content>
+	<content lan="lt">
+		<item>
+			<id>1</id>
+			<title>Sparčiosios operacijos</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Tinkintos nuostatos</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Ryšys ir bendrinimas</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera ir Galerija</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Adresinė</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Skambučiai (nepasiekiama versijoje tik su „Wi-Fi“)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Mokėjimai ir saugumas</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Planšetinio kompiuterio valdymas</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Atsarginės kopijos, atkūrimas ir naujinimas</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Daugiau informacijos</title>
+		</item>
+	</content>
+	<content lan="ro">
+		<item>
+			<id>1</id>
+			<title>Operațiuni rapide</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Setări personalizate</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Conexiune și partajare</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Cameră foto și galerie</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Contacte</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Apeluri (nu sunt disponibile în versiunea Numai Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Plată și securitate</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Gestionarea tabletei</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Copiere de rezervă, restabilire și actualizare</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Mai multe informații</title>
+		</item>
+	</content>
+	<content lan="sk">
+		<item>
+			<id>1</id>
+			<title>Rýchle operácie</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Prispôsobené nastavenia</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Pripojenie a zdieľanie</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Fotoaparát a galéria</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontakty</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Hovory (nedostupné pre verziu len s Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Platby a zabezpečenie</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Správa tabletu</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Zálohovanie, obnova a aktualizácia</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Ďalšie informácie</title>
+		</item>
+	</content>
+	<content lan="sl">
+		<item>
+			<id>1</id>
+			<title>Hitri postopki</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Prilagojene nastavitve</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Povezava in skupna raba</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera in Galerija</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Stiki</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Klici (ni na voljo v različici »Samo Wi-Fi«)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Plačilo in varnost</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Upravitelj tablice</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Varnostno kopiranje, obnovitev in posodobitev</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Več informacij</title>
+		</item>
+	</content>
+	<content lan="sv">
+		<item>
+			<id>1</id>
+			<title>Snabbåtgärder</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Anpassade inställningar</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Anslutning och delning</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera och galleri</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontakter</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Samtal (Inte tillgängliga i versionen Endast Wi-Fi)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Betalning och säkerhet</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Surfplattehantering</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Säkerhetskopiering, återställning och uppdatering</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Ytterligare information</title>
+		</item>
+	</content>
+	<content lan="zh-hk">
+		<item>
+			<id>1</id>
+			<title>快捷操作</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>個人化設定</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>連線和分享</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>相機和圖片庫</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>聯絡人</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>通話（Wi-Fi Only 版本不支援）</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>支付和安全性</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>平板電腦總管</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>備份、恢復和更新</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>更多說明</title>
+		</item>
+	</content>
+	<content lan="in">
+		<item>
+			<id>1</id>
+			<title>Operasi Cepat</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Pengaturan Terkhususkan</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Koneksi dan Berbagi</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera dan Galeri</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontak</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Panggilan (Tidak tersedia di versi Wi-Fi Saja)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Pembayaran dan Keamanan</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Pengelolaan Tablet</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Pencadangan, Pemulihan, dan Pembaruan</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Informasi Lebih Lengkap</title>
+		</item>
+	</content>
+	<content lan="tr">
+		<item>
+			<id>1</id>
+			<title>Hızlı İşlemler</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Özelleştirilmiş Ayarlar</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Bağlantı ve Paylaşım</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera ve Galeri</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kişiler</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Aramalar (Yalnızca Wi-Fi sürümünde kullanılamaz)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Ödeme ve Güvenlik</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Tablet Yönetimi</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>Yedekleme, Geri Yükleme ve Güncelleme</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Daha Fazla Bilgi</title>
+		</item>
+	</content>
+	<content lan="nb">
+		<item>
+			<id>1</id>
+			<title>Hurtigoperasjoner</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Tilpassede innstillinger</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Tilkobling og Delinger</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Kamera og Galleri</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Kontakter</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Anrop (Ikke tilgjengelig for Kun-Wi-Fi-versjonen)</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Betaling og Sikkerhet</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Nettbrettbehandling</title>
+		</item>
+                <item>
+			<id>9</id>
+			<title>Sikkerhetskopiering, Gjenoppretting og Oppdatering</title>
+		</item>
+		<item>
+			<id>10</id>
+			<title>Mer Informasjon</title>
+		</item>
+	</content>
+</root>

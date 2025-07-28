@@ -1,0 +1,102 @@
+# 2020-01-20 09:57:52.0
+persist.sys.hw.forcedark_policy=0
+# 2019-03-15 08:35:09.0
+ro.cofig.onlinemusic.enabled=false
+# 2019-03-15 08:35:09.0
+ro.com.google.acsa=true
+# 2019-03-15 08:35:09.0
+ro.config.attach_apn_enabled=true
+# 2019-03-15 08:35:09.0
+ro.config.cota_live_update=true
+# 2019-04-18 23:03:52.0
+ro.config.dataoff_timeout=5
+# 2019-03-15 08:35:09.0
+ro.config.default_sms_app=com.google.android.apps.messaging
+# 2019-03-15 08:35:09.0
+ro.config.delay_setapn=true
+# 2019-11-21 11:41:56.0
+ro.config.dnscure_ipcfg=10.8.2.1;10.8.2.2|8.8.8.8;208.67.222.222
+# 2019-03-15 08:35:09.0
+ro.config.hw_agps_adpt_sim=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_allow_rs_mms=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_always_allow_mms=0
+# 2019-03-15 08:35:09.0
+ro.config.hw_custverdisplay=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_ecc_with_sim_card=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_globalEcc=true
+# 2019-07-24 16:10:56.0
+ro.config.hw_hicure.apn=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_hideSimIcon=false
+# 2019-03-15 08:35:09.0
+ro.config.hw_icon_supprot_cut=false
+# 2019-03-15 08:35:09.0
+ro.config.hw_imei_sv_enable=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_imei_sv_show_two=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_multiscreen=false
+# 2019-03-15 08:35:09.0
+ro.config.hw_nfc_on=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_omacp=1
+# 2019-03-15 08:35:09.0
+ro.config.hw_optb=999
+# 2019-03-15 08:35:09.0
+ro.config.hw_showSimName=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_show_mmiError=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_support_vm_ecc=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_updateCotaPara=true
+# 2019-03-15 08:35:09.0
+ro.config.hw_use_browser_ua=http://wap1.huawei.com/uaprof/HUAWEI_%s_UAProfile.xml
+# 2019-03-15 08:35:09.0
+ro.config.hw_voicemail_sim=true
+# 2019-03-15 08:35:09.0
+ro.config.keyguard_unusedata=true
+# 2019-03-15 08:35:09.0
+ro.config.music_region=normal
+# 2019-03-15 08:35:09.0
+ro.config.plmn_to_settings=true
+# 2019-03-15 08:35:09.0
+ro.config.show_always_mms_ui=true
+# 2019-03-15 08:35:09.0
+ro.config.show_epg_menu=false
+# 2019-03-15 08:35:09.0
+ro.config.show_full_month=true
+# 2019-03-15 08:35:09.0
+ro.config.show_vmail_number=true
+# 2019-03-15 08:35:09.0
+ro.config.spare_ntp_server=ntp.sjtu.edu.cn,time.windows.com,time.nist.gov,1.cn.pool.ntp.org
+# 2020-05-19 09:31:17.0
+ro.config.support_doubletap_pay=true
+# 2019-03-15 08:35:09.0
+ro.config.support_iseapp=true
+# 2019-03-15 08:35:09.0
+ro.config.support_privacyspace=true
+# 2019-03-15 08:35:09.0
+ro.config.vm_prioritymode=2
+# 2019-03-15 08:35:09.0
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+# 2019-05-13 20:55:06.0
+ro.hw.defaultcotaversion=cota10.0.0
+# 2019-03-15 08:35:09.0
+ro.hw.ipv6opt=true
+# 2019-03-15 08:35:09.0
+ro.hw.ipv6timeout=1900
+# 2019-03-15 08:35:09.0
+ro.odm.config.hw.imeisv=true
+# 2019-03-15 08:35:09.0
+ro.product.locale.language=en
+# 2019-03-15 08:35:09.0
+ro.product.locale.region=US
+# 2019-03-15 08:35:09.0
+ro.setupwizard.mode=OPTIONAL
+# 2019-03-15 08:35:09.0
+ro.setupwizard.wifi_on_exit=false

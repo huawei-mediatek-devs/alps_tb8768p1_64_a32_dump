@@ -1,0 +1,4 @@
+version=1.11.19.003
+type=CARRIERCONFIG
+subtype=EMUI10
+compatibleVersion=1

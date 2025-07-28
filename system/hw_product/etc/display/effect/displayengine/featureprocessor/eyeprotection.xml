@@ -1,0 +1,21 @@
+<DisplayEngineConfig>
+    <id>23</id>
+    <updated>2018-01-23</updated>
+    <feature name="EYEPROTECTION">
+        <mode name="FILTER">
+            <param name="DE_SCENE_ACTION_EYEPROTECTION_ON">MODE_EYE_PROTECT</param>
+            <param name="DE_SCENE_ACTION_EYEPROTECTION_OFF">MODE_DISABLE</param>
+            <param name="DE_SCENE_ACTION_COLORTEMP_CHANGE">MODE_AMBIENT_LUX_OFFSET</param>
+            <param name="DE_SCENE_ACTION_AMBIENT_CHANGE">MODE_AMBIENT_LUX_CHANGE</param>
+            <param name="DE_SCENE_ACTION_SCREEN_ON">MODE_SCREEN_ON</param>
+            <param name="DE_SCENE_ACTION_SCREEN_OFF">MODE_SCREEN_OFF</param>
+            <param name="DE_SCENE_ACTION_READMODE_ON">MODE_UI</param>
+            <param name="DE_SCENE_ACTION_READMODE_OFF">MODE_UI</param>
+            <param name="DE_SCENE_ACTION_GLOBALREADMODE_ON">MODE_UI</param>
+            <param name="DE_SCENE_ACTION_GLOBALREADMODE_OFF">MODE_UI</param>
+        </mode>
+        <mode name="CTRL">
+            <param name="Enable">1</param>
+        </mode>
+    </feature>
+</DisplayEngineConfig>

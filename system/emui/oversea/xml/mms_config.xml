@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mms_config>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="creationModeEnabled">true</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <int name="defaultAlwaysAllowMms">1</int>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="enableCryptoSms">false</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="enableFolderMode">false</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="enableMemoryStatus">false</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="enableMmsParamsFromGlobal">true</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="enablePhoneAtrribute">false</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="enableReplyAll">true</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="enableShortPhoneNumberLink">true</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="enableSmartAchive">false</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="enableSmartSms">false</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="enableTimeParse">true</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="isChangeClassZeroMessageShow">true</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="isCommonAlwaysTxRxMmsFeature">true</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <bool name="modifySMSCenterNumber">true</bool>
+  <!--2019-03-15 08:35:09.0-->
+  <string name="prefPlaymode">slideshowactivity</string>
+  <!--2019-03-15 08:35:09.0-->
+  <string name="userAgent">Android-Mms/2.0</string>
+</mms_config>

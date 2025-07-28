@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+*默认游戏设置全局有效
+*1. 任何一个属性必须指定默认值，比如source，enabled
+-->
+<DefaultGameConfig>
+	<Graphics source="igraphics_config_cust.bin" enabled="false"/>
+	<Scheduling source="iaware_config_cust.xml" enabled="false"/>
+	<TP source="itouch_config_cust.xml" enabled="true"/>
+	<Network source="istack_config_cust.xml" enabled="false"/>
+</DefaultGameConfig>

@@ -1,0 +1,17 @@
+service hwrme /system/bin/hwrme
+    class main
+    user system
+    group system
+    capabilities KILL IPC_LOCK SYS_NICE SYS_RESOURCE
+
+on boot
+    chown system system /sys/kernel/promm/enable
+    chown system system /sys/kernel/promm/priority
+    mkdir /data/bitmaps 0755 system system
+    write /data/bitmaps/uid 0
+    chown system system /data/bitmaps
+    chown system system /data/bitmaps/uid
+    chown system system /dev/file_map
+on init
+    chown root system /dev/cpuset/vip/cpus
+    chmod 0664 /dev/cpuset/vip/cpus

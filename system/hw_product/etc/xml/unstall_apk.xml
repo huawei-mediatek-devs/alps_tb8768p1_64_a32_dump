@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>
+        /system/priv-app/Tag.apk;
+        /system/app/HwInstantOnline.apk;
+        /system/priv-app/HwCardManager.apk;
+        /system/app/SmartMmsPlugin.apk;
+        /system/app/PicoTts.apk;
+        /system/app/Mapcon.apk;
+        /system/delapp/HwCompass.apk;
+        /system/delapp/UPTSMADDON.apk;
+        /system/app/HwTrustAgent.apk;
+        /system/priv-app/NumberIdentity.apk;
+        /system/priv-app/Contacts.apk;
+        /system/priv-app/ContactsSync.apk;
+        /system/priv-app/HwNotePad.apk;
+        /system/priv-app/Email.apk;
+        /system/app/HwVAssistant.apk;
+        /system/delapp/BasicDreams.apk;
+        /system/app/PhotoTable.apk;
+        /system/app/HwSynergy.apk;
+        /system/priv-app/HwCAService.apk;
+        /system/app/HwSecurityMgrService.apk;
+        /system/priv-app/HwMusic_cloud.apk;
+  </apk>
+</tag>

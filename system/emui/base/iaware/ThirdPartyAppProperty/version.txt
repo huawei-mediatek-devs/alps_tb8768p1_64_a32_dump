@@ -1,0 +1,4 @@
+version=1.41.19.131
+type=ThirdPartyAppProperty
+subtype=generic
+compatibleVersion=1

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>
+        /hw_product/region_comm/china/app/HwCmccDm.apk;
+        /system/priv-app/InCallUI.apk;
+        /system/app/HwCallRecorder.apk;
+        /system/app/Stk.apk;
+        /system/priv-app/CallLogBackup.apk;
+        /system/app/HwIms.apk;
+        /system/priv-app/CarrierConfig.apk;
+        /system/priv-app/NumberIdentity.apk;
+        /system/priv-app/CellBroadcastReceiver.apk;
+        /system/priv-app/Mms.apk;
+        /version/cust/app/UEInfoCheck.apk;
+        /version/cust/app/ChnTelecomAutoReg.apk;
+        /system/app/Messages.apk;
+        /system/priv-app/CarrierService.apk;
+        /system/priv-app/OMACP.apk;
+        /system/priv-app/PredefinedEapSim.apk;
+        /system/app/HwChrService.apk;
+        /system/priv-app/ImsService.apk;
+        /system/app/SimAppDialog.apk;
+   </apk>
+</tag>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?>
+<IppConfig>
+	<IppAlgo name="FaceDetection" switcher="1" ></IppAlgo>
+	<IppAlgo name="SceneDetection" switcher="1" ></IppAlgo>
+</IppConfig>

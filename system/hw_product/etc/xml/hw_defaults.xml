@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2020-05-06 20:13:59.0-->
+  <string def_cust_tile="wifi,bt,data,sound,rotation,hishare,airplane,devicelink,flashlight,location,screenshot,eyecomfort,hotspot,recorder,pcmode,busy,nr,dark,ebook,airsharing"/>
+  <!--2020-05-06 20:13:59.0-->
+  <string def_cust_toolbox_tile="wifi,bt,data,sound,rotation,hishare,airplane,devicelink,flashlight,location,screenshot,eyecomfort,hotspot,recorder,pcmode,busy,nr,dark,ebook,airsharing"/>
+  <!--2019-06-21 16:54:02.0-->
+  <integer fingersense_smartshot_enabled="0"/>
+  <!--2019-06-21 16:54:02.0-->
+  <string hw_split_navigation_bar_dp="480"/>
+  <!--2020-06-23 20:34:18.0-->
+  <string ringtone_preview_effect="true"/>
+  <!--2019-06-21 16:57:25.0-->
+  <integer settings.global.hw_wifi_ap_band="2"/>
+  <!--2019-12-03 16:10:41.0-->
+  <string settings.global.hw_wifipro_enable="lite"/>
+  <!--2019-06-21 16:57:25.0-->
+  <integer settings.secure.game_dnd_mode="2"/>
+  <!--2019-06-21 16:57:25.0-->
+  <integer settings.secure.game_key_control_mode="2"/>
+  <!--2019-06-21 16:57:25.0-->
+  <integer settings.secure.game_power_save_mode="1"/>
+  <!--2019-06-21 16:57:25.0-->
+  <integer settings.system.hw_screen_brightness_mode_value="0"/>
+  <!--2019-06-21 16:57:25.0-->
+  <integer settings.system.screen_brightness="90"/>
+  <!--2019-06-21 16:57:25.0-->
+  <integer settings.system.screen_brightness_mode="0"/>
+  <!--2019-12-06 16:15:12.0-->
+  <integer settings.system.single_hand_screen_zoom="0"/>
+  <!--2019-12-06 16:15:12.0-->
+  <integer settings.system.sws_mode="3"/>
+  <!--2019-06-21 16:57:25.0-->
+  <integer settings.system.volume_music_speaker="8"/>
+</resources>

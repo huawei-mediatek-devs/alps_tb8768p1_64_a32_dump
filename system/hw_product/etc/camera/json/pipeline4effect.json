@@ -1,0 +1,189 @@
+{
+    "imports" : [
+        "/system/lib/libhwfilter_mtk.so"
+    ],
+
+    "filters" :
+    [
+        {
+            "id" : "src",
+            "type" : "camerasource",
+            "previewQueueLength" : 8
+        },
+
+        {
+            "id" : "preview",
+            "type" : "preview"
+        },
+
+        {
+            "id" : "IppAlgo",
+            "type" : "IppAlgoFilter"
+        },
+
+        {
+            "id" : "ColorEffect",
+            "type" : "ColorEffect",
+            "platform" : "mtk"
+        },
+
+        {
+            "id": "bridgesink",
+            "type": "bridgesink"
+        },
+
+        {
+            "id" : "peekerMeta",
+            "type" : "peek"
+        },
+
+        {
+            "id" : "metadata",
+            "type" : "mtk_metadata_extractor"
+        }
+    ],
+
+    "connections" :
+    [
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out0"
+            },
+
+           "to" :
+            {
+                "filter" : "IppAlgo",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "IppAlgo",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "ColorEffect",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "ColorEffect",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "preview",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_meta"
+            },
+
+            "to" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "preview",
+                "port" : "in_meta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "peekerMeta",
+                "port" : "peek0"
+            },
+
+            "to" :
+            {
+                "filter" : "metadata",
+                "port" : "in"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "metadata",
+                "port" : "out"
+            },
+
+            "to" :
+            {
+                "filter" : "IppAlgo",
+                "port" : "InMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "IppAlgo",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "ColorEffect",
+                "port" : "InMeta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "ColorEffect",
+                "port" : "OutMeta"
+            },
+
+            "to" :
+            {
+                "filter" : "bridgesink",
+                "port" : "in_meta"
+            }
+        },
+
+        {
+            "from" :
+            {
+                "filter" : "src",
+                "port" : "out_cap0"
+            },
+
+            "to" :
+            {
+                "filter" : "bridgesink",
+                "port" : "in0"
+            }
+        }
+    ]
+}
+

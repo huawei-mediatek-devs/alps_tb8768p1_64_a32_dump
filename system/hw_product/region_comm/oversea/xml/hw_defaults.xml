@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2020-01-15 14:57:10.0-->
+  <string hw_def_theme="/hw_product/region_comm/oversea/themes/Blooming.hwt"/>
+  <!--2020-01-15 14:57:11.0-->
+  <string hw_theme_sort="Blooming##Elegance##Fresh##Mountains"/>
+  <!--2020-08-04 15:17:55.0-->
+  <string upgrade_guide_activity_path="com.huawei.android.hwupgradeguide.UpgradeWizardActivity"/>
+</resources>
